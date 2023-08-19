@@ -7,8 +7,9 @@ import { useState } from 'react';
 
 import styles from '@/components/shared/Header/header.module.css';
 import Navbar from '@/components/shared/Navbar/Navbar';
+
 import { lodongIcon, menu } from '@/assets/images';
-import { headerRoutes } from '@/utils/routes';
+import { headerRoutes } from '@/lib/routes/headerRoutes';
 
 
 const Header = () => {

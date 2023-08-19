@@ -1,9 +1,10 @@
-import './globals.css'
-import { 
-  inter, nanum, 
-  kumbh, applesd, 
+import '@/styles/globals.css'
+
+import {
+  inter, nanum,
+  kumbh, applesd,
   roboto_slab,
-  jacques 
+  jacques
 } from '@/assets/fonts';
 
 
@@ -16,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" 
+    <html lang="en"
       className={`${applesd.variable} ${inter.variable} ${nanum.variable} ${kumbh.variable} ${roboto_slab.variable} ${jacques.variable}`} >
       <body>
         <Header />

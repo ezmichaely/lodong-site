@@ -17,15 +17,6 @@ import menu from '~/images/icons/menu.png';
 
 
 
-
-
-
-
-
-
-
-
-
 export {
   lodongBrand, lodongIcon,
 

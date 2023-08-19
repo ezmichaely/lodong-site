@@ -1,23 +1,23 @@
-import type { Config } from 'tailwindcss'
-
-const plugin = require('tailwindcss/plugin');
-
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: ["class"],
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+	],
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       backgroundImage: {
         main: 'url("/images/bg/bg_home.png")',
         hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
-      },
-      backgroundPosition: {
-        // center: {
-        //   right: 'background-position: center right;'
-        // }
       },
       fontFamily: {
         applesd: ['var(--font-applesd)'],
@@ -31,11 +31,10 @@ const config: Config = {
         '3xl': '1920px',
         '4xl': '2560px',
       },
-      height: {
+            height: {
         header: '120px',
       },
-      colors: {
-        carmine: { //red
+      colors: {carmine: { //red
           light: '#FF6767', 
           DEFAULT: '#FD3A3A',
           dark: '#FA2B2B', 
@@ -73,10 +72,61 @@ const config: Config = {
             DEFAULT: '#2933D1',
             light: '#7565EA',
           },
-        }
-      }
+        },
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: 0 },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: 0 },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animate")],
 }
-export default config

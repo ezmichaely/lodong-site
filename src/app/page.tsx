@@ -1,6 +1,7 @@
 import Image from 'next/image'
+import styles from '@/styles/home.module.css';
+
 import { motion } from "framer-motion"
-import styles from '@/app/home.module.css';
 
 import type { Metadata } from 'next'
 
@@ -20,7 +21,7 @@ export default function Home() {
             </span>
             <span className={styles._hero_info2}>
               ZERO
-            </span> <br/>
+            </span> <br />
             <span className={styles._hero_info3}>
               세상에 없던 디지털 솔루션 개발 전문
             </span>

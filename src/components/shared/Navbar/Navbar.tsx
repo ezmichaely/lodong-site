@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import Link from 'next/link';
 import styles from '@/components/shared/Navbar/navbar.module.css';
-import { headerRoutes } from '@/utils/routes';
+import { headerRoutes } from '@/lib/routes/headerRoutes';
 import { VscChromeClose } from 'react-icons/vsc';
 
 const Navbar = () => {
