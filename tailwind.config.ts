@@ -1,5 +1,7 @@
 import type { Config } from 'tailwindcss'
 
+const plugin = require('tailwindcss/plugin');
+
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -9,15 +11,28 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        main: 'url("/images/bg/bg_home.png")',
+        hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
+      },
+      backgroundPosition: {
+        // center: {
+        //   right: 'background-position: center right;'
+        // }
       },
       fontFamily: {
         applesd: ['var(--font-applesd)'],
         inter: ['var(--font-inter)'],
         nanum: ['var(--font-nanum)'],
         kumbh: ['var(--font-kumbh)'],
+        roboto_slab: ['var(--font-roboto_slab)'],
+        jacques: ['var(--font-jacques)'],
+      },
+      screens: {
+        '3xl': '1920px',
+        '4xl': '2560px',
+      },
+      height: {
+        header: '120px',
       },
       colors: {
         carmine: { //red
@@ -27,6 +42,10 @@ const config: Config = {
         },
         jungle: { //dark
           DEFAULT: '#2B2A2A',
+          100: '#CCCBCB',
+          200: '#636464',
+          300: '#404041',
+          400: '#242424',
         },
         proj: {
           DEFAULT: '#282828',

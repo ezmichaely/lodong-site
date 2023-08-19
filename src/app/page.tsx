@@ -2,21 +2,34 @@ import Image from 'next/image'
 import { motion } from "framer-motion"
 import styles from '@/app/home.module.css';
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Lodong',
+  description: 'A Software Company that provide solutions, based in Gyeonggi-do, South Korea',
+}
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      HOME
-
-      <p className={styles.test}>
-        세상에 없던 디지털 솔루션 개발 전문
-
-      </p>
-
-      <br />
-      <p className={styles.title}>실패 경험</p>
-
-
-      <p className=''></p>
+    <main className={styles._main}>
+      <section className={styles._inner}>
+        <article className={styles._hero}>
+          <p className={styles._hero_info}>
+            <span className={styles._hero_info1}>
+              실패 경험
+            </span>
+            <span className={styles._hero_info2}>
+              ZERO
+            </span> <br/>
+            <span className={styles._hero_info3}>
+              세상에 없던 디지털 솔루션 개발 전문
+            </span>
+          </p>
+          <p className={styles._hero_lodong}>
+            LODONG
+          </p>
+        </article>
+      </section>
     </main>
   )
 }

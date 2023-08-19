@@ -3,28 +3,26 @@
 @tailwind utilities;
 
 body {
-  @apply font-applesd text-white bg-black;
+  @apply relative overflow-x-hidden 
+    min-h-screen w-screen;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  @apply w-2.5 h-2.5;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #CCCBCB;
+  @apply bg-jungle-100;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #636464;
-  border-radius: 0.5rem;
+  @apply bg-jungle-200;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #404041;
+  @apply bg-jungle-300;
 }

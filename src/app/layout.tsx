@@ -1,14 +1,14 @@
-import { inter, nanum, applesd } from '@/assets/fonts';
 import './globals.css'
-import type { Metadata } from 'next'
-// import { pathname, router } from 'next/navigation';
-import LightHeader from '@/components/Header/LightHeader';
-import LightFooter from '@/components/Footer/LightFooter';
+import { 
+  inter, nanum, 
+  kumbh, applesd, 
+  roboto_slab,
+  jacques 
+} from '@/assets/fonts';
 
-export const metadata: Metadata = {
-  title: 'Lodong',
-  description: 'A Software Company that provide solutions, based in Gyeonggi-do, South Korea',
-}
+
+import Header from '@/components/shared/Header/Header';
+import LightFooter from '@/components/shared/Footer/LightFooter';
 
 export default function RootLayout({
   children,
@@ -16,9 +16,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${applesd.variable} ${inter.variable} ${nanum.variable}`}>
+    <html lang="en" 
+      className={`${applesd.variable} ${inter.variable} ${nanum.variable} ${kumbh.variable} ${roboto_slab.variable} ${jacques.variable}`} >
       <body>
-        <LightHeader />
+        <Header />
         {children}
         <LightFooter />
       </body>
