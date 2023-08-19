@@ -1,0 +1,7 @@
+.title {
+  @apply font-nanum text-white text-2xl;
+}
+
+.test {
+  @apply font-applesd text-white text-2xl;
+}
