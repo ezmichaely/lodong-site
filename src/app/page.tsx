@@ -14,6 +14,9 @@ export default function Home() {
 
       <br />
       <p className={styles.title}>실패 경험</p>
+
+
+      <p className=''></p>
     </main>
   )
 }
