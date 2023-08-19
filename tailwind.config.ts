@@ -17,23 +17,43 @@ const config: Config = {
         applesd: ['var(--font-applesd)'],
         inter: ['var(--font-inter)'],
         nanum: ['var(--font-nanum)'],
+        kumbh: ['var(--font-kumbh)'],
       },
       colors: {
-        nRed: {
+        carmine: { //red
           light: '#FF6767', 
           DEFAULT: '#FD3A3A',
-          dark: '#FA2B2B', //red
+          dark: '#FA2B2B', 
         },
-        nGray: {
+        jungle: { //dark
           DEFAULT: '#2B2A2A',
         },
         proj: {
-          keflavik: '#FFCF03',
-          rugolf: '#084520',
-          wincare: '#0076B5',
-          washcube: '#004D9E',
-          aicity: '#F6EFE0',
-          lottery: '#2933D1',
+          DEFAULT: '#282828',
+          keflavik: {
+            DEFAULT: '#FFCF03',
+            light: '#E8D265',
+          },
+          rugolf: {
+            DEFAULT: '#084520',
+            light: '#26A38B',
+          },
+          wincare: {
+            DEFAULT: '#0076B5',
+            light: '#7790D0',
+          },
+          washcube: {
+            DEFAULT: '#004D9E',
+            light: '#004BB4',
+          },
+          aicity: {
+            DEFAULT: '#F6EFE0',
+            light: '#EBDAC6',
+          },
+          lottery: {
+            DEFAULT: '#2933D1',
+            light: '#7565EA',
+          },
         }
       }
     },

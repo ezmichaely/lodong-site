@@ -1,4 +1,4 @@
-import { Nanum_Brush_Script, Inter } from 'next/font/google'
+import { Nanum_Brush_Script, Inter, Kumbh_Sans } from 'next/font/google'
 import Apple_SD from 'next/font/local';
 
 export const nanum = Nanum_Brush_Script({
@@ -12,6 +12,14 @@ export const nanum = Nanum_Brush_Script({
 export const inter = Inter({
     subsets: ['latin'],
     variable: '--font-inter',
+    display: 'swap',
+    style: ['normal'],
+    weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+})
+
+export const kumbh = Kumbh_Sans({
+    subsets: ['latin'],
+    variable: '--font-kumbh',
     display: 'swap',
     style: ['normal'],
     weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
