@@ -11,13 +11,18 @@ import Navbar from '@/components/shared/Navbar/Navbar';
 import { lodongIcon, menu } from '@/assets/images';
 import { headerRoutes } from '@/lib/routes/headerRoutes';
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
+
 
 const Header = () => {
-  const [isToggled, setIsToggled] = useState(false);
-  const handleToggle = () => {
-    setIsToggled(true);
-  };
-
 
   return (
     <>
@@ -29,10 +34,25 @@ const Header = () => {
             <p className={styles._brand_text}>LODONG</p>
           </Link>
 
-          <div onClick={handleToggle}  className={`${styles._toggle} ${isToggled ? styles._toggleActive : ''} `} >
-            <Image src={menu} alt="menu bar"
-              className={styles._toggle_img} />
-          </div>
+          
+          <Dialog>
+            <DialogTrigger className={styles._toggle}>
+              <Image src={menu} alt="menu bar"
+                className={styles._toggle_img} />
+            </DialogTrigger>
+
+            <DialogContent className={styles._navbar}>
+              <DialogHeader className={styles._navbar_inner}>
+                <DialogTitle>Are you sure absolutely sure?</DialogTitle>
+                <DialogDescription>
+                  This action cannot be undone. This will permanently delete your account
+                  and remove your data from our servers.
+                </DialogDescription>
+              </DialogHeader>
+            </DialogContent>
+          </Dialog>
+
+
 
           <div className={styles._nav}>
             {headerRoutes.map((d) => (
@@ -44,8 +64,6 @@ const Header = () => {
           </div>
         </nav>
       </header>
-
-      {isToggled ? <Navbar /> : ''}
       
     </>
   )
