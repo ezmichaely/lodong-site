@@ -1,9 +1,9 @@
-import React from 'react'
+import FooterContent from './FooterContent/FooterContent'
 
 export default function Footer() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <FooterContent />
+    </>
   )
 }

@@ -6,6 +6,7 @@ import {
   roboto_slab,
   jacques
 } from '@/assets/fonts';
+import Footer from '@/components/shared/Footer/Footer';
 
 
 export default function RootLayout({ children }) {
@@ -17,7 +18,11 @@ export default function RootLayout({ children }) {
         ${roboto_slab.variable} ${jacques.variable}
         `} >
 
-      <body>{children}</body>
+      <body>
+
+        {children}
+        <Footer />
+      </body>
 
     </html>
   )

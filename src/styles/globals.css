@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 html, body {
-  @apply relative w-screen max-w-screen-4xl mx-auto min-h-screen overflow-x-hidden;
+  @apply relative w-screen  min-h-screen overflow-x-hidden font-inter; 
+}
+
+.content {
+  @apply max-w-screen-4xl mx-auto w-full px-2 lg:px-8 border border-violet-900;
 }
 
 /* width */
