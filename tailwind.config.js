@@ -27,6 +27,10 @@ module.exports = {
         roboto_slab: ['var(--font-roboto_slab)'],
         jacques: ['var(--font-jacques)'],
       },
+      lineHeight: {
+        '0': '0px'
+      },
+
       height: {
         header: '120px',
       },

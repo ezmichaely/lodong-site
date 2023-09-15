@@ -19,11 +19,20 @@ import PinLocation from '~/images/icons/PinLocation.svg';
 import ScrollToTop from '~/images/icons/ScrollToTop.svg';
 import ArrowLeft from '~/images/icons/ArrowLeft.svg'
 
+import wework01 from '~/images/wework/wework01.png'
+import wework02 from '~/images/wework/wework02.png'
+import wework03 from '~/images/wework/wework03.png'
+import wework04 from '~/images/wework/wework04.png'
+import wework05 from '~/images/wework/wework05.png'
+import wework06 from '~/images/wework/wework06.png'
+import wework07 from '~/images/wework/wework07.png'
+import wework08 from '~/images/wework/wework08.png'
 
 
 export {
   LodongBrand, LodongLogo, LodongFavicon,
 
+  // icons
   ArrowLeft,
   CaretDownDark, CaretUpDark,
   MenuDark,
@@ -32,7 +41,13 @@ export {
   CaretDownLight, MenuLight,
   FacebookLight, InstagramLight,
   KakaotalkLight, SlackLight,
-  PinLocation, ScrollToTop
+  PinLocation, ScrollToTop,
 
-  
+  // we work
+  wework01, wework02,
+  wework03, wework04,
+  wework05, wework06,
+  wework07, wework08,
+
+
 }
