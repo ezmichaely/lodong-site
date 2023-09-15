@@ -2,17 +2,18 @@ import Image from "next/image"
 
 export default function LeftContainer({ data }) {
 
-  console.log(data)
+  // console.log(data)
   return (
     <section className="">
-      <Image src={data.img} alt={data.title} />
+      <Image src={data.img} alt={data.title} priority className="content-fluid"/>
 
-      <div className="content mt-14 inline-flex space-x-5">
-        <h1 className="font-applesd font-light text-carmine text-7xl leading-5">
+      <div className="content mt-14 flex justify-start items-end gap-x-5">
+        <h1 className="font-applesd font-light text-carmine text-7xl leading-0 mb-5">
           {data.number}
         </h1>
 
-        <h4 className="font-applesd text-jungle lg:text-white font-light text-3xl leading-8 tracking-tighter">
+        <h4 className="font-applesd text-jungle lg:text-white font-light text-3xl tracking-tighter
+         pt-5 -mb-1">
           {data.title}
         </h4>
       </div>

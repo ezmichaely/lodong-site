@@ -11,6 +11,11 @@ html, body {
   /* border border-violet-900; */
 }
 
+.content-fluid {
+  @apply max-w-screen-4xl mx-auto w-full px-0 lg:px-14
+  /* border border-violet-900; */
+}
+
 /* width */
 ::-webkit-scrollbar {
   @apply w-2.5 h-2.5;

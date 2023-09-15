@@ -14,7 +14,7 @@ export default function Wework() {
 
   return (
     <>
-      <main className="bg-white lg:bg-black mb-28">
+      <main className="bg-white lg:bg-black pb-28">
         <section className="content py-14 space-y-8">
           <p className="tracking-tighter space-x-2">
             <span className="text-3xl text-carmine font-bold">LODONG</span>
@@ -23,7 +23,7 @@ export default function Wework() {
             </span>
           </p>
           <h1 className="text-jungle lg:text-white text-7xl font-extrabold tracking-tighter leading-none">
-            How We <br /> Work
+            How We Work
           </h1>
         </section>
 
