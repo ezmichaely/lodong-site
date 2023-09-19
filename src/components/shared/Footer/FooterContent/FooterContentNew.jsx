@@ -28,8 +28,9 @@ export default function FooterContent() {
   return (
     homePath ? null : (
       <footer className={`${themeBg} w-screen`}>
-        <div className="max-w-screen-4xl px-fluid py-12 space-y-4">
-          <div className="footer_container">
+        <div className="footer_container">
+          {/* brand + details + icons */}
+          <div className="footer_content">
             <div class="left_div">
               {/* brand */}
               <div className='brand_div'>
