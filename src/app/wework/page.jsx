@@ -30,11 +30,11 @@ export default function Wework() {
         <div className="w-screen space-y-44">
           {/* <Right data={wework.w1} /> */}
           {/* <Left data={wework.w2} /> */}
-          <Right data={wework.w3} />
+          {/* <Right data={wework.w3} /> */}
           {/* <Left data={wework.w4} /> */}
-          <Right data={wework.w5} />
+          {/* <Right data={wework.w5} /> */}
           {/* <Left data={wework.w6} /> */}
-          <Right data={wework.w7} />
+          {/* <Right data={wework.w7} /> */}
           {/* <Left data={wework.w8} /> */}
         </div>
 

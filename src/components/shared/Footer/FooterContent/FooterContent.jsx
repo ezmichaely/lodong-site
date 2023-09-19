@@ -180,7 +180,6 @@ export default function FooterContent() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </footer>

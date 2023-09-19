@@ -15,3 +15,19 @@ export const lightPaths = [
   '/projects/washcube',
   '/projects/winlottery'
 ]
+
+
+export const allPaths = [
+  '/wework',
+  '/aboutus',
+  '/service',
+  '/projects',
+  '/contact',
+  '/maps',
+  '/projects/aicity',
+  '/projects/caremanagement',
+  '/projects/keflavik',
+  '/projects/rugolf',
+  '/projects/washcube',
+  '/projects/winlottery'
+]

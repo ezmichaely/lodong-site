@@ -27,7 +27,7 @@
 @layer components {
   .content {
     @apply max-w-screen-4xl mx-auto w-screen
-    /* border border-violet-900; */
+    border border-violet-900;
   }
 
   .px-fluid {
@@ -35,7 +35,7 @@
   }
 
   .body-base {
-    @apply relative w-screen min-h-screen overflow-x-hidden
+    @apply relative w-screen min-h-screen overflow-x-hidden text-base
   }
 }
 
