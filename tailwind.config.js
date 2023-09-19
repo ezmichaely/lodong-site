@@ -8,16 +8,24 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1rem",
+      padding: '1rem',
+      maxWidth: '2560px',
+      width: 'screen'
     },
     extend: {
       screens: {
+        'xs': '425px',
         '3xl': '1920px',
         '4xl': '2560px',
       },
       backgroundImage: {
         main: 'url("/images/bg/bg_home.png")',
         hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
+      },
+      borderRadius: {
+        '70': '70px',
+        '100': '100px',
+        '130': '130px'
       },
       fontFamily: {
         applesd: ['var(--font-applesd)'],
@@ -27,12 +35,20 @@ module.exports = {
         roboto_slab: ['var(--font-roboto_slab)'],
         jacques: ['var(--font-jacques)'],
       },
+      fontSize: {
+        '13': '13px',
+      },
       lineHeight: {
         '0': '0px'
       },
-
       height: {
         header: '120px',
+      },
+      margin: {
+        '18': '72px',
+      },
+      padding: {
+        '18': '72px',
       },
       colors: {
         carmine: { //red
@@ -77,5 +93,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [ ],
 }

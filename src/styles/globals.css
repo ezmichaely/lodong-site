@@ -2,36 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  @apply relative w-screen  min-h-screen overflow-x-hidden font-inter;
+@layer base {
+  /* width */
+  ::-webkit-scrollbar {
+    @apply w-2.5 h-2.5;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-jungle-100;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-jungle-200;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-jungle-300;
+  }
 }
 
-.content {
-  @apply max-w-screen-4xl mx-auto w-full px-6 lg:px-14
-  /* border border-violet-900; */
+@layer components {
+  .content {
+    @apply max-w-screen-4xl mx-auto w-screen
+    /* border border-violet-900; */
+  }
+
+  .px-fluid {
+    @apply px-6 lg:px-14
+  }
+
+  .body-base {
+    @apply relative w-screen min-h-screen overflow-x-hidden
+  }
+}
+
+html, body {
+  @apply body-base font-inter;
+}
+
+
+
+/* .content-padding {
+
 }
 
 .content-fluid {
-  @apply max-w-screen-4xl mx-auto w-full px-0 lg:px-14
-  /* border border-violet-900; */
-}
+  @apply max-w-screen-4xl mx-auto w-full px-0 4xl:px-14
+  border border-violet-900;
+} */
 
-/* width */
-::-webkit-scrollbar {
-  @apply w-2.5 h-2.5;
-}
 
-/* Track */
-::-webkit-scrollbar-track {
-  @apply bg-jungle-100;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  @apply bg-jungle-200;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-jungle-300;
-}
