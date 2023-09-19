@@ -1,0 +1,37 @@
+.flexStartCol {
+  @apply w-full flex justify-start items-start flex-col;
+}
+
+.textBase {
+  @apply font-inter text-base tracking-tighter leading-8
+  lg:font-extrabold lg:text-lg
+}
+
+.fontMedium60 {
+  @apply opacity-60
+  font-inter text-base tracking-tighter leading-8
+  lg:opacity-100 lg:text-lg
+}
+
+.mobileLayout {
+  @apply w-full grid grid-cols-4 gap-y-6 gap-x-4
+  lg:hidden
+}
+
+.mobileCopyrights {
+  @apply opacity-50 text-center
+  font-applesd font-medium text-13 tracking-tight;
+}
+
+.desktopLayout {
+  @apply hidden w-full gap-y-10 gap-x-16
+  lg:flex lg:justify-start lg:items-start lg:flex-col
+  xl:justify-between xl:items-center xl:flex-row;
+}
+
+.desktopCopyrights {
+  @apply opacity-50 text-center whitespace-nowrap
+  font-applesd font-medium text-13 text-jungle tracking-wide
+  lg:opacity-100
+  xl:text-left;
+}

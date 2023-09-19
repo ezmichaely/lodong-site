@@ -1,37 +1,96 @@
-.flexStartCol {
-  @apply w-full flex justify-start items-start flex-col;
-}
-
-.textBase {
+.textLegend {
   @apply font-inter text-base tracking-tighter leading-8
   lg:font-extrabold lg:text-lg
 }
 
-.fontMedium60 {
+.textDetails {
   @apply opacity-60
   font-inter text-base tracking-tighter leading-8
   lg:opacity-100 lg:text-lg
 }
 
-.mobileLayout {
-  @apply w-full grid grid-cols-4 gap-y-6 gap-x-4
+.footerContainer {
+  @apply max-w-screen-4xl mx-auto px-6 pt-8 pb-4 space-y-8
+  lg:pt-12 lg:pb-12 lg:px-14 lg:space-y-0
+}
+
+.footerContent {
+  @apply w-full
+  flex justify-between items-stretch flex-row gap-x-8
+  lg:items-center lg:flex-col
+  lg:gap-y-8
+  xl:flex-row
+  xl:gap-y-0 xl:gap-x-16
+}
+
+.leftDiv {
+  @apply
+  basis-3/4
+  lg:basis-full
+  xl:basis-0 xl:grow
+  flex justify-start items-center flex-row gap-x-16
+}
+
+
+.brandDiv {
+  @apply hidden lg:block min-w-fit
+}
+
+.detailsDiv {
+  @apply gap-y-4
+  flex justify-between items-start flex-col gap-x-8
+  lg:gap-y-2 lg:justify-start
+}
+
+.top {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-x-8
+  lg:gap-y-2
+}
+
+.top1 {
+  @apply w-full
+  flex justify-start items-center flex-row flex-wrap
+  gap-x-8
+}
+
+.bottom {
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:items-center lg:flex-row lg:flex-wrap lg:gap-x-8 lg:gap-y-2
+}
+
+.iconsMobileDiv {
+  @apply w-fit
+  flex justify-between items-center flex-col gap-y-4
   lg:hidden
 }
 
-.mobileCopyrights {
+.rightDiv {
+  @apply hidden
+  justify-between flex-col gap-y-4
+  lg:flex lg:items-center
+  xl:items-start
+
+}
+
+.iconsDesktopDiv {
+  @apply w-fit
+  justify-between gap-x-12 flex-row
+  lg:flex lg:items-center
+}
+
+.copyrightMobile {
   @apply opacity-50 text-center
-  font-applesd font-medium text-13 tracking-tight;
+  font-applesd font-medium text-13 tracking-tight
+  lg:hidden
 }
 
-.desktopLayout {
-  @apply hidden w-full gap-y-10 gap-x-16
-  lg:flex lg:justify-start lg:items-start lg:flex-col
-  xl:justify-between xl:items-center xl:flex-row;
-}
-
-.desktopCopyrights {
-  @apply opacity-50 text-center whitespace-nowrap
-  font-applesd font-medium text-13 text-jungle tracking-wide
-  lg:opacity-100
+.copyrightDesktop {
+  @apply hidden
+  opacity-50 text-center whitespace-nowrap
+  font-applesd font-medium text-base text-jungle tracking-wide
+  lg:block lg:opacity-100
   xl:text-left;
 }

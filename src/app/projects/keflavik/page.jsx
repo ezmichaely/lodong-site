@@ -1,4 +1,4 @@
-import DarkFooter from "@/components/shared/Footer/FooterContent/FooterContent"
+import DarkFooter from "@/components/shared/Footer/FooterContent/FooterContentOld"
 
 
 export const metadata = {

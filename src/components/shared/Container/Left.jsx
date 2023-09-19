@@ -1,27 +1,31 @@
 import Image from "next/image"
+import styles from './container.module.css';
 
 export default function LeftContainer({ data }) {
 
   // console.log(data)
   return (
-    <section className="">
-      <Image src={data.img} alt={data.title} priority className="content-fluid"/>
-
-      <div className="content mt-14 flex justify-start items-end gap-x-2 xs:gap-x-5">
-        <h1 className="font-applesd font-light text-carmine text-7xl leading-0 mb-5">
-          {data.number}
-        </h1>
-
-        <h4 className="font-applesd text-jungle lg:text-white font-light text-3xl tracking-tighter whitespace-nowrap
-         pt-5 -mb-1">
-          {data.title}
-        </h4>
+    <section className={styles.leftContainer}>
+      <div className={styles.leftImgContainer}>
+        <Image src={data.img} alt={data.title} className={styles.leftImg} />
       </div>
 
-      <div className="content mt-8 text-jungle opacity-60 text-lg leading-10 lg:text-white lg:opacity-100 tracking-tighter">
-        <p>{data.details.one}</p>
-        <p>{data.details.two}</p>
-        {data.details.three && <p>{data.details.three}</p>}
+      <div className={styles.leftDetailsContainer}>
+        <div className={`${styles.leftNumTitle}`}>
+          <h1 className={styles.leftNumber}>
+            {data.number}
+          </h1>
+
+          <h4 className={styles.leftTitle}>
+            {data.title}
+          </h4>
+        </div>
+
+        <div className={`${styles.leftDetails}`}>
+          <p>{data.details.one}</p>
+          <p>{data.details.two}</p>
+          {data.details.three && <p>{data.details.three}</p>}
+        </div>
       </div>
     </section>
   )

@@ -1,13 +1,16 @@
+/* right container */
 .rightContainer {
-  @apply w-screen max-w-screen-4xl mx-auto border
+  @apply w-screen max-w-screen-4xl
+  mx-auto mb-44
   flex justify-start items-start flex-col gap-x-5
   lg:flex-row-reverse
+  lg:mb-80
+  3xl:mb-520
 }
 
 .rightImgContainer {
   @apply w-screen overflow-hidden
   flex justify-center items-center
-  border
   lg:rounded-tl-70
   xl:rounded-tl-100
   3xl:max-h-[calc(100vh_-_120px)]
@@ -19,51 +22,107 @@
 }
 
 .rightDetailsContainer {
-  @apply w-screen px-6 mt-14
-  /* space-y-8 */
-  border border-red-600
-
-  lg:px-14 lg:w-2/4 lg:text-left lg:space-y-0
-  /* xl:mt-24 */
-  /* lg:mt-12 */
-  3xl:mt-16
-  4xl:mt-28
+  @apply w-screen px-6
+  lg:px-14 lg:w-2/4 lg:text-left 
 }
 
 .rightNumTitle {
-  @apply flex justify-start items-end gap-x-5
-  leading-0
-  border border-violet-800
-  /* lg:w-fit */
-  /* mt-14  */
+  @apply flex justify-start items-end gap-x-5 
+  mt-14
+  lg:mt-16
+  3xl:mt-28 3xl:gap-x-7
+  4xl:mt-32
 }
 
 .rightNumber {
-  @apply /* leading-none */
-  leading-0
-  font-applesd font-light text-carmine text-7xl
-  4xl:text-8xl
+  @apply
+  font-applesd font-light text-carmine-dark 
+  text-7xl leading-10
+  3xl:text-7.5xl 3xl:leading-10
+  4xl:text-8xl 4xl:leading-10
 }
 
 .rightTitle {
-  @apply pt-5 -mb-1 border
-  leading-0
+  @apply 
   tracking-tighter whitespace-nowrap
-  font-applesd font-light text-jungle  text-3xl
+  font-applesd font-light text-jungle 
+  text-2xl leading-none
   lg:text-white
-  4xl:text-[40px] 4xl:mb-10
-
-  /* leading-0  */
+  3xl:text-3xl 3xl:-mb-1 3xl:leading-none
+  4xl:text-4xl 4xl:leading-none
 }
 
 .rightDetails {
-  @apply mt-8
-  opacity-60
-  text-jungle text-lg tracking-tighter
+  @apply mt-10 
+  text-lg leading-10
+  font-applesd  text-jungle opacity-60 tracking-tighter 
+  lg:mt-14
+  lg:text-white lg:opacity-100 
+  3xl:text-xl 3xl:leading-10 3xl:tracking-wider
+  4xl:mt-18 4xl:text-2xl 4xl:leading-10 4xl:tracking-wider
+}
 
+
+/* left container */
+.leftContainer {
+  @apply w-screen max-w-screen-4xl
+  mx-auto mb-44
+  flex justify-start items-start flex-col gap-x-5
+  lg:flex-row
+  lg:mb-80
+  3xl:mb-520
+}
+
+.leftImgContainer {
+  @apply w-screen overflow-hidden
+  flex justify-center items-center
+  lg:rounded-tr-70
+  xl:rounded-tr-100
+  3xl:max-h-[calc(100vh_-_120px)]
+  4xl:rounded-tr-130
+}
+
+.leftImg {
+  @apply object-fill w-full;
+}
+
+.leftDetailsContainer {
+  @apply w-screen px-6
+  lg:px-14 lg:w-2/4 lg:text-left 
+}
+
+.leftNumTitle {
+  @apply flex justify-start items-end gap-x-5 
+  mt-14
+  lg:mt-16
+  3xl:mt-28 3xl:gap-x-7
+  4xl:mt-32
+}
+
+.leftNumber {
+  @apply
+  font-applesd font-light text-carmine-dark 
+  text-7xl leading-10
+  3xl:text-7.5xl 3xl:leading-10
+  4xl:text-8xl 4xl:leading-10
+}
+
+.leftTitle {
+  @apply 
+  tracking-tighter whitespace-nowrap
+  font-applesd font-light text-jungle 
+  text-2xl leading-none
   lg:text-white
-  lg:opacity-100
+  3xl:text-3xl 3xl:-mb-1 3xl:leading-none
+  4xl:text-4xl 4xl:leading-none
+}
 
-
-  /* leading-10 */
+.leftDetails {
+  @apply mt-10 
+  text-lg leading-10
+  font-applesd  text-jungle opacity-60 tracking-tighter 
+  lg:mt-14
+  lg:text-white lg:opacity-100 
+  3xl:text-xl 3xl:leading-10 3xl:tracking-wider
+  4xl:mt-18 4xl:text-2xl 4xl:leading-10 4xl:tracking-wider
 }

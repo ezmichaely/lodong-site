@@ -37,6 +37,7 @@ module.exports = {
       },
       fontSize: {
         '13': '13px',
+        '7.5xl': '84px'
       },
       lineHeight: {
         '0': '0px'
@@ -46,6 +47,7 @@ module.exports = {
       },
       margin: {
         '18': '72px',
+        '520': '520px'
       },
       padding: {
         '18': '72px',

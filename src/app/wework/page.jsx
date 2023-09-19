@@ -14,7 +14,7 @@ export default function Wework() {
 
   return (
     <>
-      <main className="bg-white lg:bg-black pb-28">
+      <main className="bg-white lg:bg-black">
         {/* <section className="content py-14 space-y-8">
           <p className="tracking-tighter space-x-2">
             <span className="text-3xl text-carmine font-bold">LODONG</span>
@@ -27,15 +27,15 @@ export default function Wework() {
           </h1>
         </section> */}
 
-        <div className="w-screen space-y-44">
+        <div className="w-screen">
           {/* <Right data={wework.w1} /> */}
-          {/* <Left data={wework.w2} /> */}
-          {/* <Right data={wework.w3} /> */}
-          {/* <Left data={wework.w4} /> */}
-          {/* <Right data={wework.w5} /> */}
-          {/* <Left data={wework.w6} /> */}
-          {/* <Right data={wework.w7} /> */}
-          {/* <Left data={wework.w8} /> */}
+          <Left data={wework.w2} />
+          <Right data={wework.w3} />
+          <Left data={wework.w4} />
+          <Right data={wework.w5} />
+          <Left data={wework.w6} />
+          <Right data={wework.w7} />
+          <Left data={wework.w8} />
         </div>
 
       </main>
