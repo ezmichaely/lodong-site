@@ -1,0 +1,19 @@
+.main {
+  @apply bg-white lg:bg-black
+}
+
+.content {
+  @apply max-w-screen-4xl mx-auto w-screen
+  px-6 lg:px-14
+}
+
+.cardContainer {
+  @apply grid
+  grid-cols-1
+  md:grid-cols-2
+  xl:grid-cols-3
+  3xl:grid-cols-4
+  gap-y-10
+  md:gap-x-10
+
+}

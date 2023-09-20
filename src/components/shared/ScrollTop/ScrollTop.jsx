@@ -14,17 +14,19 @@ export default function ScrollTop() {
 
   return (
     <>
-      <button onClick={handleScroll}
-        className={`${styles.scrollToTopMobile}`}>
-        <Image src={CaretUpDark} alt="caret up" priority
-          className={`${styles.scrollMobile}`}/>
-      </button>
+      <div className={`${styles.scrollToTopMobile}`}>
+        <button onClick={handleScroll}>
+          <Image src={CaretUpDark} alt="caret up" priority
+            className={`${styles.scrollMobile}`}/>
+        </button>
+      </div>
 
-      <button onClick={handleScroll}
-        className={`${styles.scrollToTopDesktop}`}>
-        <Image src={ScrollToTop} alt="caret up" priority
-          className={`${styles.scrollDesktop}`} />
-      </button>
+      <div className={`${styles.scrollToTopDesktop}`}>
+        <button onClick={handleScroll} >
+          <Image src={ScrollToTop} alt="caret up" priority
+            className={`${styles.scrollDesktop}`} />
+          </button>
+      </div>
     </>
   )
 }

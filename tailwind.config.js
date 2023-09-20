@@ -23,6 +23,7 @@ module.exports = {
         hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
       },
       borderRadius: {
+        '2.5xl': '20px',
         '70': '70px',
         '100': '100px',
         '130': '130px'
@@ -55,6 +56,10 @@ module.exports = {
         '18': '72px',
         '520': '520px'
       },
+      boxShadow: {
+        DEFAULT: '6px 7px 20px 1px rgba(43, 42, 42, 0.44)'
+      },
+
       colors: {
         carmine: { //red
           light: '#FF6767',
@@ -78,7 +83,7 @@ module.exports = {
             DEFAULT: '#084520',
             light: '#26A38B',
           },
-          wincare: {
+          caremanager: {
             DEFAULT: '#0076B5',
             light: '#7790D0',
           },
@@ -90,7 +95,7 @@ module.exports = {
             DEFAULT: '#F6EFE0',
             light: '#EBDAC6',
           },
-          lottery: {
+          winlottery: {
             DEFAULT: '#2933D1',
             light: '#7565EA',
           },
