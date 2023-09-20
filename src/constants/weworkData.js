@@ -5,9 +5,13 @@ import {
   wework07, wework08,
 } from '@/assets/images'
 
+export const weworkTitle = {
+  name: 'LODONG',
+  detail: '의 개발 프로세스',
+  title: 'How We Work',
+}
 
-
-export const wework = {
+export const weworkContainer = {
   w1: {
     number: '01',
     img: wework01,

@@ -1,11 +1,79 @@
+/* first container */
+.firstContainer {
+  @apply w-screen max-w-screen-4xl
+  mx-auto pb-44
+  flex justify-start items-start flex-col gap-x-5
+  lg:flex-row-reverse
+  lg:pb-80
+  3xl:pb-520
+}
+
+.firstImgContainer {
+  @apply w-screen overflow-hidden
+  flex justify-center items-center
+  lg:rounded-tl-70
+  xl:rounded-tl-100
+  3xl:max-h-[calc(100vh_-_120px)]
+  4xl:rounded-tl-130
+}
+
+.firstDetailsContainer {
+  @apply w-screen px-6
+  3xl:mt-28
+  lg:px-14 lg:w-2/4 lg:text-left 
+
+  /* border border-red-600 */
+}
+
+.firstTopDetailsContainer {
+  @apply hidden 3xl:block
+  /* border border-red-600 */
+  
+}
+
+.firstTopName {
+  @apply text-3xl text-carmine-dark font-bold
+}
+
+.firstTopDetails {
+  @apply text-jungle font-medium opacity-60 
+  text-3xl
+  lg:text-white lg:opacity-100
+}
+
+.firstTopTitle {
+  @apply font-extrabold tracking-tighter leading-none
+  text-white 
+  text-7xl 
+  3xl:text-8xl 3xl:mt-14 3xl:font-bold
+}
+
+.firstBottomDetailsContainer {
+  @apply 
+  mt-14
+  lg:mt-16
+  3xl:mt-18 3xl:gap-x-7
+}
+
+.firstBottomNumTitle {
+  @apply
+  flex justify-start items-end gap-x-5 
+
+  /* border border-red-600 */
+}
+
+
+
+
 /* right container */
 .rightContainer {
   @apply w-screen max-w-screen-4xl
-  mx-auto mb-44
+  mx-auto pb-44
   flex justify-start items-start flex-col gap-x-5
   lg:flex-row-reverse
-  lg:mb-80
-  3xl:mb-520
+  lg:pb-80
+  3xl:pb-520
+  /* border border-violet-300 */
 }
 
 .rightImgContainer {
@@ -17,60 +85,26 @@
   4xl:rounded-tl-130
 }
 
-.rightImg {
-  @apply object-fill w-full;
-}
-
-.rightDetailsContainer {
-  @apply w-screen px-6
-  lg:px-14 lg:w-2/4 lg:text-left 
-}
-
-.rightNumTitle {
-  @apply flex justify-start items-end gap-x-5 
-  mt-14
-  lg:mt-16
-  3xl:mt-28 3xl:gap-x-7
-  4xl:mt-32
-}
-
-.rightNumber {
-  @apply
-  font-applesd font-light text-carmine-dark 
-  text-7xl leading-10
-  3xl:text-7.5xl 3xl:leading-10
-  4xl:text-8xl 4xl:leading-10
-}
-
-.rightTitle {
-  @apply 
-  tracking-tighter whitespace-nowrap
-  font-applesd font-light text-jungle 
-  text-2xl leading-none
-  lg:text-white
-  3xl:text-3xl 3xl:-mb-1 3xl:leading-none
-  4xl:text-4xl 4xl:leading-none
-}
-
-.rightDetails {
-  @apply mt-10 
-  text-lg leading-10
-  font-applesd  text-jungle opacity-60 tracking-tighter 
-  lg:mt-14
-  lg:text-white lg:opacity-100 
-  3xl:text-xl 3xl:leading-10 3xl:tracking-wider
-  4xl:mt-18 4xl:text-2xl 4xl:leading-10 4xl:tracking-wider
-}
-
 
 /* left container */
 .leftContainer {
   @apply w-screen max-w-screen-4xl
-  mx-auto mb-44
+  mx-auto pb-44
   flex justify-start items-start flex-col gap-x-5
   lg:flex-row
-  lg:mb-80
-  3xl:mb-520
+  lg:pb-80
+  3xl:pb-520
+  /* border border-violet-300 */
+}
+
+.leftContainer:last-child {
+  @apply w-screen max-w-screen-4xl
+  mx-auto pb-12
+  flex justify-start items-start flex-col gap-x-5
+  lg:flex-row
+  lg:pb-40
+  /* 3xl:pb-520 */
+  /* border border-violet-300 */
 }
 
 .leftImgContainer {
@@ -82,16 +116,19 @@
   4xl:rounded-tr-130
 }
 
-.leftImg {
+
+
+/* content styles */
+.img {
   @apply object-fill w-full;
 }
 
-.leftDetailsContainer {
+.detailsContainer {
   @apply w-screen px-6
   lg:px-14 lg:w-2/4 lg:text-left 
 }
 
-.leftNumTitle {
+.numTitle {
   @apply flex justify-start items-end gap-x-5 
   mt-14
   lg:mt-16
@@ -99,7 +136,7 @@
   4xl:mt-32
 }
 
-.leftNumber {
+.number {
   @apply
   font-applesd font-light text-carmine-dark 
   text-7xl leading-10
@@ -107,7 +144,7 @@
   4xl:text-8xl 4xl:leading-10
 }
 
-.leftTitle {
+.title {
   @apply 
   tracking-tighter whitespace-nowrap
   font-applesd font-light text-jungle 
@@ -117,7 +154,7 @@
   4xl:text-4xl 4xl:leading-none
 }
 
-.leftDetails {
+.details {
   @apply mt-10 
   text-lg leading-10
   font-applesd  text-jungle opacity-60 tracking-tighter 

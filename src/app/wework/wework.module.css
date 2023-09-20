@@ -1,0 +1,31 @@
+.main {
+  @apply bg-white lg:bg-black
+}
+
+.topSection {
+  @apply max-w-screen-4xl mx-auto w-screen
+  px-6 py-14 space-y-8 
+  lg:px-14
+  3xl:hidden
+}
+
+.topP {
+  @apply tracking-tighter space-x-2
+}
+
+.topPName {
+  @apply  text-carmine-dark font-bold
+  text-3xl
+}
+
+.topPDetail {
+  @apply text-2xl text-jungle font-medium opacity-60 
+  lg:text-white lg:opacity-100
+}
+
+.topH1 {
+  @apply font-extrabold tracking-tighter leading-none
+  text-jungle text-7xl 
+  lg:text-white 
+}
+

@@ -1,6 +1,10 @@
-import Left from "@/components/shared/Container/Left"
-import Right from "@/components/shared/Container/Right"
-import { wework } from '@/constants/weworkData'
+import LeftContainer from "@/components/shared/Container/LeftContainer"
+import RightContainer from "@/components/shared/Container/RightContainer"
+import FirstContainer from "@/components/shared/Container/FirstContainer"
+import ScrollTop from "@/components/shared/ScrollTop/ScrollTop"
+import { weworkContainer, weworkTitle } from '@/constants/weworkData'
+import styles from './wework.module.css'
+
 
 export const metadata = {
   title: 'How we work | Lodong',
@@ -9,36 +13,38 @@ export const metadata = {
 
 
 export default function Wework() {
-
-  // console.log(wework)
-
   return (
     <>
-      <main className="bg-white lg:bg-black">
-        {/* <section className="content py-14 space-y-8">
-          <p className="tracking-tighter space-x-2">
-            <span className="text-3xl text-carmine font-bold">LODONG</span>
-            <span className="text-2xl text-jungle font-medium opacity-60 lg:text-white lg:opacity-100">
-              의 개발 프로세스
+      <main className={`${styles.main}`}>
+        <section className={`${styles.topSection}`}>
+          <p className={`${styles.topP}`}>
+            <span className={`${styles.topPName}`}>
+              {weworkTitle.name}
+            </span>
+            <span className={`${styles.topPDetail}`}>
+              {weworkTitle.detail}
             </span>
           </p>
-          <h1 className="text-jungle lg:text-white text-7xl font-extrabold tracking-tighter leading-none">
-            How We Work
+          <h1 className={`${styles.topH1}`}>
+            {weworkTitle.title}
           </h1>
-        </section> */}
+        </section>
 
         <div className="w-screen">
-          {/* <Right data={wework.w1} /> */}
-          <Left data={wework.w2} />
-          <Right data={wework.w3} />
-          <Left data={wework.w4} />
-          <Right data={wework.w5} />
-          <Left data={wework.w6} />
-          <Right data={wework.w7} />
-          <Left data={wework.w8} />
+          <FirstContainer data={weworkContainer.w1} extra={weworkTitle} />
+          <LeftContainer data={weworkContainer.w2} />
+          <RightContainer data={weworkContainer.w3} />
+          <LeftContainer data={weworkContainer.w4} />
+          <RightContainer data={weworkContainer.w5} />
+          <LeftContainer data={weworkContainer.w6} />
+          <RightContainer data={weworkContainer.w7} />
+          <LeftContainer data={weworkContainer.w8} />
         </div>
 
+        <ScrollTop />
       </main>
+
+
     </>
   )
 }

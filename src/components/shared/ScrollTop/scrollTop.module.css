@@ -1,0 +1,17 @@
+.scrollToTopMobile {
+  @apply w-screen flex justify-center py-18 lg:hidden
+}
+
+.scrollToTopDesktop {
+  @apply w-screen max-w-screen-4xl mx-auto 
+  hidden justify-end px-16 py-12
+  lg:flex 
+  /* border */
+}
+
+.scrollMobile {
+  @apply h-16 w-16
+}
+.scrollDesktop {
+  @apply max-h-8 h-8 w-8
+}

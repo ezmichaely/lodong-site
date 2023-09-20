@@ -37,7 +37,9 @@ module.exports = {
       },
       fontSize: {
         '13': '13px',
-        '7.5xl': '84px'
+        '7.5xl': '84px',
+        '9.5xl': '135px',
+        '10xl': '140px',
       },
       lineHeight: {
         '0': '0px'
@@ -51,6 +53,7 @@ module.exports = {
       },
       padding: {
         '18': '72px',
+        '520': '520px'
       },
       colors: {
         carmine: { //red
