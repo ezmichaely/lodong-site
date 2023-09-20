@@ -3,11 +3,7 @@ import Image from "next/image"
 
 
 export default function Card({ data, bg, pos }) {
-
-  console.log(bg)
-  // const bg = JSON.stringify(data.bg);
-  // const pos = data.position
-  const tags = data.tags.reverse().slice(3).reverse()
+  const tags = data.tags.reverse().slice(3).reverse();
   return (
     <>
       <Link href={data.url}
@@ -23,13 +19,17 @@ export default function Card({ data, bg, pos }) {
           <p className="font-inter text-13 opacity-60">
             {data.category}
           </p>
+
           <h1 className="font-bold text-3xl mb-3">
             {data.title}
           </h1>
 
           <div className="w-4/5 md:w-full lg:w-4/5 flex justify-start items-center flex-row flex-wrap gap-x-3">
-            {tags.map((index, i ) => (
-              <span key={i++} className="whitespace-nowrap text-sm opacity-50">{index}</span>
+            {tags.map((index, i) => (
+              <span key={i++}
+                className="whitespace-nowrap text-sm opacity-50">
+                {index}
+              </span>
             ))}
           </div>
         </div>

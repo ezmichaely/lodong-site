@@ -17,7 +17,6 @@ export default function Projects() {
     <>
       <main className={`${styles.main}`}>
         <div className={`${styles.content}`}>
-
           <div className={`${styles.cardContainer}`}>
 
             <Card data={projectsData.keflavik}
@@ -62,14 +61,9 @@ export default function Projects() {
                 pos={``} />
             </div>
           </div>
-
         </div>
 
-
-
-
         <ScrollTop />
-
       </main>
 
 
