@@ -92,7 +92,8 @@ export default function FooterContent() {
               <div className={`${styles.iconsMobileDiv}`}>
                 {footerLightIcon.map((data) => (
                   <Link href="#" key={data.name}>
-                    <Image src={data.icon} alt={data.name} />
+                    {data.icon}
+                    {/* <Image src={data.icon} alt={data.name} /> */}
                   </Link>
                 ))}
               </div>
