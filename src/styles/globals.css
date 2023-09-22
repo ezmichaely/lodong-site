@@ -35,23 +35,18 @@
   }
 
   .body-base {
-    @apply relative w-screen min-h-screen overflow-x-hidden text-base
+    @apply font-inter relative w-screen overflow-x-hidden text-base
   }
 }
 
 html, body {
-  @apply body-base font-inter;
+  @apply body-base
 }
 
-
-
-/* .content-padding {
-
+main {
+  @apply h-full border-0 border-transparent
 }
 
-.content-fluid {
-  @apply max-w-screen-4xl mx-auto w-full px-0 4xl:px-14
-  border border-violet-900;
+/* section {
+  @apply max-w-screen-4xl mx-auto w-screen
 } */
-
-

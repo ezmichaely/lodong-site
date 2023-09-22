@@ -9,6 +9,7 @@ export const metadata = {
 export default function Keflavik () {
   return (
     <div>
+      
     </div>
   )
 }

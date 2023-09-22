@@ -1,0 +1,42 @@
+
+
+.main {
+  @apply bg-white lg:bg-black h-full
+  /* max-w-screen-4xl mx-auto w-screen */
+  /* px-6 */
+}
+
+.pageTitle {
+  @apply text-center font-inter font-bold
+  text-jungle
+  text-7xl my-14
+  lg:hidden lg:my-0
+  border border-red-600
+}
+
+.section {
+  @apply w-full flex justify-center items-center
+
+}
+
+.circleContainer {
+  @apply mb-20
+  border border-red-600
+}
+
+.dotsContainer {
+  @apply w-full flex justify-center items-center flex-row mb-24 gap-x-2
+  lg:hidden
+  lg:mb-0
+  border border-red-600
+}
+
+.dots {
+  @apply rounded-full cursor-pointer
+  h-3 w-3
+  ease-out duration-300
+  bg-jungle-100
+  active:bg-carmine-dark
+  hover:bg-jungle hover:ease-out
+
+}
