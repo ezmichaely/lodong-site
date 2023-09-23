@@ -40,17 +40,16 @@ export default function Keflavik () {
       </section>
 
       {/* hero */}
-      <section className="max-w-screen-4xl mx-auto py-6 w-screen">
-        <div className="px-0 lg:px-14 3xl:px-64 w-full flex justify-center items-center flex-col lg:flex-row-reverse lg:gap-x-6 lg:justify-around h-auto">
-
+      <section className="py-6">
+        <div className="max-w-screen-4xl mx-auto w-screen px-0 lg:px-14 3xl:px-64 flex justify-center items-center flex-col lg:flex-row-reverse xl:gap-x-6 lg:justify-between h-auto">
           {/* image container */}
-          <div className="h-540 w-screen pl-6 lg:pl-0 lg:w-fit flex justify-start xs:justify-center py-[50px] lg:py-0 overflow-x-hidden">
+          <div className="h-540 w-full lg:w-fit pl-6 xs:pl-0 flex justify-start xs:justify-center py-[50px] lg:py-0 overflow-x-hidden">
             {/* mobile */}
             <Image src={keflavikMainMobile} alt="mobile"
               className="min-h-[440px] min-w-[440px] lg:hidden object-contain" />
 
             {/* desktop */}
-            <Image src={keflavik01} alt="desktop" className="w-fit hidden lg:flex"/>
+            <Image src={keflavik01} alt="desktop" className="h-full w-fit hidden lg:flex"/>
           </div>
 
           {/* title */}
@@ -111,7 +110,7 @@ export default function Keflavik () {
           <Image src={keflavik01Mobile} alt="keflavik01" />
         </div>
 
-        <div className="mt-12 space-y-12 text-lg leading-10 opacity-60">
+        <div className="w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60">
           <p>
             오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
             있습니다.
@@ -124,13 +123,13 @@ export default function Keflavik () {
 
       {/* section 2 */}
       <section className="mt-40 text-white
-        max-w-screen-4xl mx-auto w-screen px-6 lg:px-14">
-        <div className="w-full flex justify-center items-center flex-col">
+        max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 ">
+        <div className="w-full flex justify-start items-center flex-col ">
           <div className="w-full flex justify-center items-center flex-col">
             <Image src={keflavik03} alt="keflavik03" className="w-4/5 md:w-fit" />
           </div>
 
-          <div className="mt-12 space-y-12 text-lg leading-10 opacity-60 font-applesd">
+          <div className="w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60 ">
             <p>
               날짜, 작업 현황, 시간을 확인하고 작업 가능한 직원에게 배정할 수 있습니다.
             </p>
@@ -141,12 +140,12 @@ export default function Keflavik () {
       {/* section 3 */}
       <section className="mt-40 text-white
         max-w-screen-4xl mx-auto w-screen px-6 lg:px-14">
-        <div className="w-full flex justify-center items-center flex-col">
+        <div className="w-full flex justify-start items-center flex-col">
           <div className="w-full flex justify-center items-center flex-col">
             <Image src={keflavik04} alt="keflavik04" className="" />
           </div>
 
-          <div className="mt-12 space-y-12 text-lg leading-10 opacity-60 font-applesd">
+          <div className="w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60 ">
             <p>
               날짜, 작업 현황, 시간을 확인하고 작업 가능한 직원에게 배정할 수 있습니다.
             </p>
@@ -157,14 +156,16 @@ export default function Keflavik () {
       {/* section 4 */}
       <section className="mt-40 text-white">
         <div>
-          <h3 className="font-applesd text-3xl font-bold mb-36 max-w-screen-4xl mx-auto w-screen px-6 lg:px-14">
+          <h3 className="max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36 ">
             WEB
           </h3>
 
-          <div className="w-full flex justify-center items-center flex-col">
-            <Image src={keflavik05} alt="keflavik04" className="w-fit scale-125 md:scale-100"/>
+          <div className="w-full flex justify-start items-center flex-col">
+            <div className="w-full flex justify-center items-center flex-col">
+              <Image src={keflavik05} alt="keflavik04" className="w-fit scale-125 md:scale-100"/>
+            </div>
 
-            <div className="mt-24 space-y-12 text-lg leading-10 max-w-screen-4xl mx-auto w-screen px-6 lg:px-14">
+            <div className="max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 mt-24 space-y-12 text-lg leading-10 ">
               <h3 className="font-applesd text-2xl">
                 설계
               </h3>
