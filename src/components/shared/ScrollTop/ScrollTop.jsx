@@ -26,6 +26,7 @@ export default function ScrollTop() {
 
   return (
     <>
+
       {darkPaths.includes(pathname) && (
         <div className={`${styles.scrollToTopMobile}`}>
           <button onClick={handleScroll}>
@@ -45,6 +46,7 @@ export default function ScrollTop() {
         </div>
       )}
 
+      {/* projects/ */}
       {lightPaths.includes(pathname) && (
         <div className={`${styles.scrollToTopMobile}`}>
           <button onClick={handleScroll}>

@@ -39,6 +39,10 @@
   }
 }
 
+*, *:before, *::after {
+  @apply box-content
+  /* ease-out duration-100; */
+}
 html, body {
   @apply body-base
 }

@@ -51,13 +51,13 @@ export default function Projects() {
 
             <div className="hidden 3xl:block">
               <ProjectCard data={projectsData.dummy1}
-                bg={`bg-proj hover:bg-opacity-80`}
+                bg={`bg-jungle-500 hover:bg-opacity-80`}
                 pos={``} />
             </div>
 
             <div className="hidden 3xl:block">
               <ProjectCard data={projectsData.dummy2}
-                bg={`bg-proj hover:bg-opacity-80`}
+                bg={`bg-jungle-500 hover:bg-opacity-80`}
                 pos={``} />
             </div>
           </div>

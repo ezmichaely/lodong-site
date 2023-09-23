@@ -94,6 +94,7 @@ import keflavik06 from '~/images/projects/keflavik/06.png'
 import keflavikMainMobile from '~/images/projects/keflavik/keflavik_main_mobile.png'
 import keflavik01Mobile from '~/images/projects/keflavik/01_mobile.png'
 import keflavik05Mobile from '~/images/projects/keflavik/05_mobile.png'
+import keflavik06Mobile from '~/images/projects/keflavik/06_mobile.png'
 import keflavikMainMobile1 from '~/images/projects/keflavik/keflavik_main_mobile1.png'
 
 
@@ -185,6 +186,7 @@ export {
   keflavik01, keflavik02, keflavik03,
   keflavik04, keflavik05, keflavik06,
   keflavikMainMobile, keflavik01Mobile, keflavik05Mobile,
+  keflavik06Mobile,
   keflavikMainMobile1,
 
   // rugolf

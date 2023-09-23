@@ -79,7 +79,8 @@ module.exports = {
           500: '#282828',
         },
         purple: {
-          '650': '#343C84'
+          '550': '#5764DC',
+          '650': '#343C84',
         },
         keflavik: {
           DEFAULT: '#FFCF03',
