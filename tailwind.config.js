@@ -45,8 +45,13 @@ module.exports = {
       lineHeight: {
         '0': '0px'
       },
+      letterSpacing: {
+        '01': '-0.1rem',
+        '02': '-0.2rem'
+      },
       height: {
         header: '120px',
+        '540': '540px',
       },
       margin: {
         '18': '72px',
@@ -59,7 +64,6 @@ module.exports = {
       boxShadow: {
         DEFAULT: '6px 7px 20px 1px rgba(43, 42, 42, 0.44)'
       },
-
       colors: {
         carmine: { //red
           light: '#FF6767',
@@ -72,33 +76,34 @@ module.exports = {
           200: '#636464',
           300: '#404041',
           400: '#242424',
+          500: '#282828',
         },
-        proj: {
-          DEFAULT: '#282828',
-          keflavik: {
-            DEFAULT: '#FFCF03',
-            light: '#E8D265',
-          },
-          rugolf: {
-            DEFAULT: '#084520',
-            light: '#26A38B',
-          },
-          caremanager: {
-            DEFAULT: '#0076B5',
-            light: '#7790D0',
-          },
-          washcube: {
-            DEFAULT: '#004D9E',
-            light: '#004BB4',
-          },
-          aicity: {
-            DEFAULT: '#F6EFE0',
-            light: '#EBDAC6',
-          },
-          winlottery: {
-            DEFAULT: '#2933D1',
-            light: '#7565EA',
-          },
+        purple: {
+          '650': '#343C84'
+        },
+        keflavik: {
+          DEFAULT: '#FFCF03',
+          light: '#E8D265',
+        },
+        rugolf: {
+          DEFAULT: '#084520',
+          light: '#26A38B',
+        },
+        caremanager: {
+          DEFAULT: '#0076B5',
+          light: '#7790D0',
+        },
+        washcube: {
+          DEFAULT: '#004D9E',
+          light: '#004BB4',
+        },
+        aicity: {
+          DEFAULT: '#F6EFE0',
+          light: '#EBDAC6',
+        },
+        winlottery: {
+          DEFAULT: '#2933D1',
+          light: '#7565EA',
         },
       },
     },

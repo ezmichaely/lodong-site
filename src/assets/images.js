@@ -7,6 +7,7 @@ import LodongFavicon from '~/images/brand/LodongFavicon.svg';
 import CaretDownDark from '~/images/icons/CaretDownDark.svg';
 import CaretDownLight from '~/images/icons/CaretDownLight.svg';
 import CaretUpDark from '~/images/icons/CaretUpDark.svg';
+import CaretUpLight from '~/images/icons/CaretUpLight.svg';
 import MenuDark from '~/images/icons/MenuDark.svg';
 import MenuLight from '~/images/icons/MenuLight.svg';
 import PinLocation from '~/images/icons/PinLocation.svg';
@@ -93,6 +94,7 @@ import keflavik06 from '~/images/projects/keflavik/06.png'
 import keflavikMainMobile from '~/images/projects/keflavik/keflavik_main_mobile.png'
 import keflavik01Mobile from '~/images/projects/keflavik/01_mobile.png'
 import keflavik05Mobile from '~/images/projects/keflavik/05_mobile.png'
+import keflavikMainMobile1 from '~/images/projects/keflavik/keflavik_main_mobile1.png'
 
 
 /** RUGOLF */
@@ -147,8 +149,11 @@ export {
   LodongBrand, LodongLogo, LodongFavicon,
 
   // icons
-  ArrowLeft, CaretDownDark, CaretUpDark, MenuDark,
-  CaretDownLight, MenuLight, PinLocation, ScrollToTop,
+  ArrowLeft,
+  CaretDownDark, CaretUpDark,
+  CaretDownLight, CaretUpLight,
+  MenuLight, MenuDark,
+  PinLocation, ScrollToTop,
 
   // socials
   FacebookDark, InstagramDark, KakaotalkDark, SlackDark,
@@ -180,6 +185,7 @@ export {
   keflavik01, keflavik02, keflavik03,
   keflavik04, keflavik05, keflavik06,
   keflavikMainMobile, keflavik01Mobile, keflavik05Mobile,
+  keflavikMainMobile1,
 
   // rugolf
   rugolfMain, rugolfSub,

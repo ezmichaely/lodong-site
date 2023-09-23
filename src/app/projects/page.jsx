@@ -20,32 +20,32 @@ export default function Projects() {
           <div className={`${styles.cardContainer}`}>
 
             <ProjectCard data={projectsData.keflavik}
-              bg={`bg-proj-keflavik-light hover:bg-proj-keflavik`}
+              bg={`bg-keflavik-light hover:bg-keflavik`}
               pos={`absolute bottom-[45%] left-[50%]`}
             />
 
             <ProjectCard data={projectsData.rugolf}
-              bg={`bg-proj-rugolf-light hover:bg-proj-rugolf`}
+              bg={`bg-rugolf-light hover:bg-rugolf`}
               pos={`absolute bottom-[50%] left-[60%]`}
             />
 
             <ProjectCard data={projectsData.caremanager}
-              bg={`bg-proj-caremanager-light hover:bg-proj-caremanager`}
+              bg={`bg-caremanager-light hover:bg-caremanager`}
               pos={`absolute bottom-[-5%] right-[-5%]`}
             />
 
             <ProjectCard data={projectsData.washcube}
-              bg={`bg-proj-washcube-light hover:bg-proj-washcube`}
+              bg={`bg-washcube-light hover:bg-washcube`}
               pos={`absolute bottom-[60%] left-[36%]`}
             />
 
             <ProjectCard data={projectsData.aicity}
-              bg={`bg-proj-aicity-light hover:bg-proj-aicity`}
+              bg={`bg-aicity-light hover:bg-aicity`}
               pos={`absolute bottom-[60%] right-[0]`}
             />
 
             <ProjectCard data={projectsData.winlottery}
-              bg={`bg-proj-winlottery-light hover:bg-proj-winlottery`}
+              bg={`bg-winlottery-light hover:bg-winlottery`}
               pos={`absolute bottom-[50%] left-[55%]`}
             />
 
