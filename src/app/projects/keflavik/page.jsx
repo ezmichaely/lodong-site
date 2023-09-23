@@ -44,10 +44,10 @@ export default function Keflavik () {
         <div className="px-0 lg:px-14 3xl:px-64 w-full flex justify-center items-center flex-col lg:flex-row-reverse lg:gap-x-6 lg:justify-around h-auto">
 
           {/* image container */}
-          <div className="h-540 lg:w-fit flex justify-center py-[50px] lg:py-0">
+          <div className="h-540 w-screen pl-6 lg:pl-0 lg:w-fit flex justify-start xs:justify-center py-[50px] lg:py-0 overflow-x-hidden">
             {/* mobile */}
             <Image src={keflavikMainMobile} alt="mobile"
-              className="w-full lg:hidden" />
+              className="min-h-[440px] min-w-[440px] lg:hidden object-contain" />
 
             {/* desktop */}
             <Image src={keflavik01} alt="desktop" className="w-fit hidden lg:flex"/>
