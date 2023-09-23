@@ -47,7 +47,7 @@ export default function Keflavik () {
           <div className="h-540 w-full lg:w-fit pl-6 xs:pl-0 flex justify-start xs:justify-center py-[50px] lg:py-0 overflow-x-hidden">
             {/* mobile */}
             <Image src={keflavikMainMobile} alt="mobile"
-              className="min-h-[440px] min-w-[440px] lg:hidden object-cover" />
+              className="h-full object-cover sm:object-contain lg:hidden border" />
 
             {/* desktop */}
             <Image src={keflavik01} alt="desktop" className="h-full w-fit hidden lg:flex"/>
