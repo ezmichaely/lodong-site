@@ -8,8 +8,11 @@ import {
   KakaotalkLight,
   SlackLight
 } from "@/assets/images"
-import { lightPaths, darkPaths } from "./paths"
-
+import {
+  lightPaths,
+  darkPaths,
+  allPaths
+} from "./routes"
 
 
 export const footerDetails = {

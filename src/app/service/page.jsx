@@ -1,6 +1,6 @@
 import CircleCard from "@/components/ui/CircleCard"
 import styles from './service.module.css'
-import { serviceData } from "@/constants/serviceData"
+import { serviceData } from "@/constants/pages/serviceData"
 
 export const metadata = {
   title: 'Services | Lodong',

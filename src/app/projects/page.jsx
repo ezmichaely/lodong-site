@@ -1,9 +1,11 @@
-import ScrollTop from "@/components/shared/ScrollTop/ScrollTop"
-import ProjectCard from "@/components/ui/ProjectCard"
-import { projectsData } from "@/constants/projectsData"
-
-
 import styles from './projects.module.css'
+import {
+  ScrollTop,
+  ProjectCard
+} from "@/components"
+import {
+  projectsData
+} from "@/constants/project/projectsData"
 
 export const metadata = {
   title: 'Projects | Lodong',

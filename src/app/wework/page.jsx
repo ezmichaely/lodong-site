@@ -1,9 +1,15 @@
-import LeftContainer from "@/components/shared/Container/LeftContainer"
-import RightContainer from "@/components/shared/Container/RightContainer"
-import FirstContainer from "@/components/shared/Container/FirstContainer"
-import ScrollTop from "@/components/shared/ScrollTop/ScrollTop"
-import { weworkContainer, weworkTitle } from '@/constants/weworkData'
 import styles from './wework.module.css'
+
+import {
+  LeftContainer,
+  RightContainer,
+  FirstContainer,
+  ScrollTop
+} from "@/components"
+
+import {
+  weworkContainer, weworkTitle
+} from '@/constants/weworkData'
 
 
 export const metadata = {
@@ -31,7 +37,8 @@ export default function Wework() {
         </section>
 
         <div className="w-screen">
-          <FirstContainer data={weworkContainer.w1} extra={weworkTitle} />
+          <FirstContainer data={weworkContainer.w1}
+            extra={weworkTitle} />
           <LeftContainer data={weworkContainer.w2} />
           <RightContainer data={weworkContainer.w3} />
           <LeftContainer data={weworkContainer.w4} />

@@ -1,0 +1,89 @@
+.heroSection {
+
+}
+
+.heroContainer {
+
+}
+
+.heroTop {
+  @apply w-screen
+  flex justify-center items-center flex-col
+  gap-y-16 lg:gap-y-0
+  lg:flex-row-reverse
+}
+
+.heroImage {
+  @apply min-h-[540px]
+  w-full
+  /* lg:w-auto */
+  flex justify-start items-center
+  xs:justify-center
+  border border-lime-600
+  /* ml-6 xs:ml-0 */
+}
+
+.heroImageMobile {
+  @apply block lg:hidden
+  /* h-[445px] w-fit */
+  min-w-[445px]
+  ml-6 xs:ml-3 sm:ml-0
+
+  border border-red-700
+}
+
+.heroImageDesktop {
+   @apply hidden lg:block
+   
+}
+
+.heroTitle {
+  @apply w-full
+  text-center
+  lg:text-left
+  /* bg-red-400 */
+}
+
+.heroTitle p {
+  @apply
+  font-applesd text-keflavik tracking-tighter
+  lg:text-xl
+}
+
+.heroTitle h1 {
+  @apply
+  mt-4 text-white
+  font-bold
+  text-5xl lg:text-7xl
+}
+
+.heroDetailsContainer {
+  @apply mt-40 lg:mt-0
+}
+
+
+.heroDetails {
+  @apply
+  text-center
+  flex justify-center items-center flex-wrap flex-row
+  gap-x-8 gap-y-3
+  lg:gap-x-12 2xl:gap-x-32
+
+  text-white lg:text-black
+  lg:bg-keflavik
+
+  py-4
+  xl:px-20 3xl:px-64
+}
+
+.heroDetails p {
+  @apply space-x-5 tracking-tight text-lg
+}
+
+.heroDetails p span:first-child {
+  @apply font-bold
+}
+
+.heroDetails p span:nth-child(2) {
+  @apply opacity-60 lg:opacity-100
+}

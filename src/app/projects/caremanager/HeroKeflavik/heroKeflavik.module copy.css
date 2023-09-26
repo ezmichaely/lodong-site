@@ -1,0 +1,163 @@
+.heroSection {
+ @apply py-10
+ mx-auto w-screen h-auto
+ /* border */
+}
+
+.heroContainer {
+  @apply
+
+  flex justify-center items-center flex-col
+  gap-y-24
+  lg:gap-y-0
+
+
+  /* lg:w-full */
+  /* 3xl:px-64 */
+  /* lg:flex-row-reverse lg:justify-between
+  xl:gap-x-6 */
+
+  /* bg-gray-700 */
+
+  border border-red-700
+
+  /* lg:grid grid-cols-2 */
+}
+
+.heroTop {
+  @apply
+  max-w-screen-4xl mx-auto w-full
+
+  px-0
+  lg:px-12
+
+  flex justify-center items-center flex-col
+  lg:justify-between
+  xl:justify-around
+  lg:flex-row-reverse
+
+  lg:gap-x-16
+  xl:gap-x-32
+
+  bg-lime-500
+
+}
+
+.heroImage {
+  @apply
+
+  /* lg:px-14 */
+  h-540 w-auto
+  min-h-[540px]
+  /* min-w-full */
+  /* overflow-x-hidden */
+  /* py-[50px]  */
+  /* ml-6
+  sm:ml-0 */
+  /* object-cover */
+  /* lg:w-full */
+
+
+  flex
+  justify-start
+  items-center
+  /* sm:justify-center */
+
+  /* lg:items-start */
+  /* lg:justify-end */
+  /* lg:overflow-x-auto */
+
+  bg-red-700
+
+
+  /* xs:ml-0 */
+  /* lg:py-0 lg:w-fit */
+
+  /* border border-lime-600 */
+}
+
+.heroImageMobile {
+  @apply
+  block lg:hidden
+  h-auto w-fit
+  min-w-fit
+  ml-6
+  sm:ml-0
+
+  /* border border-slate-700 */
+}
+
+.heroImageDesktop {
+  @apply
+  hidden
+  lg:block
+  h-[540px] w-auto
+  min-h-[540px] min-w-min
+  /* h-540 w-fit
+  hidden
+  lg:flex */
+  /* w-1/2 */
+  /* object-fill */
+  /* lg:flex justify-center items-center */
+  /* object-contain */
+  /* object-center */
+  border border-violet-700
+  bg-red-500
+}
+
+.heroTitle {
+  @apply
+  text-center
+  lg:text-left
+  bg-red-400
+}
+
+.heroTitle p {
+  @apply
+  font-applesd text-keflavik tracking-tighter
+  lg:text-xl
+}
+
+.heroTitle h1 {
+  @apply
+  mt-4 text-white
+  font-bold
+  text-5xl lg:text-7xl
+}
+
+.heroDetailsContainer {
+  @apply w-full h-auto
+  my-3 lg:my-0
+  px-6 lg:px-14
+}
+
+
+.heroDetails {
+  @apply
+  py-4
+  flex justify-center items-center flex-wrap flex-row
+  gap-x-8 gap-y-3
+  lg:gap-x-12 2xl:gap-x-32
+
+  text-white lg:text-black
+  lg:bg-keflavik
+
+  xl:px-20 3xl:px-64  lg:my-0 text-center
+
+
+   /* border border-keflavik */
+
+
+}
+
+.heroDetails p {
+  @apply space-x-5 tracking-tight text-lg
+}
+
+.heroDetails p span:first-child {
+  @apply font-bold
+}
+
+.heroDetails p span:nth-child(2) {
+  @apply opacity-60 lg:opacity-100
+}

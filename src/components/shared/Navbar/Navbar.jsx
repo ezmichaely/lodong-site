@@ -3,8 +3,8 @@
 import { useState } from 'react';
 
 import Link from 'next/link';
-import styles from '@/components/shared/Navbar/navbar.module.css';
-import { headerRoutes } from '@/lib/routes/headerRoutes';
+import styles from './navbar.module.css';
+// import { headerRoutes } from '@/lib/routes/headerRoutes';
 import { VscChromeClose } from 'react-icons/vsc';
 
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div onClick={handleToggle} className={styles._toggle} >
           <VscChromeClose className={styles._toggle_icon} />
         </div>
-        
+
       </div>
     </nav>
   )

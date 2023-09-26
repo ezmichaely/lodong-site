@@ -14,7 +14,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        'xs': '425px',
+        'xs': '430px',
         '3xl': '1920px',
         '4xl': '2560px',
       },
@@ -50,6 +50,10 @@ module.exports = {
         '02': '-0.2rem'
       },
       height: {
+        header: '120px',
+        '540': '540px',
+      },
+      width: {
         header: '120px',
         '540': '540px',
       },

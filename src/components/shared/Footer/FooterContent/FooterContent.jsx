@@ -4,12 +4,12 @@ import {
   footerDetails,
   footerLightIcon,
   footerDarkIcon,
-} from '@/constants/footerData';
+} from '@/routes/footerRoutes';
 import {
   lightPaths,
   darkPaths,
   allPaths
-} from '@/constants/paths'
+} from '@/routes/routes'
 import styles from './footerContent.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
