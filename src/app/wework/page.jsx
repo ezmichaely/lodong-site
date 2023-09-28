@@ -9,7 +9,7 @@ import {
 
 import {
   weworkContainer, weworkTitle
-} from '@/constants/weworkData'
+} from '@/constants/pages/weworkData'
 
 
 export const metadata = {

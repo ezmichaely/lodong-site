@@ -1,5 +1,5 @@
 import Image from "next/image"
-import HeroKeflavik from '../caremanager/HeroKeflavik/HeroKeflavik'
+import HeroKeflavik from './HeroKeflavik/HeroKeflavik'
 import styles from "./keflavik.module.css"
 import {
   keflavikMain, keflavikSub,

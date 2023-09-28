@@ -1,47 +1,63 @@
 .heroSection {
+  @apply w-screen border border-transparent
 
 }
 
 .heroContainer {
-
+  @apply w-full
+  flex justify-start items-center flex-col
+  gap-y-28
+  lg:gap-y-0
 }
 
 .heroTop {
-  @apply w-screen
+  @apply
+  w-screen max-w-screen-4xl mx-auto
   flex justify-center items-center flex-col
   gap-y-16 lg:gap-y-0
   lg:flex-row-reverse
+  lg:gap-x-4
+  lg:justify-between
+  xl:justify-around
 }
 
 .heroImage {
   @apply min-h-[540px]
   w-full
-  /* lg:w-auto */
   flex justify-start items-center
   xs:justify-center
-  border border-lime-600
-  /* ml-6 xs:ml-0 */
+  lg:items-end
+
+  lg:mr-14
+  overflow-x-hidden
 }
 
 .heroImageMobile {
   @apply block lg:hidden
-  /* h-[445px] w-fit */
   min-w-[445px]
   ml-6 xs:ml-3 sm:ml-0
-
-  border border-red-700
 }
 
 .heroImageDesktop {
    @apply hidden lg:block
-   
+    min-w-[445px]
+    h-auto
 }
 
 .heroTitle {
   @apply w-full
-  text-center
-  lg:text-left
-  /* bg-red-400 */
+  flex justify-center items-center flex-col
+  lg:ml-14
+  lg:items-start
+  xl:items-center
+
+}
+
+.heroTitle div {
+  @apply
+  w-fit
+  flex justify-center items-center flex-col gap-y-4
+  lg:items-start
 }
 
 .heroTitle p {
@@ -52,13 +68,14 @@
 
 .heroTitle h1 {
   @apply
-  mt-4 text-white
+   text-white
   font-bold
   text-5xl lg:text-7xl
+  whitespace-nowrap
 }
 
 .heroDetailsContainer {
-  @apply mt-40 lg:mt-0
+  @apply w-screen block
 }
 
 

@@ -19,8 +19,10 @@ export default function Hero({details}) {
 
           {/* title */}
           <div className={styles.heroTitle}>
-            <p>{details.title.p}</p>
-            <h1>{details.title.h1}</h1>
+            <div>
+              <p>{details.title.p}</p>
+              <h1>{details.title.h1}</h1>
+            </div>
           </div>
         </div>
 
@@ -49,6 +51,7 @@ export default function Hero({details}) {
             </p>
           </div>
         </div>
+
       </div>
     </section>
   )
