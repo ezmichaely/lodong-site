@@ -331,7 +331,7 @@
   lg:min-h-[640px]
   2xl:min-h-[780px]
   object-cover
-  border
+  /* border */
   lg:overflow-visible
 }
 
