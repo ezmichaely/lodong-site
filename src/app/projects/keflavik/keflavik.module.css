@@ -1,131 +1,290 @@
 .main {
-  @apply bg-black
+  @apply
+  bg-black
+  h-full w-full
+  border-0 border-transparent
 }
-
-/* hero */
-
 
 /* one */
 .oneSection {
- @apply mt-24 text-white max-w-screen-4xl mx-auto w-screen px-6 lg:px-14;
+ @apply mt-24
+ max-w-screen-4xl
+ w-screen
+ mx-auto
+ px-6
+ lg:px-14
+ xl:px-36
+ 2xl:px-[280px]
+ 3xl:px-[400px]
+ lg:mt-48
+ /* bg-slate-500 */
 }
 
 .oneContainer {
-  /* @apply */
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-20
+  lg:gap-y-0
+  /* border border-red-700 */
+
+  /* px-6
+  lg:px-14 */
+  /* @apply container */
 }
 
 .oneImage {
-  @apply h-[460px] w-full flex justify-center items-center
+  @apply h-[460px] w-full
+  flex justify-center items-center
+  lg:hidden
 }
 
 .oneImage img {
-  @apply h-full min-w-fit w-fit
+  @apply
+  h-full min-w-fit w-fit
+  /* border */
+}
+
+.oneDetailsContainer {
+  @apply
+  font-applesd
+  w-full
+  flex justify-start items-start flex-col
 }
 
 .oneDetails {
-  @apply w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60
+  @apply
+  w-full
+  flex justify-start items-start flex-col
+  lg:flex-row
+  lg:gap-x-36
+  3xl:gap-x-44
 }
+
+.oneDetails h3 {
+  @apply
+  text-2xl font-bold
+  text-white
+  hidden lg:block
+  whitespace-nowrap
+}
+
+.oneDetails div {
+  @apply
+  text-left
+  text-white opacity-60
+  text-lg
+  leading-loose
+  lg:leading-normal
+  lg:opacity-100
+  flex justify-start items-start flex-col
+  gap-y-8
+  md:gap-y-6
+  lg:gap-y-4
+}
+
 
 /* two */
 .twoSection {
- @apply mt-40 text-white max-w-screen-4xl mx-auto w-screen px-6 lg:px-14
+  @apply mt-96
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  hidden
+  lg:block
 }
 
 .twoContainer {
-  @apply w-full flex justify-start items-center flex-col border border-lime-600
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-8
 }
 
-.twoImage {
-  @apply h-[640px] w-full flex justify-center items-center
+.twoTitle {
+  @apply text-white
 }
 
-.twoImage img {
-  @apply h-full object-contain
+.twoTitle h3 {
+  @apply font-applesd font-bold
+  text-3xl
+}
+
+.twoBottom {
+  @apply w-full
+  flex justify-between items-start flex-row
+  gap-x-4
+  3xl:gap-x-8
+}
+
+
+
+.twoDetailsContainer {
+  @apply 3xl:min-w-fit
 }
 
 .twoDetails {
-  @apply w-full font-applesd mt-12 text-lg leading-10 opacity-60
+  @apply  text-white font-applesd
+  space-y-16
+  mt-24
+  3xl:mt-36
+  whitespace-nowrap
 }
+
+.twoDetails h4 {
+  @apply text-3xl font-medium
+}
+
+.twoDetails div {
+  @apply space-y-4 text-xl
+}
+
+.twoImage {
+  @apply h-full
+  min-h-[auto]
+  3xl:min-h-[750px]
+  3xl:min-w-fit
+  flex justify-end items-center
+  overflow-visible
+  3xl:grow
+}
+
+.twoImage img {
+  @apply
+  lg:min-h-[580px]
+  3xl:max-h-[750px]
+  w-auto
+  object-cover
+  overflow-visible
+}
+
 
 
 /* three */
 .threeSection {
  @apply mt-40 text-white
-        max-w-screen-4xl mx-auto w-screen ;
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
 }
 
 .threeContainer {
-  @apply px-0 lg:px-14 w-full flex justify-start items-center flex-col
+  @apply w-full
+  flex justify-start items-center flex-col
+  lg:justify-between lg:items-start lg:flex-row
 }
 
 .threeImage {
-  @apply h-[540px] w-full flex justify-center items-center
+  @apply
+  flex justify-center items-end
+  lg:justify-start
+  h-[640px] w-full
+  lg:h-[800px]
 }
 
-
 .threeImage img {
-  @apply h-full min-w-fit w-fit
+  @apply
+  h-full w-fit
+  object-contain
 }
 
 .threeDetails {
-  @apply px-6 lg:px-0 w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60
+  @apply w-full font-applesd
+  leading-10 opacity-60
+  text-lg
+  lg:text-xl lg:opacity-100
+  mt-20
+  lg:mt-36
 }
+
+.threeDetails p {
+  @apply inline-block
+  lg:block
+}
+
+.threeDetails p br {
+  @apply
+  hidden
+  lg:block
+}
+
 
 /* four */
 .fourSection {
- @apply mt-40 text-white;
+ @apply text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  mt-40 lg:-mt-36
 }
 
 .fourContainer {
-  @apply w-full flex justify-start items-center flex-col
-}
+  @apply w-full
+  flex justify-start items-center flex-col
+  lg:justify-end lg:items-end lg:flex-row-reverse
 
-.fourTitle {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36
-}
-
-.fourtitle h3 {
-
+  /* border border-red-500 */
 }
 
 .fourImage {
-  @apply w-full flex justify-center items-center flex-col
+  @apply h-[540px]
+  w-full
+  flex justify-center items-center
+  lg:justify-end
+  lg:w-fit
+  lg:min-w-fit
+  /* border */
 }
 
 
 .fourImage img {
-  @apply w-fit scale-125 sm:scale-100
+  @apply h-full min-w-fit w-fit
+  /* border */
 }
 
 .fourDetails {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 mt-24 space-y-8 text-lg leading-10
-}
-
-.fourDetails h3 {
-  @apply font-applesd text-2xl
+  @apply w-full
+  font-applesd leading-10
+  text-lg lg:text-xl
+  opacity-60 lg:opacity-100
+  mt-12 lg:mt-0 lg:mb-24
+  /* lg:mr-12 */
+  flex justify-start
+  lg:justify-end
+  lg:leading-loose
+  /* border */
+  lg:grow
 }
 
 .fourDetails p {
-  @apply opacity-60
+  @apply text-left
+  w-fit
+  /* border */
 }
 
-.fourDetails p span:nth-child(odd){
-
+.fourDetails p span br {
+  @apply hidden lg:block
 }
-
-.fourDetails p span:nth-child(even){
-  @apply font-bold
-}
-
 
 /* five */
 .fiveSection {
- @apply mt-40 text-white
+ @apply mt-40 text-white;
 }
 
-
 .fiveContainer {
-  @apply w-full flex justify-start items-center flex-col lg:flex-row lg:max-w-screen-4xl lg:mx-auto lg:w-screen  border lg:gap-x-16 lg:items-start sm:px-6 lg:px-14 3xl:px-64
+  @apply w-full flex justify-start items-center flex-col
 }
 
 .fiveTitle {
@@ -137,10 +296,58 @@
 }
 
 .fiveImage {
+  @apply w-full flex justify-center items-center flex-col
+}
+
+
+.fiveImage img {
+  @apply w-fit scale-125 sm:scale-100
+}
+
+.fiveDetails {
+  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 mt-24 space-y-8 text-lg leading-10
+}
+
+.fiveDetails h3 {
+  @apply font-applesd text-2xl
+}
+
+.fiveDetails p {
+  @apply opacity-60
+}
+
+.fiveDetails p span:nth-child(odd){
+
+}
+
+.fiveDetails p span:nth-child(even){
+  @apply font-bold
+}
+
+
+/* five */
+.sixSection {
+ @apply mt-40 text-white
+}
+
+
+.sixContainer {
+  @apply w-full flex justify-start items-center flex-col lg:flex-row lg:max-w-screen-4xl lg:mx-auto lg:w-screen  border lg:gap-x-16 lg:items-start sm:px-6 lg:px-14 3xl:px-64
+}
+
+.sixTitle {
+  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36
+}
+
+.sixtitle h3 {
+
+}
+
+.sixImage {
   @apply w-full lg:w-fit relative border border-red-500
 }
 
-.fiveImage .circleContainer {
+.sixImage .circleContainer {
   @apply relative flex justify-end items-center
             lg:hidden
             lg:absolute
@@ -151,30 +358,30 @@
             4xl:left-[-25px] 4xl:bottom-[-100px]
 }
 
-.fiveImage .circleContainer .circle {
+.sixImage .circleContainer .circle {
   @apply bg-purple-650 lg:bg-purple-550 h-48 w-48 lg:h-[280px] lg:w-[280px] 3xl:w-[430px] 3xl:h-[430px] rounded-full -mr-16 md:mr-0 lg:z-[1]
 }
 
-.fiveImage .imgContainerMobile {
+.sixImage .imgContainerMobile {
   @apply h-[280px] sm:h-[360px] md:h-[440px] lg:hidden flex justify-start items-center
 }
 
-.fiveImage .imgContainerMobile img {
+.sixImage .imgContainerMobile img {
   @apply h-full min-w-fit w-fit
 }
 
-.fiveImage .imgContainerDesktop {
+.sixImage .imgContainerDesktop {
   @apply hidden lg:flex
 }
 
-.fiveImage .imgContainerDesktop img {
+.sixImage .imgContainerDesktop img {
   @apply object-contain
 }
 
-.fiveDetails {
+.sixDetails {
   @apply mt-12 space-y-12 text-lg leading-10 opacity-60 font-applesd max-w-screen-4xl mx-auto w-screen px-6 sm:px-0 lg:w-fit border lg:mx-0
 }
 
-.fiveDetails p {
+.sixDetails p {
   @apply opacity-60
 }

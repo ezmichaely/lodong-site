@@ -25,32 +25,22 @@
 }
 
 @layer components {
-  .content {
+  /* .content {
     @apply max-w-screen-4xl mx-auto w-screen
     border border-violet-900;
-  }
+  } */
 
   .px-fluid {
     @apply px-6 lg:px-14
   }
-
-  .body-base {
-    @apply font-inter relative w-screen overflow-x-hidden text-base
-  }
 }
 
 *, *:before, *::after {
-  @apply box-content
-  /* ease-out duration-100; */
+  @apply box-border
 }
+
 html, body {
-  @apply body-base
+  @apply font-inter text-base
+  overflow-x-hidden
+  border-0 border-transparent
 }
-
-main {
-  @apply h-full border-0 border-transparent
-}
-
-/* section {
-  @apply max-w-screen-4xl mx-auto w-screen
-} */

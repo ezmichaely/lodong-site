@@ -1,5 +1,5 @@
 import Image from "next/image"
-import styles from './heroKeflavik.module.css'
+import styles from './heroCaremanager.module.css'
 
 export default function Hero({details}) {
   return (
@@ -18,8 +18,8 @@ export default function Hero({details}) {
           </div>
 
           {/* title */}
-          <div className={styles.heroTitleContainer}>
-            <div className={styles.heroTitle}>
+          <div className={styles.heroTitle}>
+            <div>
               <p>{details.title.p}</p>
               <h1>{details.title.h1}</h1>
             </div>
