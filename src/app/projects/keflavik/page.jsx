@@ -142,9 +142,9 @@ export default function Keflavik() {
               <h3> 설계 </h3>
               <p>
                 <span>날짜별로 담당자를 체크해 </span> <br />
-                <span>일정을 한번에 확인</span>
+                <span className="font-bold">일정을 한번에 확인</span>
                 <span>하고 </span> <br />
-                <span>미지정된 작업을 파악</span>
+                <span className="font-bold">미지정된 작업을 파악</span>
                 <span>합니다.</span>
               </p>
             </div>
