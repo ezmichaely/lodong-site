@@ -32,8 +32,6 @@ export default function Keflavik() {
       <Breadcrumb title={title} />
       <HeroKeflavik details={details} />
 
-
-
       {/* section 1 */}
       <section className={styles.oneSection}>
         <div className={styles.oneContainer}>
