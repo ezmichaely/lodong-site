@@ -160,27 +160,32 @@ export default function Keflavik() {
       </section>
 
       {/* section 6 */}
-      {/* <section className={styles.sixSection}>
+      <section className={styles.sixSection}>
         <div className={styles.sixContainer}>
           <div className={styles.sixImage}>
-            <div className="circleContainer">
-              <div className="circle"></div>
+            <div className={styles.sixCircleContainer}>
+              <div className={styles.sixCircle}></div>
             </div>
 
-            <div className="imgContainerMobile">
+            <div className={styles.sixImageMobile}>
               <Image src={keflavik06Mobile} alt="keflavik06Mobile"/>
             </div>
 
-            <div className="imgContainerDesktop">
+            <div className={styles.sixImageDesktop}>
               <Image src={keflavik06} alt="keflavik06"/>
             </div>
           </div>
 
           <div className={styles.sixDetails}>
-            <p> 구독 시작, 최근 결제일 등으로 구독자를 관리하고 더 나은 서비스를 제안합니다. </p>
+            <p>
+              <span>구독 시작, 최근 결제일 등으로 </span> <br />
+              <span className="font-bold">구독자를 관리</span>
+              <span>하고 </span> <br />
+              <span>더 나은 서비스를 제안합니다.</span>
+            </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
 
 

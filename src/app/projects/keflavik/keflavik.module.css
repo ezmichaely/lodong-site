@@ -316,22 +316,39 @@
 }
 
 .fiveImage {
-  @apply w-fit
-  flex justify-start items-center flex-col
+  @apply
+  flex justify-end items-end
   min-h-[460px]
-  lg:min-h-[640px]
-  2xl:min-h-[780px]
+  max-h-[460px]
+  lg:max-h-[580px]
+  lg:min-h-[580px]
+
+  2xl:max-h-[680px]
+  2xl:min-h-[680px]
+
+  3xl:max-h-[740px]
+  3xl:min-h-[740px]
+  /* border */
 }
 
 
 .fiveImage img {
   @apply
-  w-auto min-w-[auto]
+  w-auto
+  /* min-w-fit */
+  /* max-w-[auto] */
   min-h-[460px]
-  lg:min-h-[640px]
-  2xl:min-h-[780px]
+  max-h-[460px]
+  lg:max-h-[580px]
+  lg:min-h-[580px]
+
+  2xl:max-h-[680px]
+  2xl:min-h-[680px]
+
+  3xl:max-h-[740px]
+  3xl:min-h-[740px]
   object-cover
-  /* border */
+  /* border border-red-500 */
   lg:overflow-visible
 }
 
@@ -365,63 +382,110 @@
 }
 
 
-/* five */
+/* six */
 .sixSection {
- @apply mt-40 text-white
+ @apply
+  text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  mt-40
+  lg:mt-72
 }
 
 
 .sixContainer {
-  @apply w-full flex justify-start items-center flex-col lg:flex-row lg:max-w-screen-4xl lg:mx-auto lg:w-screen  border lg:gap-x-16 lg:items-start sm:px-6 lg:px-14 3xl:px-64
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:justify-between
+  lg:flex-row
+  lg:items-start
+  /* border */
+  lg:gap-x-16
 }
 
-.sixTitle {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36
-}
-
-.sixtitle h3 {
-
-}
 
 .sixImage {
-  @apply w-full lg:w-fit relative border border-red-500
+  @apply
+  w-full lg:w-fit
+  relative
+  /* border border-red-500 */
+  px-0
 }
 
-.sixImage .circleContainer {
-  @apply relative flex justify-end items-center
-            lg:hidden
-            lg:absolute
-            lg:left-[-25px] lg:bottom-[-50px]
-            xl:left-[-50px] xl:bottom-[-50px]
-            2xl:left-[-0px] 2xl:bottom-[-50px]
-            3xl:left-[-100px] 3xl:bottom-[-100px]
-            4xl:left-[-25px] 4xl:bottom-[-100px]
+.sixCircleContainer {
+  @apply relative
+  flex justify-end items-start
+  lg:hidden
+
 }
 
-.sixImage .circleContainer .circle {
-  @apply bg-purple-650 lg:bg-purple-550 h-48 w-48 lg:h-[280px] lg:w-[280px] 3xl:w-[430px] 3xl:h-[430px] rounded-full -mr-16 md:mr-0 lg:z-[1]
+.sixCircle {
+  @apply bg-[#5764DC]
+  bg-opacity-60
+  h-48 w-48
+  rounded-full
+  -mr-8
+  /* sm:-mr-8 */
+  sm:mr-0
 }
 
-.sixImage .imgContainerMobile {
-  @apply h-[280px] sm:h-[360px] md:h-[440px] lg:hidden flex justify-start items-center
+.sixImageMobile {
+  @apply
+  h-[280px]
+  sm:h-[360px]
+  md:h-[440px]
+  lg:hidden
+   flex justify-start items-center
 }
 
-.sixImage .imgContainerMobile img {
+
+.sixImageMobile img {
   @apply h-full min-w-fit w-fit
 }
 
-.sixImage .imgContainerDesktop {
+.sixImageDesktop {
   @apply hidden lg:flex
+  /* max-h-[710px]  */
+  w-fit
 }
 
-.sixImage .imgContainerDesktop img {
-  @apply object-contain
+.sixImageDesktop img {
+  @apply
+  /* min-h-[710px] max-h-[710px] */
+  3xl:max-h-[710px]
+  object-cover
 }
 
 .sixDetails {
-  @apply mt-12 space-y-12 text-lg leading-10 opacity-60 font-applesd max-w-screen-4xl mx-auto w-screen px-6 sm:px-0 lg:w-fit border lg:mx-0
+  @apply
+  text-left
+  mt-12
+  px-6 lg:px-0
+  /* leading-10 */
+
 }
 
 .sixDetails p {
-  @apply opacity-60
+  @apply
+  font-applesd
+  text-lg
+  lg:text-xl
+  opacity-60
+  /* leading-10 */
+  lg:opacity-100
+  lg:whitespace-nowrap
+  /* border */
+}
+
+.sixDetails p span {
+  @apply leading-10
+}
+
+.sixDetails p br {
+  @apply hidden lg:block
 }
