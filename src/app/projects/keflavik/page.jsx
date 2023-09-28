@@ -129,26 +129,27 @@ export default function Keflavik() {
       </section>
 
       {/* section 5 */}
-      {/* <section className={styles.fiveSection}>
+      <section className={styles.fiveSection}>
         <div className={styles.fiveContainer}>
           <div className={styles.fiveTitle}>
             <h3> WEB </h3>
           </div>
 
+          <div className={styles.fiveBottom}>
+            <div className={styles.fiveImage}>
+              <Image src={keflavik05} alt="keflavik05"/>
+            </div>
 
-          <div className={styles.fiveImage}>
-            <Image src={keflavik05} alt="keflavik05"/>
-          </div>
-
-          <div className={styles.fiveDetails}>
-            <h3> 설계 </h3>
-            <p>
-              <span>날짜별로 담당자를 체크해 </span>
-              <span>일정을 한번에 확인</span>
-              <span>하고 </span>
-              <span>미지정된 작업을 파악</span>
-              <span>합니다.</span>
-            </p>
+            <div className={styles.fiveDetails}>
+              <h3> 설계 </h3>
+              <p>
+                <span>날짜별로 담당자를 체크해 </span> <br />
+                <span>일정을 한번에 확인</span>
+                <span>하고 </span> <br />
+                <span>미지정된 작업을 파악</span>
+                <span>합니다.</span>
+              </p>
+            </div>
           </div>
 
           <div className="w-full flex justify-start items-center flex-col">
@@ -156,7 +157,7 @@ export default function Keflavik() {
           </div>
 
         </div>
-      </section> */}
+      </section>
 
       {/* section 6 */}
       {/* <section className={styles.sixSection}>

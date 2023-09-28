@@ -1,7 +1,5 @@
 .heroSection {
   @apply w-screen
-  /* border border-transparent */
-  /* border border-violet-500 */
 }
 
 .heroContainer {
@@ -31,9 +29,7 @@
   flex justify-start items-center
   xs:justify-center
   lg:items-end
-
-  /* lg:mr-14 */
-  overflow-x-hidden
+  overflow-x-visible
 }
 
 .heroImageMobile {
@@ -44,14 +40,14 @@
 
 .heroImageDesktop {
    @apply hidden lg:block
-    min-w-[445px]
-    h-auto
+    min-w-fit
+    min-h-[540px]
 }
+
 
 .heroTitleContainer {
   @apply w-full
   flex justify-center items-center flex-col
-  /* lg:ml-14 */
   lg:items-start
   xl:items-center
 
@@ -96,7 +92,6 @@
   text-center
   flex justify-center items-center flex-wrap flex-row
   gap-x-8 gap-y-3
-  /* md:gap-x-8 */
   lg:gap-x-12
   xl:gap-x-16
   2xl:gap-x-36
