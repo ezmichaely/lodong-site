@@ -35,65 +35,112 @@ export default function Keflavik() {
 
 
       {/* section 1 */}
-      {/* <section className={styles.oneSection}>
+      <section className={styles.oneSection}>
         <div className={styles.oneContainer}>
           <div className={styles.oneImage}>
             <Image src={keflavik01Mobile} alt="keflavik01" />
           </div>
 
-          <div className={styles.oneDetails}>
-            <p>
-              오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
-              있습니다.
-            </p>
-            <p>
-              종이계약서보다 번거롭지 않고 바로 기록이 남는 전자계약서로 편리한 계약시스템을 이용할 수 있습니다.
-            </p>
+          <div className={styles.oneDetailsContainer}>
+            <div className={styles.oneDetails}>
+              <h3>케플라비크</h3>
+              <div>
+                <p>
+                  오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
+                  있습니다.
+                </p>
+                <p>
+                  종이계약서보다 번거롭지 않고 바로 기록이 남는 전자계약서로 편리한 계약시스템을 이용할 수 있습니다.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* section 2 */}
-      {/* <section className={styles.twoSection}>
+      <section className={styles.twoSection}>
         <div className={styles.twoContainer}>
-          <div className={styles.twoImage}>
-            <Image src={keflavik03} alt="keflavik03" />
+          <div className={styles.twoTitle}>
+            <h3>ANDROID</h3>
           </div>
 
-          <div className={styles.twoDetails}>
-            <p> 날짜, 작업 현황, 시간을 확인하고 작업 가능한 직원에게 배정할 수 있습니다. </p>
+          <div className={styles.twoBottom}>
+            <div className={styles.twoDetailsContainer}>
+              <div className={styles.twoDetails}>
+                <h4>설계</h4>
+                <div>
+                  <p>
+                    대면으로 진행하는 계약과정과 각 시공사의 진행
+                  </p>
+                  <p>
+                    <span>과정을 </span>
+                    <span className="font-bold">어플</span>
+                    <span>을 통해 </span>
+                    <span className="font-bold">관리</span>
+                    <span>할 수 있도록 설계했습니다. </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className={styles.twoImage}>
+              <Image src={keflavikMain} alt="keflavik03" />
+            </div>
+
+
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* section 3 */}
-      {/* <section className={styles.threeSection}>
+      <section className={styles.threeSection}>
         <div className={styles.threeContainer}>
           <div className={styles.threeImage}>
-            <Image src={keflavik04} alt="keflavik04"/>
+            <Image src={keflavik03} alt="keflavik03" />
           </div>
 
           <div className={styles.threeDetails}>
             <p>
-              원하는 작업목록을 생성해 사진을 업로드할 항목을 선택합니다.
+              날짜, 작업 현황, 시간을 확인하고 <br />
+              작업 가능한 직원에게 <span className="font-bold">배정</span>할 수 있습니다.
             </p>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* section 4 */}
-      {/* <section className={styles.fourSection}>
+      <section className={styles.fourSection}>
         <div className={styles.fourContainer}>
-          <div className={styles.fourTitle}>
+          <div className={styles.fourImage}>
+            <Image src={keflavik04} alt="keflavik04"/>
+          </div>
+
+          <div className={styles.fourDetails}>
+            <p>
+              <span className="font-bold">원하는 작업목록을 생성</span>
+              <span>
+                해 <br />
+                사진을 업로드할 항목을 선택합니다.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* section 5 */}
+      {/* <section className={styles.fiveSection}>
+        <div className={styles.fiveContainer}>
+          <div className={styles.fiveTitle}>
             <h3> WEB </h3>
           </div>
 
 
-          <div className={styles.fourImage}>
+          <div className={styles.fiveImage}>
             <Image src={keflavik05} alt="keflavik05"/>
           </div>
 
-          <div className={styles.fourDetails}>
+          <div className={styles.fiveDetails}>
             <h3> 설계 </h3>
             <p>
               <span>날짜별로 담당자를 체크해 </span>
@@ -111,10 +158,10 @@ export default function Keflavik() {
         </div>
       </section> */}
 
-      {/* section 5 */}
-      {/* <section className={styles.fiveSection}>
-        <div className={styles.fiveContainer}>
-          <div className={styles.fiveImage}>
+      {/* section 6 */}
+      {/* <section className={styles.sixSection}>
+        <div className={styles.sixContainer}>
+          <div className={styles.sixImage}>
             <div className="circleContainer">
               <div className="circle"></div>
             </div>
@@ -128,7 +175,7 @@ export default function Keflavik() {
             </div>
           </div>
 
-          <div className={styles.fiveDetails}>
+          <div className={styles.sixDetails}>
             <p> 구독 시작, 최근 결제일 등으로 구독자를 관리하고 더 나은 서비스를 제안합니다. </p>
           </div>
         </div>
