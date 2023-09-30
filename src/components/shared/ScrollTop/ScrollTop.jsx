@@ -20,7 +20,7 @@ gsap.registerPlugin(ScrollToPlugin);
 export default function ScrollTop() {
   const handleScroll = () => {
     gsap.to(window, {
-      duration: 1.5,
+      duration: 1,
       scrollTo: 0,
       scrollBehavior: 'smooth'
     });

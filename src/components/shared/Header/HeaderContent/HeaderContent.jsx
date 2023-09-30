@@ -8,7 +8,7 @@ import { useState } from 'react';
 import styles from '@/components/shared/Header/header.module.css';
 import Navbar from '@/components/shared/Navbar/Navbar';
 
-import { lodongIcon, menu } from '@/assets/images';
+import { lodongIcon, menu } from '@/assets/images2';
 import { headerRoutes } from '@/lib/routes/headerRoutes';
 
 import {
@@ -29,12 +29,12 @@ export default function Header () {
       <header className={styles._header}>
         <nav className={styles._inner}>
           <Link href="/" className={styles._brand}>
-            <Image src={lodongIcon} alt="lodong logo" 
+            <Image src={lodongIcon} alt="lodong logo"
               className={styles._brand_img} />
             <p className={styles._brand_text}>LODONG</p>
           </Link>
 
-          
+
           <Dialog>
             <DialogTrigger className={styles._toggle}>
               <Image src={menu} alt="menu bar"
@@ -56,7 +56,7 @@ export default function Header () {
 
           <div className={styles._nav}>
             {headerRoutes.map((d) => (
-              <Link key={d.key} href={d.path} 
+              <Link key={d.key} href={d.path}
                 className={`${d.title === 'Contact' ? styles._nav_link_btn : styles._nav_link} `}>
                 {d.title}
               </Link>
@@ -64,7 +64,7 @@ export default function Header () {
           </div>
         </nav>
       </header>
-      
+
     </>
   )
 }

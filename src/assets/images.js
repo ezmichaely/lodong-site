@@ -1,149 +1,146 @@
 // logo
-import LodongBrand from '~/images/brand/LodongBrand.svg';
-import LodongLogo from '~/images/brand/LodongLogo.svg';
-import LodongFavicon from '~/images/brand/LodongFavicon.svg';
+import LodongBrand from '~/brand/LodongBrand.svg';
+import LodongLogo from '~/brand/LodongLogo.svg';
+import LodongFavicon from '~/brand/LodongFavicon.svg';
 
 // icons
-import CaretDownDark from '~/images/icons/CaretDownDark.svg';
-import CaretDownLight from '~/images/icons/CaretDownLight.svg';
-import CaretUpDark from '~/images/icons/CaretUpDark.svg';
-import CaretUpLight from '~/images/icons/CaretUpLight.svg';
-import MenuDark from '~/images/icons/MenuDark.svg';
-import MenuLight from '~/images/icons/MenuLight.svg';
-import PinLocation from '~/images/icons/PinLocation.svg';
-import ScrollToTop from '~/images/icons/ScrollToTop.svg';
-import ArrowLeft from '~/images/icons/ArrowLeft.svg'
+import CaretDownDark from '~/icons/CaretDownDark.svg';
+import CaretDownLight from '~/icons/CaretDownLight.svg';
+import CaretUpDark from '~/icons/CaretUpDark.svg';
+import CaretUpLight from '~/icons/CaretUpLight.svg';
+import MenuDark from '~/icons/MenuDark.svg';
+import MenuLight from '~/icons/MenuLight.svg';
+import PinLocation from '~/icons/PinLocation.svg';
+import ScrollToTop from '~/icons/ScrollToTop.svg';
+import ArrowLeft from '~/icons/ArrowLeft.svg'
 
 // socials
-import FacebookDark from '~/images/icons/FacebookDark.svg';
-import InstagramDark from '~/images/icons/InstagramDark.svg';
-import KakaotalkDark from '~/images/icons/KakaoTalkDark.svg';
-import SlackDark from '~/images/icons/SlackDark.svg';
-import FacebookLight from '~/images/icons/FacebookLight.svg';
-import InstagramLight from '~/images/icons/InstagramLight.svg';
-import KakaotalkLight from '~/images/icons/KakaoTalkLight.svg';
-import SlackLight from '~/images/icons/SlackLight.svg';
+import FacebookDark from '~/icons/FacebookDark.svg';
+import InstagramDark from '~/icons/InstagramDark.svg';
+import KakaotalkDark from '~/icons/KakaoTalkDark.svg';
+import SlackDark from '~/icons/SlackDark.svg';
+import FacebookLight from '~/icons/FacebookLight.svg';
+import InstagramLight from '~/icons/InstagramLight.svg';
+import KakaotalkLight from '~/icons/KakaoTalkLight.svg';
+import SlackLight from '~/icons/SlackLight.svg';
 
 // wework
-import wework01 from '~/images/wework/wework01.png'
-import wework02 from '~/images/wework/wework02.png'
-import wework03 from '~/images/wework/wework03.png'
-import wework04 from '~/images/wework/wework04.png'
-import wework05 from '~/images/wework/wework05.png'
-import wework06 from '~/images/wework/wework06.png'
-import wework07 from '~/images/wework/wework07.png'
-import wework08 from '~/images/wework/wework08.png'
+import wework01 from '~/wework/wework01.png'
+import wework02 from '~/wework/wework02.png'
+import wework03 from '~/wework/wework03.png'
+import wework04 from '~/wework/wework04.png'
+import wework05 from '~/wework/wework05.png'
+import wework06 from '~/wework/wework06.png'
+import wework07 from '~/wework/wework07.png'
+import wework08 from '~/wework/wework08.png'
 
 
 // projects
 /** AI CITY */
-import aicityMain from '~/images/projects/aicity/aicity_main_desktop.png';
-import aicitySub from '~/images/projects/aicity/aicity_sub.png';
-import aicity01 from '~/images/projects/aicity/01.png'
-import aicity02 from '~/images/projects/aicity/02.png'
-import aicity03a from '~/images/projects/aicity/03a.png'
-import aicity03b from '~/images/projects/aicity/03b.png'
-import aicity03c from '~/images/projects/aicity/03c.png'
-import aicity03d from '~/images/projects/aicity/03d.png'
-import aicity03e from '~/images/projects/aicity/03e.png'
-import aicity03f from '~/images/projects/aicity/03f.png'
-import aicity03g from '~/images/projects/aicity/03g.png'
-import aicity03h from '~/images/projects/aicity/03h.png'
-import aicity03i from '~/images/projects/aicity/03i.png'
-import aicity03j from '~/images/projects/aicity/03j.png'
-import aicity03k from '~/images/projects/aicity/03k.png'
-import aicity03l from '~/images/projects/aicity/03l.png'
-import aicity04a from '~/images/projects/aicity/04a.png'
-import aicity04b from '~/images/projects/aicity/04b.png'
-import aicity04c from '~/images/projects/aicity/04c.png'
-import aicity04d from '~/images/projects/aicity/04d.png'
-import aicity05 from '~/images/projects/aicity/05.png'
-import aicity06 from '~/images/projects/aicity/06.png'
-import aicity07 from '~/images/projects/aicity/07.png'
-import aicityMainMobile from '~/images/projects/aicity/aicity_main_mobile.png';
-import aicity03Mobile from '~/images/projects/aicity/03_mobile.png'
-import aicity04Mobile from '~/images/projects/aicity/04_mobile.png'
-import aicity05Mobile from '~/images/projects/aicity/05_mobile.png'
+import aicityMain from '~/projects/aicity/aicityMain.png';
+import aicitySub from '~/projects/aicity/aicitySub.png';
+import aicity00M from '~/projects/aicity/aicity00M.png'
+import aicity00D from '~/projects/aicity/aicity00D.png'
+import aicity02 from '~/projects/aicity/aicity02.png'
+import aicity03 from '~/projects/aicity/aicity03.png'
+import aicity04Da1 from '~/projects/aicity/aicity04Da1.png'
+import aicity04Da2 from '~/projects/aicity/aicity04Da2.png'
+import aicity04Db1 from '~/projects/aicity/aicity04Db1.png'
+import aicity04Db2 from '~/projects/aicity/aicity04Db2.png'
+import aicity04Dc1 from '~/projects/aicity/aicity04Dc1.png'
+import aicity04Dc2 from '~/projects/aicity/aicity04Dc2.png'
+import aicity04Dd1 from '~/projects/aicity/aicity04Dd1.png'
+import aicity04Dd2 from '~/projects/aicity/aicity04Dd2.png'
+import aicity04M from '~/projects/aicity/aicity04M.png'
+import aicity05D from '~/projects/aicity/aicity05D.png'
+import aicity05M from '~/projects/aicity/aicity05M.png'
+import aicity06a from '~/projects/aicity/aicity06a.png'
+import aicity06b from '~/projects/aicity/aicity06b.png'
+import aicity06c from '~/projects/aicity/aicity06c.png'
+import aicity06d from '~/projects/aicity/aicity06d.png'
+import aicity06e from '~/projects/aicity/aicity06e.png'
+import aicity06f from '~/projects/aicity/aicity06f.png'
+import aicity06g from '~/projects/aicity/aicity06g.png'
+import aicity06h from '~/projects/aicity/aicity06h.png'
+import aicity06i from '~/projects/aicity/aicity06i.png'
+import aicity06j from '~/projects/aicity/aicity06j.png'
+import aicity06k from '~/projects/aicity/aicity06k.png'
+import aicity06l from '~/projects/aicity/aicity06l.png'
+import aicity07D from '~/projects/aicity/aicity07D.png'
+import aicity07M from '~/projects/aicity/aicity07M.png'
 
 /** CAREMANAGER */
-import caremanagerMain from '~/images/projects/caremanager/caremanager_main.png'
-import caremanagerSub from '~/images/projects/caremanager/caremanager_sub.png'
-import caremanager01 from '~/images/projects/caremanager/01.png'
-import caremanager02 from '~/images/projects/caremanager/02.png'
-import caremanager03 from '~/images/projects/caremanager/03.png'
-import caremanager04 from '~/images/projects/caremanager/04.png'
-import caremanager05 from '~/images/projects/caremanager/05.png'
-import caremanager06 from '~/images/projects/caremanager/06.png'
-import caremanagerMainMobile from '~/images/projects/caremanager/caremanager_main_mobile.png'
-import caremanager01Mobile from '~/images/projects/caremanager/01_mobile.png'
-import caremanager02Mobile from '~/images/projects/caremanager/02_mobile.png'
-import caremanager03Mobile from '~/images/projects/caremanager/03_mobile.png'
-import caremanager04Mobile from '~/images/projects/caremanager/04_mobile.png'
-import caremanager05Mobile from '~/images/projects/caremanager/05_mobile.png'
-import caremanager06Mobile from '~/images/projects/caremanager/06_mobile.png'
+import caremanagerMain from '~/projects/caremanager/caremanagerMain.png'
+import caremanagerSub from '~/projects/caremanager/caremanagerSub.png'
+import caremanager00D from '~/projects/caremanager/caremanager00D.png'
+import caremanager00M from '~/projects/caremanager/caremanager00M.png'
+import caremanager01 from '~/projects/caremanager/caremanager01.png'
+import caremanager02 from '~/projects/caremanager/caremanager02.png'
+import caremanager03 from '~/projects/caremanager/caremanager03.png'
+import caremanager04 from '~/projects/caremanager/caremanager04.png'
+// import caremanager05 from '~/projects/caremanager/caremanager01.png'
+import caremanager06 from '~/projects/caremanager/caremanager06.png'
+import caremanager07 from '~/projects/caremanager/caremanager07.png'
+
+
 
 /** KEFLAVIK */
-import keflavikMain from '~/images/projects/keflavik/keflavik_main.png'
-import keflavikSub from '~/images/projects/keflavik/keflavik_sub.png'
-import keflavik01 from '~/images/projects/keflavik/01.png'
-import keflavik02 from '~/images/projects/keflavik/02.png'
-import keflavik03 from '~/images/projects/keflavik/03.png'
-import keflavik04 from '~/images/projects/keflavik/04.png'
-import keflavik05 from '~/images/projects/keflavik/05.png'
-import keflavik06 from '~/images/projects/keflavik/06.png'
-import keflavikMainMobile from '~/images/projects/keflavik/keflavik_main_mobile.png'
-import keflavik01Mobile from '~/images/projects/keflavik/01_mobile.png'
-import keflavik05Mobile from '~/images/projects/keflavik/05_mobile.png'
-import keflavik06Mobile from '~/images/projects/keflavik/06_mobile.png'
-import keflavikMainMobile1 from '~/images/projects/keflavik/keflavik_main_mobile1.png'
+import keflavikMain from '~/projects/keflavik/keflavikMain.png'
+import keflavikSub from '~/projects/keflavik/keflavikSub.png'
+import keflavik00D from '~/projects/keflavik/keflavik00D.png'
+import keflavik00M from '~/projects/keflavik/keflavik00M.png'
+import keflavik01 from '~/projects/keflavik/keflavik01.png'
+import keflavik02 from '~/projects/keflavik/keflavik02.png'
+import keflavik03 from '~/projects/keflavik/keflavik03.png'
+import keflavik04 from '~/projects/keflavik/keflavik04.png'
+import keflavik05 from '~/projects/keflavik/keflavik05.png'
+import keflavik06D from '~/projects/keflavik/keflavik06D.png'
+import keflavik06M from '~/projects/keflavik/keflavik06M.png'
+
+
 
 
 /** RUGOLF */
-import rugolfMain from '~/images/projects/rugolf/rugolf_main.png'
-import rugolfSub from '~/images/projects/rugolf/rugolf_sub.png'
-import rugolf01 from '~/images/projects/rugolf/01.png'
-import rugolf02 from '~/images/projects/rugolf/02.png'
-import rugolf03 from '~/images/projects/rugolf/03.png'
-import rugolf04 from '~/images/projects/rugolf/04.png'
-import rugolf05 from '~/images/projects/rugolf/05.png'
-import rugolf06 from '~/images/projects/rugolf/06.png'
-import rugolf07 from '~/images/projects/rugolf/07.png'
-import rugolfMainMobile from '~/images/projects/rugolf/rugolf_main_mobile.png'
-import rugolf01Mobile from '~/images/projects/rugolf/01_mobile.png'
-import rugolf02Mobile from '~/images/projects/rugolf/02_mobile.png'
-import rugolf03Mobile from '~/images/projects/rugolf/03_mobile.png'
-import rugolf06Mobile from '~/images/projects/rugolf/06_mobile.png'
-import rugolf07Mobile from '~/images/projects/rugolf/07_mobile.png'
+import rugolfMain from '~/projects/rugolf/rugolfMain.png'
+import rugolfSub from '~/projects/rugolf/rugolfSub.png'
+import rugolf00D from '~/projects/rugolf/rugolf00D.png'
+import rugolf00M from '~/projects/rugolf/rugolf00M.png'
+import rugolf02 from '~/projects/rugolf/rugolf02.png'
+import rugolf03 from '~/projects/rugolf/rugolf03.png'
+import rugolf03a from '~/projects/rugolf/rugolf03a.png'
+import rugolf03BG from '~/projects/rugolf/rugolf03BG.png'
+import rugolf04 from '~/projects/rugolf/rugolf04.png'
+import rugolf05 from '~/projects/rugolf/rugolf05.png'
+import rugolf06D from '~/projects/rugolf/rugolf06D.png'
+import rugolf06M from '~/projects/rugolf/rugolf06M.png'
+import rugolf07D from '~/projects/rugolf/rugolf07D.png'
+import rugolf07M from '~/projects/rugolf/rugolf07M.png'
+import rugolf08 from '~/projects/rugolf/rugolf08.png'
 
 
 /** WASHCUBE */
-import washcubeMain from '~/images/projects/washcube/washcube_main.png'
-import washcubeSub from '~/images/projects/washcube/washcube_sub.png'
-import washcube01 from '~/images/projects/washcube/01.png'
-import washcube02 from '~/images/projects/washcube/02.png'
-import washcube03 from '~/images/projects/washcube/03.png'
-import washcube04 from '~/images/projects/washcube/04.png'
-import washcube05 from '~/images/projects/washcube/05.png'
-import washcubeMainMobile from '~/images/projects/washcube/washcube_main_mobile.png'
-import washcube01Mobile from '~/images/projects/washcube/01_mobile.png'
-import washcube02Mobile from '~/images/projects/washcube/02_mobile.png'
-import washcube03Mobile from '~/images/projects/washcube/03_mobile.png'
-import washcube04Mobile from '~/images/projects/washcube/04_mobile.png'
+import washcubeMain from '~/projects/washcube/washcubeMain.png'
+import washcubeSub from '~/projects/washcube/washcubeSub.png'
+import washcube00 from '~/projects/washcube/washcube00.png'
+import washcube01 from '~/projects/washcube/washcube01.png'
+import washcube02 from '~/projects/washcube/washcube02.png'
+import washcube03 from '~/projects/washcube/washcube03.png'
+import washcube04 from '~/projects/washcube/washcube04.png'
+
 
 
 /** WINLOTTERY */
-import winlotteryMain from '~/images/projects/winlottery/winlottery_main.png'
-import winlotterySub from '~/images/projects/winlottery/winlottery_sub.png'
-import winlottery01 from '~/images/projects/winlottery/01.png'
-import winlottery02 from '~/images/projects/winlottery/02.png'
-import winlottery03 from '~/images/projects/winlottery/03.png'
-import winlottery04 from '~/images/projects/winlottery/04.png'
-import winlotteryMainMobile from '~/images/projects/winlottery/winlottery_main_mobile.png'
-import winlotteryMainMobileBg from '~/images/projects/winlottery/winlottery_main_mobile_bg.png'
-import winlottery01Mobile from '~/images/projects/winlottery/01_mobile.png'
-import winlottery02Mobile from '~/images/projects/winlottery/02_mobile.png'
-import winlottery03Mobile from '~/images/projects/winlottery/03_mobile.png'
-import winlottery04Mobile from '~/images/projects/winlottery/04_mobile.png'
+import winlotteryMain from '~/projects/winlottery/winlotteryMain.png'
+import winlotterySub from '~/projects/winlottery/winlotterySub.png'
+import winlottery00D from '~/projects/winlottery/winlottery00D.png'
+import winlottery00M from '~/projects/winlottery/winlottery00M.png'
+import winlottery01 from '~/projects/winlottery/winlottery01.png'
+import winlottery02D from '~/projects/winlottery/winlottery02D.png'
+import winlottery02M from '~/projects/winlottery/winlottery02M.png'
+import winlottery03 from '~/projects/winlottery/winlottery03.png'
+import winlottery04D from '~/projects/winlottery/winlottery04D.png'
+import winlottery04M from '~/projects/winlottery/winlottery04M.png'
+
 
 export {
   // logo
@@ -166,48 +163,60 @@ export {
 
   // aicity
   aicityMain, aicitySub,
-  aicity01, aicity02, aicity03a,
-  aicity03b, aicity03c, aicity03d, aicity03e,
-  aicity03f, aicity03g, aicity03h, aicity03i,
-  aicity03j, aicity03k, aicity03l, aicity04a,
-  aicity04b, aicity04c, aicity04d, aicity05,
-  aicity06, aicity07, aicityMainMobile,
-  aicity03Mobile, aicity04Mobile, aicity05Mobile,
+  aicity00M, aicity00D,
+  aicity02, aicity03,
+  aicity04Da1, aicity04Da2,
+  aicity04Db1, aicity04Db2,
+  aicity04Dc1, aicity04Dc2,
+  aicity04Dd1, aicity04Dd2,
+  aicity04M,
+  aicity05D, aicity05M,
+  aicity06a, aicity06b,
+  aicity06c, aicity06d,
+  aicity06e, aicity06f,
+  aicity06g, aicity06h,
+  aicity06i, aicity06j,
+  aicity06k, aicity06l,
+  aicity07D, aicity07M,
 
   // caremanager
-  caremanagerMain, caremanagerSub, caremanager01,
-  caremanager02, caremanager03, caremanager04, caremanager05,
-  caremanager06, caremanagerMainMobile, caremanager01Mobile,
-  caremanager02Mobile, caremanager03Mobile, caremanager04Mobile,
-  caremanager05Mobile, caremanager06Mobile,
+  caremanagerMain, caremanagerSub,
+  caremanager00D, caremanager00M,
+  caremanager01, caremanager02,
+  caremanager03, caremanager04,
+  // caremanager05,
+  caremanager06, caremanager07,
 
   // keflavik
   keflavikMain, keflavikSub,
-  keflavik01, keflavik02, keflavik03,
-  keflavik04, keflavik05, keflavik06,
-  keflavikMainMobile, keflavik01Mobile, keflavik05Mobile,
-  keflavik06Mobile,
-  keflavikMainMobile1,
+  keflavik00D, keflavik00M,
+  keflavik01, keflavik02,
+  keflavik03, keflavik04,
+  keflavik05,
+  keflavik06D, keflavik06M,
 
   // rugolf
   rugolfMain, rugolfSub,
-  rugolf01, rugolf02, rugolf03, rugolf04,
-  rugolf05, rugolf06, rugolf07,
-  rugolfMainMobile, rugolf01Mobile, rugolf02Mobile,
-  rugolf03Mobile, rugolf06Mobile, rugolf07Mobile,
+  rugolf00D, rugolf00M,
+  rugolf02,
+  rugolf03, rugolf03a, rugolf03BG,
+  rugolf04, rugolf05,
+  rugolf06D, rugolf06M,
+  rugolf07D, rugolf07M,
+  rugolf08,
 
   // washcube
   washcubeMain, washcubeSub,
-  washcube01, washcube02, washcube03,
-  washcube04, washcube05,
-  washcubeMainMobile, washcube01Mobile, washcube02Mobile,
-  washcube03Mobile, washcube04Mobile,
+  washcube00,
+  washcube01, washcube02,
+  washcube03, washcube04,
 
   // winlottery
   winlotteryMain, winlotterySub,
-  winlottery01, winlottery02, winlottery03, winlottery04,
-  winlotteryMainMobile, winlotteryMainMobileBg,
-  winlottery01Mobile, winlottery02Mobile,
-  winlottery03Mobile, winlottery04Mobile,
+  winlottery00D, winlottery00M,
+  winlottery01,
+  winlottery02D, winlottery02M,
+  winlottery03,
+  winlottery04D, winlottery04M,
 
 }

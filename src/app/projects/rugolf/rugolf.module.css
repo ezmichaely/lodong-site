@@ -1,0 +1,486 @@
+.main {
+  @apply
+  bg-black
+  h-full w-full
+  border-0 border-transparent
+}
+
+/* one */
+.oneSection {
+ @apply mt-24
+ max-w-screen-4xl
+ w-screen
+ mx-auto
+ px-6
+ lg:px-14
+ xl:px-36
+ 2xl:px-[280px]
+ 3xl:px-[400px]
+ lg:mt-48
+ /* bg-slate-500 */
+}
+
+.oneContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-20
+  lg:gap-y-0
+  /* border border-red-700 */
+
+  /* px-6
+  lg:px-14 */
+  /* @apply container */
+}
+
+.oneImage {
+  @apply h-[460px] w-full
+  flex justify-center items-center
+  lg:hidden
+}
+
+.oneImage img {
+  @apply
+  h-full min-w-fit w-fit
+  /* border */
+}
+
+.oneDetailsContainer {
+  @apply
+  font-applesd
+  w-full
+  flex justify-start items-start flex-col
+}
+
+.oneDetails {
+  @apply
+  w-full
+  flex justify-start items-start flex-col
+  lg:flex-row
+  lg:gap-x-36
+  3xl:gap-x-44
+}
+
+.oneDetails h3 {
+  @apply
+  text-2xl font-bold
+  text-white
+  hidden lg:block
+  whitespace-nowrap
+}
+
+.oneDetails div {
+  @apply
+  text-left
+  text-white opacity-60
+  text-lg
+  leading-loose
+  lg:leading-normal
+  lg:opacity-100
+  flex justify-start items-start flex-col
+  gap-y-8
+  md:gap-y-6
+  lg:gap-y-4
+}
+
+
+/* two */
+.twoSection {
+  @apply mt-52
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  hidden
+  lg:block
+}
+
+.twoContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-8
+}
+
+.twoTitle {
+  @apply text-white
+}
+
+.twoTitle h3 {
+  @apply font-applesd font-bold
+  text-[32px]
+}
+
+.twoBottom {
+  @apply w-full
+  flex justify-between items-start flex-row
+  gap-x-4
+  3xl:gap-x-8
+}
+
+
+
+.twoDetailsContainer {
+  @apply 3xl:min-w-fit
+}
+
+.twoDetails {
+  @apply  text-white font-applesd
+  space-y-16
+  mt-24
+  3xl:mt-36
+  whitespace-nowrap
+}
+
+.twoDetails h4 {
+  @apply text-[28px] font-medium
+}
+
+.twoDetails div {
+  @apply space-y-4 text-xl
+}
+
+.twoImage {
+  @apply h-full
+  min-h-[auto]
+  3xl:min-h-[750px]
+  3xl:min-w-fit
+  flex justify-end items-center
+  overflow-visible
+  3xl:grow
+}
+
+.twoImage img {
+  @apply
+  lg:min-h-[580px]
+  3xl:max-h-[750px]
+  w-auto
+  object-cover
+  overflow-visible
+}
+
+
+
+/* three */
+.threeSection {
+ @apply mt-40 text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+}
+
+.threeContainer {
+  @apply w-full
+  flex justify-start items-center flex-col
+  lg:justify-between lg:items-start lg:flex-row
+}
+
+.threeImage {
+  @apply
+  flex justify-center items-end
+  lg:justify-start
+  h-[640px] w-full
+  lg:h-[800px]
+}
+
+.threeImage img {
+  @apply
+  h-full w-fit
+  object-contain
+}
+
+.threeDetails {
+  @apply w-full font-applesd
+  leading-10 opacity-60
+  text-lg
+  lg:text-xl lg:opacity-100
+  mt-20
+  lg:mt-36
+}
+
+.threeDetails p {
+  @apply inline-block
+  lg:block
+}
+
+.threeDetails p br {
+  @apply
+  hidden
+  lg:block
+}
+
+
+/* four */
+.fourSection {
+ @apply text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  mt-40 lg:-mt-36
+}
+
+.fourContainer {
+  @apply w-full
+  flex justify-start items-center flex-col
+  lg:justify-end lg:items-end lg:flex-row-reverse
+}
+
+.fourImage {
+  @apply h-[540px]
+  w-full
+  flex justify-center items-center
+  lg:justify-end
+  lg:w-fit
+  lg:min-w-fit
+}
+
+
+.fourImage img {
+  @apply h-full min-w-fit w-fit
+}
+
+.fourDetails {
+  @apply w-full
+  font-applesd leading-10
+  text-lg lg:text-xl
+  opacity-60 lg:opacity-100
+  mt-12 lg:mt-0 lg:mb-24
+  flex justify-start
+  lg:justify-end
+  lg:leading-loose
+  lg:grow
+}
+
+.fourDetails p {
+  @apply text-left
+  w-fit
+}
+
+.fourDetails p span br {
+  @apply hidden lg:block
+}
+
+
+
+
+/* five */
+.fiveSection {
+ @apply
+ text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  mt-40
+  lg:mt-72
+}
+
+.fiveContainer {
+  @apply
+  w-full
+  flex justify-start items-start flex-col
+  gap-y-16
+  lg:gap-y-0
+}
+
+.fiveTitle {
+  @apply
+  w-full
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  font-applesd text-[32px] font-bold
+}
+
+.fiveBottom {
+  @apply
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  w-full flex justify-center items-center flex-col
+  lg:justify-between lg:items-end lg:flex-row-reverse
+  gap-y-16 lg:gap-y-0
+  lg:-mt-14
+}
+
+.fiveImage {
+  @apply
+  flex justify-end items-end
+  min-h-[460px]
+  max-h-[460px]
+  lg:max-h-[580px]
+  lg:min-h-[580px]
+
+  2xl:max-h-[680px]
+  2xl:min-h-[680px]
+
+  3xl:max-h-[740px]
+  3xl:min-h-[740px]
+  /* border */
+}
+
+
+.fiveImage img {
+  @apply
+  w-auto
+  /* min-w-fit */
+  /* max-w-[auto] */
+  min-h-[460px]
+  max-h-[460px]
+  lg:max-h-[580px]
+  lg:min-h-[580px]
+
+  2xl:max-h-[680px]
+  2xl:min-h-[680px]
+
+  3xl:max-h-[740px]
+  3xl:min-h-[740px]
+  object-cover
+  /* border border-red-500 */
+  lg:overflow-visible
+}
+
+.fiveDetails {
+  @apply
+  w-full
+  px-6 lg:px-0
+  text-lg lg:text-xl leading-10
+  lg:w-fit lg:whitespace-nowrap
+  lg:mb-20
+  flex justify-start items-start flex-col
+  gap-y-8
+}
+
+.fiveDetails h3 {
+  @apply font-applesd text-[28px] font-bold
+}
+
+.fiveDetails p {
+  @apply opacity-60
+  lg:opacity-100
+  leading-10
+}
+
+/* .fiveDetails p span:nth-child(even){
+  @apply font-bold
+} */
+
+.fiveDetails br {
+  @apply hidden lg:block
+}
+
+
+/* six */
+.sixSection {
+ @apply
+  text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  mt-40
+  mb-20
+  lg:mt-72
+}
+
+
+.sixContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:justify-between
+  lg:flex-row
+  lg:items-start
+  lg:gap-x-16
+  gap-y-16
+  lg:gap-y-0
+}
+
+
+.sixImage {
+  @apply
+  w-full lg:w-fit
+  relative
+  px-0
+}
+
+.sixCircleContainer {
+  @apply relative
+  flex justify-end items-start
+  lg:hidden
+}
+
+.sixCircle {
+  @apply bg-[#5764DC]
+  bg-opacity-60
+  h-48 w-48
+  rounded-full
+  -mr-8
+  sm:mr-0
+}
+
+.sixImageMobile {
+  @apply
+  h-[280px]
+  sm:h-[360px]
+  md:h-[440px]
+  lg:hidden
+  flex justify-start items-center
+}
+
+.sixImageMobile img {
+  @apply h-full min-w-fit w-fit
+}
+
+.sixImageDesktop {
+  @apply hidden lg:flex
+  w-fit
+  /* border */
+}
+
+.sixImageDesktop img {
+  @apply
+  3xl:max-h-[710px]
+  object-cover
+  overflow-visible
+  /* border */
+}
+
+.sixDetails {
+  @apply
+  text-left
+  lg:mt-28
+  px-6 lg:px-0
+}
+
+.sixDetails p {
+  @apply
+  font-applesd
+  text-lg
+  lg:text-xl
+  opacity-60
+  lg:opacity-100
+  lg:whitespace-nowrap
+}
+
+.sixDetails p span {
+  @apply leading-10
+}
+
+.sixDetails p br {
+  @apply hidden lg:block
+}

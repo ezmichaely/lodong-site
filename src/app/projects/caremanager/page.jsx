@@ -1,5 +1,11 @@
-import Image from "next/image"
-import HeroCaremanager from './HeroCaremanager/HeroCaremanager'
+
+import {
+  Hero,
+  // Section01, Section02,
+  // Section03, Section04,
+  // Section05, Section06
+} from './sections'
+
 import styles from "./caremanager.module.css"
 import {
   ScrollTop,
@@ -9,17 +15,18 @@ import {
   title,
   details
 } from '@/constants/project/caremanager'
-import {
-  caremanagerMain, caremanagerSub,
-  caremanager01, caremanager02, caremanager03,
-  caremanager04, caremanager05, caremanager06,
-  caremanagerMainMobile, caremanager01Mobile, caremanager05Mobile,
-  caremanager06Mobile,
-  caremanagerMainMobile1,
-} from '@/assets/images'
+
+// import {
+//   caremanagerMain, caremanagerSub,
+//   caremanager01, caremanager02, caremanager03,
+//   caremanager04, caremanager05, caremanager06,
+//   caremanagerMainMobile, caremanager01Mobile, caremanager05Mobile,
+//   caremanager06Mobile,
+//   caremanagerMainMobile1,
+// } from '@/assets/images2'
 
 export const metadata = {
-  title: 'Care Management - Project | Lodong',
+  title: 'Care Manager - Project | Lodong',
   description: 'A Software Company that provide solutions, based in Gyeonggi-do, South Korea',
 }
 
@@ -27,12 +34,12 @@ const page = () => {
   return (
     <main className={styles.main}>
       <Breadcrumb title={title} />
-      <HeroCaremanager details={details} />
+      <Hero details={details} />
 
 
 
       {/* section 1 */}
-      <section className={styles.oneSection}>
+      {/* <section className={styles.oneSection}>
         <div className={styles.oneContainer}>
           <div className={styles.oneImage}>
             <Image src={caremanager01Mobile} alt="caremanager01" />
@@ -48,10 +55,10 @@ const page = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* section 2 */}
-      <section className={styles.twoSection}>
+      {/* <section className={styles.twoSection}>
         <div className={styles.twoContainer}>
           <div className={styles.twoImage}>
             <Image src={caremanager03} alt="caremanager03" />
@@ -61,10 +68,10 @@ const page = () => {
             <p> 날짜, 작업 현황, 시간을 확인하고 작업 가능한 직원에게 배정할 수 있습니다. </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* section 3 */}
-      <section className={styles.threeSection}>
+      {/* <section className={styles.threeSection}>
         <div className={styles.threeContainer}>
           <div className={styles.threeImage}>
             <Image src={caremanager04} alt="caremanager04"/>
@@ -76,10 +83,10 @@ const page = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* section 4 */}
-      <section className={styles.fourSection}>
+      {/* <section className={styles.fourSection}>
         <div className={styles.fourContainer}>
           <div className={styles.fourTitle}>
             <h3> WEB </h3>
@@ -106,10 +113,10 @@ const page = () => {
           </div>
 
         </div>
-      </section>
+      </section> */}
 
       {/* section 5 */}
-      <section className={styles.fiveSection}>
+      {/* <section className={styles.fiveSection}>
         <div className={styles.fiveContainer}>
           <div className={styles.fiveImage}>
             <div className="circleContainer">
@@ -129,7 +136,7 @@ const page = () => {
             <p> 구독 시작, 최근 결제일 등으로 구독자를 관리하고 더 나은 서비스를 제안합니다. </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
 
 

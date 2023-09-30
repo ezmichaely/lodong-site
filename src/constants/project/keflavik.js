@@ -1,13 +1,13 @@
 import {
-  keflavik01,
-  keflavikMainMobile,
+  keflavik00M,
+  keflavik00D,
 } from '@/assets/images'
 
 export const title = '케플라비크';
 export const details = {
   img: {
-    mobile: keflavikMainMobile,
-    desktop:keflavik01
+    mobile: keflavik00M,
+    desktop: keflavik00D,
   },
   title: {
     p: '시공부터 결제까지 한 번에 해결 !',

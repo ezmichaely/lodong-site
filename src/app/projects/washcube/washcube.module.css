@@ -1,0 +1,6 @@
+.main {
+  @apply
+  bg-black
+  h-full w-full
+  border-0 border-transparent
+}

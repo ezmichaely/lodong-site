@@ -1,0 +1,152 @@
+.heroSection {
+  @apply w-screen
+  /* border */
+}
+
+.heroContainer {
+  @apply w-full
+  flex justify-start items-center flex-col
+  gap-y-28
+  lg:gap-y-0
+}
+
+.heroTop {
+  @apply
+  w-screen max-w-screen-4xl mx-auto
+  flex justify-center items-center flex-col
+  gap-y-16 lg:gap-y-0
+  lg:flex-row-reverse
+  px-0
+  lg:px-14
+  2xl:px-[150px]
+  3xl:px-[250px]
+  lg:gap-x-4
+  lg:justify-between
+  xl:justify-around
+
+  mt-12
+}
+
+.heroImage {
+  @apply
+  bg-[#010101]
+  lg:bg-none
+  min-h-[440px]
+  max-h-[440px]
+  lg:min-h-[540px]
+  lg:max-h-[540px]
+  w-full lg:grow
+  overflow-x-visible
+  overflow-y-hidden
+  flex
+  /* justify-start */
+  justify-center
+  items-center
+  /* md:items-end */
+  md:justify-end
+  lg:items-center
+  flex-row
+  /* 2xl:justify-center */
+
+  /* border border-red-600 */
+
+}
+
+.heroImageMobile {
+  @apply block lg:hidden
+  min-h-[440px]
+  max-h-[440px]
+  /* mr-6 xs:mr-3 sm:mr-0 */
+  object-cover
+  overflow-x-visible
+  /* md:object-contain */
+
+  /* border */
+}
+
+.heroImageDesktop {
+   @apply hidden lg:block
+    /* min-w-fit */
+    w-auto
+    max-h-[540px]
+    lg:min-h-[440px]
+    /* 2xl:min-h-[540px] */
+    /* object-cover */
+    object-contain
+    /* border border-red-600 */
+    overflow-x-visible
+}
+
+
+.heroTitleContainer {
+  @apply w-full
+  flex justify-center items-center flex-col
+  lg:items-start
+  2xl:justify-center
+  lg:w-fit
+  /* xl:items-center */
+  /* border */
+
+}
+
+.heroTitle {
+  @apply
+  w-fit
+  flex justify-center items-center flex-col gap-y-4
+  lg:items-start
+
+  /* border */
+}
+
+.heroTitle p {
+  @apply
+  font-applesd text-aicity-lighter tracking-tighter
+  text-base lg:text-lg 2xl:text-xl
+}
+
+.heroTitle h1 {
+  @apply font-inter tracking-tighter
+  text-white font-bold whitespace-nowrap
+  text-5xl lg:text-6xl 2xl:text-7xl
+}
+
+.heroDetailsContainer {
+  @apply
+  w-screen block
+  py-4
+  lg:py-6
+  px-6 lg:px-14
+  xl:px-20 3xl:px-64
+  lg:bg-aicity-lighter
+}
+
+
+.heroDetails {
+  @apply
+  w-full
+  max-w-screen-4xl mx-auto
+  text-center
+  flex justify-center items-center flex-wrap flex-row
+  gap-x-8 gap-y-3
+  lg:gap-x-12
+  xl:gap-x-16
+  2xl:gap-x-36
+  3xl:gap-x-48
+
+  text-white
+  lg:text-black
+}
+
+.heroDetails p {
+  @apply font-inter
+  space-x-4 tracking-tight text-lg
+}
+
+.heroDetails p span:first-child {
+  @apply font-bold
+}
+
+.heroDetails p span:nth-child(2) {
+  @apply opacity-60
+  lg:opacity-100
+}

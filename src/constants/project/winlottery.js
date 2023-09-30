@@ -1,13 +1,13 @@
 import {
-  winlottery01,
-  winlotteryMainMobile,
+  winlottery00M,
+  winlottery00D,
 } from '@/assets/images'
 
 export const title = '내꿈은 로또 1등';
 export const details = {
   img: {
-    mobile: winlotteryMainMobile,
-    desktop:winlottery01
+    mobile: winlottery00M,
+    desktop: winlottery00D,
   },
   title: {
     p: '시공부터 결제까지 한 번에 해결 !',

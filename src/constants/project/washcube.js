@@ -1,13 +1,12 @@
 import {
-  washcube01,
-  washcubeMainMobile,
+  washcube00,
 } from '@/assets/images'
 
 export const title = 'WASHCUBE';
 export const details = {
   img: {
-    mobile: washcubeMainMobile,
-    desktop:washcube01
+    mobile: washcube00,
+    // desktop: washcube00,
   },
   title: {
     p: '세차장 키오스크 서비스',

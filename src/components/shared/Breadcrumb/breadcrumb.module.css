@@ -11,7 +11,11 @@
 }
 
 .breadcrumbContentRight {
-  @apply text-white flex justify-start items-center flex-row gap-x-3
+  @apply text-white
+  flex justify-start items-center flex-row
+  gap-x-3
+  flex-wrap
+  /* border */
 }
 
 .breadcrumbContentRight a  {
@@ -23,5 +27,5 @@
 }
 
 .breadcrumbContentRight h6 {
-  @apply tracking-tight opacity-60
+  @apply tracking-tight opacity-60 whitespace-nowrap
 }

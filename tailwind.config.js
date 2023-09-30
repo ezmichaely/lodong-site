@@ -22,6 +22,7 @@ module.exports = {
       backgroundImage: {
         main: 'url("/images/bg/bg_home.png")',
         hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
+        imgWinlottery: 'url("/projects/winlottery/winlottery00MBG.png")',
       },
       borderRadius: {
         '2.5xl': '20px',
@@ -94,18 +95,22 @@ module.exports = {
         rugolf: {
           DEFAULT: '#084520',
           light: '#26A38B',
+          lighter: '#33F580',
         },
         caremanager: {
           DEFAULT: '#0076B5',
           light: '#7790D0',
+          lighter: '#0FA9FC',
         },
         washcube: {
           DEFAULT: '#004D9E',
           light: '#004BB4',
+          lighter: '#0FA9FC',
         },
         aicity: {
           DEFAULT: '#F6EFE0',
           light: '#EBDAC6',
+          lighter: '#F2C695',
         },
         winlottery: {
           DEFAULT: '#2933D1',

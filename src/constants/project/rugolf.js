@@ -1,13 +1,13 @@
 import {
-  rugolf01,
-  rugolfMainMobile,
+  rugolf00M,
+  rugolf00D,
 } from '@/assets/images'
 
 export const title = 'RU GOLF';
 export const details = {
   img: {
-    mobile: rugolfMainMobile,
-    desktop:rugolf01
+    mobile: rugolf00M,
+    desktop: rugolf00D,
   },
   title: {
     p: '스크린 골프 예약 시스템',
