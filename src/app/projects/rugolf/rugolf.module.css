@@ -759,7 +759,8 @@
 .eightContainer {
   @apply w-full
   flex justify-start items-start flex-col
-  lg:justify-between lg:flex-row
+  /* lg:justify-between */
+   lg:flex-row
   gap-x-12
 }
 
@@ -770,7 +771,7 @@
   flex justify-end items-center
   sm:justify-center
   lg:justify-start
-  lg:grow
+  lg:w-fit
   h-[460px]
   lg:h-[620px]
   3xl:h-[700px]
@@ -806,7 +807,7 @@
 
 .eightDetails p {
   @apply text-left
-  w-fit
+  /* w-fit */
   lg:whitespace-nowrap
 }
 
