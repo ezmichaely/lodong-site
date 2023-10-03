@@ -23,6 +23,7 @@ module.exports = {
         main: 'url("/images/bg/bg_home.png")',
         hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
         imgWinlottery: 'url("/projects/winlottery/winlottery00MBG.png")',
+        imgRugolf: 'url("/projects/rugolf/rugolf03BG.png")'
       },
       borderRadius: {
         '2.5xl': '20px',

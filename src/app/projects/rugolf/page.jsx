@@ -35,6 +35,15 @@ const page = () => {
     <main className={styles.main}>
       <Breadcrumb title={title} />
       <Hero details={details} />
+      <Section01 />
+      <Section02 />
+      <Section03 />
+      <Section04 />
+      <Section05 />
+      <Section06 />
+      {/* <Section07 />
+      <Section08 /> */}
+
       <ScrollTop />
     </main>
   )

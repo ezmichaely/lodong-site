@@ -18,6 +18,9 @@
  3xl:px-[400px]
  lg:mt-48
  /* bg-slate-500 */
+
+ hidden
+ lg:block
 }
 
 .oneContainer {
@@ -25,23 +28,6 @@
   flex justify-start items-start flex-col
   gap-y-20
   lg:gap-y-0
-  /* border border-red-700 */
-
-  /* px-6
-  lg:px-14 */
-  /* @apply container */
-}
-
-.oneImage {
-  @apply h-[460px] w-full
-  flex justify-center items-center
-  lg:hidden
-}
-
-.oneImage img {
-  @apply
-  h-full min-w-fit w-fit
-  /* border */
 }
 
 .oneDetailsContainer {
@@ -94,8 +80,8 @@
   2xl:px-[280px]
   3xl:px-[400px]
 
-  hidden
-  lg:block
+  /* hidden
+  lg:block */
 }
 
 .twoContainer {
@@ -106,6 +92,8 @@
 
 .twoTitle {
   @apply text-white
+  hidden
+  lg:block
 }
 
 .twoTitle h3 {
@@ -115,51 +103,90 @@
 
 .twoBottom {
   @apply w-full
-  flex justify-between items-start flex-row
+  flex justify-between items-start
+  flex-col
+  lg:flex-row-reverse
+
   gap-x-4
   3xl:gap-x-8
 }
 
-
-
-.twoDetailsContainer {
-  @apply 3xl:min-w-fit
-}
-
-.twoDetails {
-  @apply  text-white font-applesd
-  space-y-16
-  mt-24
-  3xl:mt-36
-  whitespace-nowrap
-}
-
-.twoDetails h4 {
-  @apply text-[28px] font-medium
-}
-
-.twoDetails div {
-  @apply space-y-4 text-xl
-}
-
 .twoImage {
-  @apply h-full
-  min-h-[auto]
-  3xl:min-h-[750px]
-  3xl:min-w-fit
-  flex justify-end items-center
+  @apply
+  w-full
+  min-h-[470px]
+  /* 3xl:min-w-fit */
+  flex
+  justify-center
+  items-center
+  lg:justify-end
   overflow-visible
-  3xl:grow
+  lg:min-h-[560px]
+  lg:max-h-[560px]
+  2xl:min-h-[660px]
+  2xl:max-h-[660px]
+  3xl:min-h-[750px]
+  3xl:max-h-[750px]
+  /* 3xl:grow */
+  /* border */
 }
 
 .twoImage img {
   @apply
-  lg:min-h-[580px]
+  min-h-[470px]
+  max-h-[470px]
+  lg:min-h-[560px]
+  lg:max-h-[560px]
+  2xl:min-h-[660px]
+  2xl:max-h-[660px]
+  3xl:min-h-[750px]
   3xl:max-h-[750px]
-  w-auto
+  w-fit
   object-cover
   overflow-visible
+
+  mr-16
+  lg:mr-0
+
+  /* border */
 }
+
+
+.twoDetailsContainer {
+  @apply 3xl:min-w-fit
+  mt-14
+  lg:mt-28
+}
+
+.twoDetails1 {
+  @apply text-white opacity-60
+  font-applesd
+  space-y-8
+
+  lg:hidden
+}
+
+.twoDetails2 {
+  @apply
+
+  text-white font-applesd
+  hidden
+  lg:flex justify-start flex-col
+  gap-y-8
+  /* border */
+  whitespace-nowrap
+}
+
+.twoDetails2 h4 {
+  @apply text-[28px] font-medium
+}
+
+.twoDetails2 div {
+  @apply text-xl leading-loose
+}
+
+
+
 
 
 
@@ -169,24 +196,28 @@
   max-w-screen-4xl
   w-screen
   mx-auto
-  px-6 lg:px-14
+  px-0 lg:px-14
   xl:px-36
   2xl:px-[280px]
   3xl:px-[400px]
+  lg:hidden
 }
 
 .threeContainer {
   @apply w-full
-  flex justify-start items-center flex-col
-  lg:justify-between lg:items-start lg:flex-row
+  flex justify-start items-start flex-col
+  gap-y-14
 }
 
-.threeImage {
+.threeImage1 {
+  background-position: center bottom;
   @apply
+  bg-imgRugolf
+  bg-no-repeat
   flex justify-center items-end
-  lg:justify-start
-  h-[640px] w-full
-  lg:h-[800px]
+  w-full
+  h-[640px]
+  pb-40
 }
 
 .threeImage img {
@@ -196,12 +227,12 @@
 }
 
 .threeDetails {
-  @apply w-full font-applesd
-  leading-10 opacity-60
+  @apply
+  px-6
+  w-full font-applesd
+  leading-normal opacity-60
   text-lg
-  lg:text-xl lg:opacity-100
-  mt-20
-  lg:mt-36
+  /* mt-14 */
 }
 
 .threeDetails p {
@@ -213,6 +244,25 @@
   @apply
   hidden
   lg:block
+}
+
+.threeImage2 {
+  @apply
+  flex justify-end items-end
+  w-full
+  /* border */
+}
+
+.threeImage2 img {
+  @apply
+  w-fit
+  min-h-[260px]
+  max-h-[260px]
+  object-cover
+  overflow-x-visible
+  pl-[60%]
+  sm:pl-[40%]
+  md:pl-[20%]
 }
 
 
@@ -227,24 +277,25 @@
   2xl:px-[280px]
   3xl:px-[400px]
 
-  mt-40 lg:-mt-36
+  mt-40
 }
 
 .fourContainer {
   @apply w-full
   flex justify-start items-center flex-col
-  lg:justify-end lg:items-end lg:flex-row-reverse
+  lg:justify-end lg:items-end lg:flex-row
 }
 
 .fourImage {
-  @apply h-[540px]
+  @apply
+  h-[460px]
   w-full
   flex justify-center items-center
   lg:justify-end
   lg:w-fit
   lg:min-w-fit
+  lg:h-[640px]
 }
-
 
 .fourImage img {
   @apply h-full min-w-fit w-fit
@@ -255,7 +306,7 @@
   font-applesd leading-10
   text-lg lg:text-xl
   opacity-60 lg:opacity-100
-  mt-12 lg:mt-0 lg:mb-24
+  mt-12 lg:mt-0 lg:mb-48
   flex justify-start
   lg:justify-end
   lg:leading-loose
@@ -265,6 +316,7 @@
 .fourDetails p {
   @apply text-left
   w-fit
+  lg:whitespace-nowrap
 }
 
 .fourDetails p span br {
@@ -277,10 +329,15 @@
 /* five */
 .fiveSection {
  @apply
+  hidden lg:block
  text-white
   max-w-screen-4xl
   w-screen
   mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
   mt-40
   lg:mt-72
 }
@@ -288,31 +345,8 @@
 .fiveContainer {
   @apply
   w-full
-  flex justify-start items-start flex-col
-  gap-y-16
-  lg:gap-y-0
-}
-
-.fiveTitle {
-  @apply
-  w-full
-  px-6 lg:px-14
-  xl:px-36
-  2xl:px-[280px]
-  3xl:px-[400px]
-  font-applesd text-[32px] font-bold
-}
-
-.fiveBottom {
-  @apply
-  px-0 lg:px-14
-  xl:px-36
-  2xl:px-[280px]
-  3xl:px-[400px]
-  w-full flex justify-center items-center flex-col
-  lg:justify-between lg:items-end lg:flex-row-reverse
-  gap-y-16 lg:gap-y-0
-  lg:-mt-14
+  flex justify-between items-center flex-row
+  gap-x-16
 }
 
 .fiveImage {
@@ -363,22 +397,11 @@
   gap-y-8
 }
 
-.fiveDetails h3 {
-  @apply font-applesd text-[28px] font-bold
-}
 
 .fiveDetails p {
-  @apply opacity-60
-  lg:opacity-100
+  @apply
+  opacity-100
   leading-10
-}
-
-/* .fiveDetails p span:nth-child(even){
-  @apply font-bold
-} */
-
-.fiveDetails br {
-  @apply hidden lg:block
 }
 
 
@@ -394,7 +417,7 @@
   2xl:px-[280px]
   3xl:px-[400px]
   mt-40
-  mb-20
+  /* mb-20 */
   lg:mt-72
 }
 
@@ -410,6 +433,14 @@
   lg:gap-y-0
 }
 
+.sixTitle {
+  @apply text-white
+}
+
+.sixTitle h3 {
+  @apply font-applesd font-bold
+  text-[32px]
+}
 
 .sixImage {
   @apply
@@ -418,28 +449,11 @@
   px-0
 }
 
-.sixCircleContainer {
-  @apply relative
-  flex justify-end items-start
-  lg:hidden
-}
-
-.sixCircle {
-  @apply bg-[#5764DC]
-  bg-opacity-60
-  h-48 w-48
-  rounded-full
-  -mr-8
-  sm:mr-0
-}
-
 .sixImageMobile {
   @apply
-  h-[280px]
-  sm:h-[360px]
-  md:h-[440px]
+  h-[340px]
   lg:hidden
-  flex justify-start items-center
+  flex justify-center items-center
 }
 
 .sixImageMobile img {

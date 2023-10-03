@@ -1,7 +1,7 @@
 import Image from "next/image"
 import {
-  keflavik06M,
-  keflavik06D,
+  rugolf06D,
+  rugolf06M
 } from '@/assets/images'
 import styles from '../rugolf.module.css'
 
@@ -9,17 +9,17 @@ export default function Section06() {
   return (
     <section className={styles.sixSection}>
       <div className={styles.sixContainer}>
-        <div className={styles.sixImage}>
-          <div className={styles.sixCircleContainer}>
-            <div className={styles.sixCircle}></div>
-          </div>
+        <div className={styles.sixTitle}>
+          <h3>WEB</h3>
+        </div>
 
+        <div className={styles.sixImage}>
           <div className={styles.sixImageMobile}>
-            <Image src={keflavik06M} alt="keflavik06M"/>
+            <Image src={rugolf06M} alt="rugolf06M"/>
           </div>
 
           <div className={styles.sixImageDesktop}>
-            <Image src={keflavik06D} alt="keflavik06D"/>
+            <Image src={rugolf06D} alt="rugolf06D"/>
           </div>
         </div>
 

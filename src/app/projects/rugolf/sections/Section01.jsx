@@ -1,27 +1,19 @@
 import Image from "next/image"
-import {
-  rugolf01,
-} from '@/assets/images'
 import styles from '../rugolf.module.css'
 
 export default function Section01() {
   return (
     <section className={styles.oneSection}>
       <div className={styles.oneContainer}>
-        <div className={styles.oneImage}>
-          <Image src={rugolf01} alt="rugolf01" />
-        </div>
-
         <div className={styles.oneDetailsContainer}>
           <div className={styles.oneDetails}>
-            <h3>케플라비크</h3>
+            <h3>RU GOLF</h3>
             <div>
               <p>
-                오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
-                있습니다.
+                스크린 골프 아카데미로 당일예약을 원칙으로 타석별, 강사별로 예약할 수 있는 서비스입니다.
               </p>
               <p>
-                종이계약서보다 번거롭지 않고 바로 기록이 남는 전자계약서로 편리한 계약시스템을 이용할 수 있습니다.
+                사용자가 원하는 시간에 예약하면 관리자용 웹으로 소리와 함께 알림이 떠 바로 확인이 가능합니다.
               </p>
             </div>
           </div>
