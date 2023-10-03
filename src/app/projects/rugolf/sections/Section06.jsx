@@ -1,7 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf06D,
-  rugolf06M
+  rugolf06,
 } from '@/assets/images'
 import styles from '../rugolf.module.css'
 
@@ -13,23 +12,22 @@ export default function Section06() {
           <h3>WEB</h3>
         </div>
 
-        <div className={styles.sixImage}>
-          <div className={styles.sixImageMobile}>
-            <Image src={rugolf06M} alt="rugolf06M"/>
+        <div className={styles.sixBottom}>
+          <div className={styles.sixImage}>
+            <Image src={rugolf06} alt="rugolf06"/>
           </div>
 
-          <div className={styles.sixImageDesktop}>
-            <Image src={rugolf06D} alt="rugolf06D"/>
+          <div className={styles.sixDetails}>
+            <h4>설계</h4>
+            <p>
+              <span>예약정보를 웹사트로 불러와 </span>
+              <span className="lg:font-bold">
+                알림이 울리고
+              </span> <br />
+              <span className="lg:font-bold">카테고리 별로 예약현황</span>
+              <span>을 알 수 있습니다.</span>
+            </p>
           </div>
-        </div>
-
-        <div className={styles.sixDetails}>
-          <p>
-            <span>구독 시작, 최근 결제일 등으로 </span> <br />
-            <span className="font-bold">구독자를 관리</span>
-            <span>하고 </span> <br />
-            <span>더 나은 서비스를 제안합니다.</span>
-          </p>
         </div>
       </div>
     </section>

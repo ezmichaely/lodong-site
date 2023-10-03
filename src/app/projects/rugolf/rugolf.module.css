@@ -7,7 +7,8 @@
 
 /* one */
 .oneSection {
- @apply mt-24
+ @apply
+ mt-40
  max-w-screen-4xl
  w-screen
  mx-auto
@@ -16,7 +17,7 @@
  xl:px-36
  2xl:px-[280px]
  3xl:px-[400px]
- lg:mt-48
+ /* lg:mt-48 */
  /* bg-slate-500 */
 
  hidden
@@ -71,7 +72,9 @@
 
 /* two */
 .twoSection {
-  @apply mt-52
+  @apply
+  mt-40
+  lg:mt-72
   max-w-screen-4xl
   w-screen
   mx-auto
@@ -192,7 +195,10 @@
 
 /* three */
 .threeSection {
- @apply mt-40 text-white
+ @apply
+  mt-40
+  lg:mt-72
+  text-white
   max-w-screen-4xl
   w-screen
   mx-auto
@@ -278,6 +284,7 @@
   3xl:px-[400px]
 
   mt-40
+  lg:mt-72
 }
 
 .fourContainer {
@@ -319,7 +326,7 @@
   lg:whitespace-nowrap
 }
 
-.fourDetails p span br {
+.fourDetails p br {
   @apply hidden lg:block
 }
 
@@ -412,25 +419,20 @@
   max-w-screen-4xl
   w-screen
   mx-auto
-  px-0 lg:px-14
+  px-6 lg:px-14
   xl:px-36
   2xl:px-[280px]
   3xl:px-[400px]
   mt-40
-  /* mb-20 */
   lg:mt-72
+  /* mb-20 */
 }
 
 
 .sixContainer {
   @apply w-full
   flex justify-start items-start flex-col
-  lg:justify-between
-  lg:flex-row
-  lg:items-start
-  lg:gap-x-16
-  gap-y-16
-  lg:gap-y-0
+  gap-y-8
 }
 
 .sixTitle {
@@ -442,44 +444,70 @@
   text-[32px]
 }
 
-.sixImage {
+.sixBottom {
   @apply
-  w-full lg:w-fit
-  relative
-  px-0
-}
+  w-full
+  flex
+  justify-start
+  flex-col
+  items-start
+  lg:justify-between
+  lg:flex-row
+  lg:items-end
+  lg:gap-x-4
 
-.sixImageMobile {
-  @apply
-  h-[340px]
-  lg:hidden
-  flex justify-center items-center
-}
+  /* lg:h-[620px]
+  2xl:h-[830px] */
 
-.sixImageMobile img {
-  @apply h-full min-w-fit w-fit
-}
-
-.sixImageDesktop {
-  @apply hidden lg:flex
-  w-fit
   /* border */
 }
 
-.sixImageDesktop img {
+.sixImage {
   @apply
-  3xl:max-h-[710px]
-  object-cover
-  overflow-visible
+  w-full
+  lg:grow
+  relative
+  h-[440px]
+  lg:h-[620px]
+  2xl:h-[830px]
+
+  flex justify-center items-center
+  lg:justify-start
+  px-0
+
+  /* border */
+}
+
+.sixImage img {
+  @apply
+  h-[440px]
+  lg:h-[620px]
+  2xl:h-[830px]
+  w-auto
+  object-contain
   /* border */
 }
 
 .sixDetails {
   @apply
+  flex justify-start items-start
+  flex-col
   text-left
-  lg:mt-28
-  px-6 lg:px-0
+  gap-y-6
+  mt-8
+  lg:mt-0
+  lg:mb-56
+  lg:w-fit
+  lg:justify-end
+
+  /* border border-red-600 */
 }
+
+.sixDetails h4 {
+  @apply
+  text-[28px] font-medium
+}
+
 
 .sixDetails p {
   @apply
@@ -489,6 +517,7 @@
   opacity-60
   lg:opacity-100
   lg:whitespace-nowrap
+  leading-10
 }
 
 .sixDetails p span {
@@ -496,5 +525,291 @@
 }
 
 .sixDetails p br {
+  @apply hidden lg:block
+}
+
+
+
+/* seven */
+.sevenSection {
+  @apply
+  text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  mt-40
+  lg:mt-72
+}
+
+.sevenContainer {
+  @apply
+  relative
+}
+
+
+.sevenImage {
+  @apply
+  h-[340px]
+  lg:h-[440px]
+  xl:h-[540px]
+  2xl:h-[640px]
+  3xl:h-[740px]
+  w-full
+  flex justify-center items-start
+  sm:justify-center
+}
+
+.sevenImgMobile {
+  @apply
+  lg:hidden
+  h-[340px]
+  w-full
+  flex justify-start items-start
+  sm:justify-center
+}
+
+.sevenImgMobile img {
+  @apply
+  h-[340px]
+  min-w-fit
+  w-fit
+
+  object-cover
+  block lg:hidden
+}
+
+.sevenImgDesktop {
+  @apply
+  hidden lg:flex
+  items-start
+  justify-center
+  lg:h-[440px]
+  xl:h-[540px]
+  2xl:h-[640px]
+  3xl:h-[740px]
+  min-w-fit
+  w-fit
+  object-cover
+  overflow-x-visible
+}
+
+.sevenImgDesktop img {
+  @apply
+  overflow-x-visible
+  lg:h-[440px]
+  xl:h-[540px]
+  2xl:h-[640px]
+  3xl:h-[740px]
+  min-w-fit
+  w-fit
+  object-cover
+}
+
+
+.sevenDetails {
+  @apply
+  flex justify-start items-start
+  flex-col
+  text-left
+  gap-y-6
+  mt-8
+  px-6 lg:px-0
+  4xl:absolute
+  4xl:bottom-[300px]
+  4xl:left-[23%]
+  /* border */
+}
+
+/* xl */
+@media only screen and (min-width: 1280px) and (max-width: 1330px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[12%]
+    bottom-[160px]
+  }
+}
+
+@media only screen and (min-width: 1331px) and (max-width: 1380px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[13%]
+    bottom-[160px]
+  }
+}
+
+@media only screen and (min-width: 1381px) and (max-width: 1430px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[14.5%]
+    bottom-[160px]
+  }
+}
+
+@media only screen and (min-width: 1431px) and (max-width: 1480px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[16%]
+    bottom-[160px]
+  }
+}
+
+@media only screen and (min-width: 1481px) and (max-width: 1535px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[19%]
+    bottom-[160px]
+  }
+}
+
+/* 2xl */
+@media only screen and (min-width: 1536px) and (max-width: 1720px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[9%]
+    bottom-[200px]
+  }
+}
+
+@media only screen and (min-width: 1721px) and (max-width: 1919px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[15%]
+    bottom-[200px]
+  }
+}
+
+/* 3xl */
+@media only screen and (min-width: 1920px) and (max-width: 2100px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[10%]
+    bottom-[300px]
+  }
+}
+
+@media only screen and (min-width: 2101px) and (max-width: 2300px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[15%]
+    bottom-[300px]
+  }
+}
+
+@media only screen and (min-width: 2301px) and (max-width: 2559px) {
+	.sevenDetails {
+    @apply
+    absolute
+    left-[20%]
+    bottom-[300px]
+  }
+}
+
+.sevenDetails h4 {
+  @apply
+  text-[28px] font-medium
+}
+
+
+.sevenDetails p {
+  @apply
+  font-applesd
+  text-lg
+  lg:text-xl
+  opacity-60
+  lg:opacity-100
+  lg:whitespace-nowrap
+  leading-10
+}
+
+
+.sevenDetails p br {
+  @apply hidden
+  lg:block
+}
+
+
+/* eight */
+.eightSection {
+ @apply text-white
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  mt-40
+  lg:mt-72
+}
+
+.eightContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:justify-between lg:flex-row
+  gap-x-12
+}
+
+.eightImage {
+  @apply
+
+  w-full
+  flex justify-end items-center
+  sm:justify-center
+  lg:justify-start
+  lg:grow
+  h-[460px]
+  lg:h-[620px]
+  3xl:h-[700px]
+
+  /* border */
+}
+
+.eightImage img {
+  @apply
+  h-[460px]
+  lg:h-[620px]
+  3xl:h-[700px]
+  w-fit
+  object-cover
+  overflow-x-visible
+}
+
+.eightDetails {
+  @apply w-full
+  font-applesd leading-10
+  text-lg lg:text-xl
+  opacity-60 lg:opacity-100
+  mt-12
+  lg:mt-32
+  xl:mt-24
+  /* 3xl:mt-32 */
+
+  flex justify-start
+  lg:leading-loose
+  lg:w-fit
+  px-6 lg:px-0
+}
+
+.eightDetails p {
+  @apply text-left
+  w-fit
+  lg:whitespace-nowrap
+}
+
+.eightDetails p br {
   @apply hidden lg:block
 }

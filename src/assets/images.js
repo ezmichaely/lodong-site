@@ -111,8 +111,8 @@ import rugolf03a from '~/projects/rugolf/rugolf03a.png'
 import rugolf03BG from '~/projects/rugolf/rugolf03BG.png'
 import rugolf04 from '~/projects/rugolf/rugolf04.png'
 import rugolf05 from '~/projects/rugolf/rugolf05.png'
-import rugolf06D from '~/projects/rugolf/rugolf06D.png'
-import rugolf06M from '~/projects/rugolf/rugolf06M.png'
+import rugolf06 from '~/projects/rugolf/rugolf06D.png'
+// import rugolf06M from '~/projects/rugolf/rugolf06M.png'
 import rugolf07D from '~/projects/rugolf/rugolf07D.png'
 import rugolf07M from '~/projects/rugolf/rugolf07M.png'
 import rugolf08 from '~/projects/rugolf/rugolf08.png'
@@ -201,7 +201,7 @@ export {
   rugolf02,
   rugolf03, rugolf03a, rugolf03BG,
   rugolf04, rugolf05,
-  rugolf06D, rugolf06M,
+  rugolf06,
   rugolf07D, rugolf07M,
   rugolf08,
 

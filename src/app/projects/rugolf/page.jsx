@@ -3,7 +3,8 @@ import {
   Hero,
   Section01, Section02,
   Section03, Section04,
-  Section05, Section06
+  Section05, Section06,
+  Section07, Section08
 } from './sections'
 
 import styles from "./rugolf.module.css"
@@ -41,8 +42,8 @@ const page = () => {
       <Section04 />
       <Section05 />
       <Section06 />
-      {/* <Section07 />
-      <Section08 /> */}
+      <Section07 />
+      <Section08 />
 
       <ScrollTop />
     </main>
