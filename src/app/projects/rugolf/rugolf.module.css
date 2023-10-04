@@ -171,7 +171,6 @@
 
 .twoDetails2 {
   @apply
-
   text-white font-applesd
   hidden
   lg:flex justify-start flex-col

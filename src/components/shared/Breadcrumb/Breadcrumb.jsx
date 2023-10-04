@@ -3,7 +3,7 @@ import { PiCaretRightBold } from 'react-icons/pi'
 import Image from "next/image"
 import {
   ArrowLeft
-} from '@/assets/images2'
+} from '@/assets/images'
 import styles from './breadcrumb.module.css'
 // i
 

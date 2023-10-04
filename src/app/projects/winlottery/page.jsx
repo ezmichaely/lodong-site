@@ -6,13 +6,7 @@ import {
 } from './sections'
 
 import styles from "./winlottery.module.css"
-import {
-  rugolfMain, rugolfSub,
-  rugolf01, rugolf02, rugolf03, rugolf04,
-  rugolf05, rugolf06, rugolf07,
-  rugolfMainMobile, rugolf01Mobile, rugolf02Mobile,
-  rugolf03Mobile, rugolf06Mobile, rugolf07Mobile,
-} from '@/assets/images2'
+
 
 import {
   ScrollTop,

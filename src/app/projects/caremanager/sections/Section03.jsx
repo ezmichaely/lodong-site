@@ -1,24 +1,41 @@
 import Image from "next/image"
 import {
-  rugolf03,
+  caremanager03,
 } from '@/assets/images'
 import styles from '../caremanager.module.css'
 
 export default function Section03() {
   return (
     <section className={styles.threeSection}>
-        <div className={styles.threeContainer}>
+      <div className={styles.threeContainer}>
+        <div className={styles.threeTitle}>
+          <h3>ANDROID</h3>
+        </div>
+
+        <div className={styles.threeBottom}>
           <div className={styles.threeImage}>
-            <Image src={rugolf03} alt="rugolf03" />
+            <Image src={caremanager03} alt="caremanager03" />
           </div>
 
-          <div className={styles.threeDetails}>
-            <p>
-              날짜, 작업 현황, 시간을 확인하고 <br />
-              작업 가능한 직원에게 <span className="font-bold">배정</span>할 수 있습니다.
-            </p>
+          <div className={styles.threeDetailsContainer}>
+            <div className={styles.threeDetails}>
+              <h4>설계</h4>
+              <div>
+                <p>
+                  <span>전자기기가 익숙하지 않은 어르신들을 위해 </span>
+                  <span className="lg:font-bold">간단하게</span> <br />
+                  <span className="lg:font-bold">함축시킨 UI를 사용</span>
+                  <span>하여 한 눈에 보이도록 설계했습니다.</span>
+                </p>
+              </div>
+            </div>
           </div>
+
+
+
+
         </div>
-      </section>
+      </div>
+    </section>
   )
 }

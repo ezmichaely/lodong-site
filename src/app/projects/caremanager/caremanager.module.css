@@ -1,177 +1,239 @@
 .main {
-  @apply bg-black
+  @apply text-white
+  bg-black
+  h-full w-full
+  border-0 border-transparent
 }
 
-/* one */
 .oneSection {
- @apply mt-24 text-white max-w-screen-4xl mx-auto w-screen px-6 lg:px-14;
+ @apply
+ /* mt-24 */
+ mt-40
+ max-w-screen-4xl
+ w-screen
+ mx-auto
+ px-6
+ lg:px-14
+ xl:px-36
+ 2xl:px-[280px]
+ 3xl:px-[400px]
+ /* lg:mt-48 */
+ /* bg-slate-500 */
+ /* lg:mt-72 */
 }
 
 .oneContainer {
-  /* @apply */
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-20
+  lg:gap-y-0
+  /* border border-red-700 */
+
+  /* px-6
+  lg:px-14 */
+  /* @apply container */
 }
 
 .oneImage {
-  @apply h-[460px] w-full flex justify-center items-center
+  @apply h-[430px] w-full
+  flex justify-center items-center
+  lg:hidden
 }
 
 .oneImage img {
-  @apply h-full min-w-fit w-fit
+  @apply
+  h-full min-w-fit w-fit
+  /* border */
+}
+
+.oneDetailsContainer {
+  @apply
+  font-applesd
+  w-full
+  flex justify-start items-start flex-col
 }
 
 .oneDetails {
-  @apply w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60
+  @apply
+  w-full
+  flex justify-start items-start flex-col
+  lg:flex-row
+  lg:gap-x-36
+  3xl:gap-x-44
+}
+
+.oneDetails h3 {
+  @apply
+  text-2xl font-bold
+  text-white
+  hidden lg:block
+  whitespace-nowrap
+}
+
+.oneDetails div {
+  @apply
+  text-left
+  text-white opacity-60
+  text-lg
+  leading-loose
+  lg:leading-normal
+  lg:opacity-100
+  flex justify-start items-start flex-col
+  gap-y-8
+  md:gap-y-6
+  lg:gap-y-4
 }
 
 /* two */
 .twoSection {
- @apply mt-40 text-white max-w-screen-4xl mx-auto w-screen px-6 lg:px-14
+  @apply
+  mt-40
+  lg:mt-72
+  /* mt-52 */
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  lg:hidden
 }
 
 .twoContainer {
-  @apply w-full flex justify-start items-center flex-col border border-lime-600
+  @apply
+  font-applesd
+  w-full
+  flex justify-start items-start flex-col
+  gap-y-14
 }
 
 .twoImage {
-  @apply h-[640px] w-full flex justify-center items-center
+  @apply w-full
+  flex justify-center items-center
+  h-[500px]
 }
 
 .twoImage img {
-  @apply h-full object-contain
+  @apply h-[500px]
+  w-fit
+  /* border */
 }
 
 .twoDetails {
-  @apply w-full font-applesd mt-12 text-lg leading-10 opacity-60
+  @apply
+  w-full font-applesd
+  leading-normal opacity-60
+  text-lg
+  /* mt-14 */
 }
+
+.twoDetails p {
+  @apply inline-block
+  lg:block
+}
+
 
 
 /* three */
 .threeSection {
- @apply mt-40 text-white
-        max-w-screen-4xl mx-auto w-screen ;
+  @apply
+  mt-40
+  lg:mt-72
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  /* hidden
+  lg:block */
 }
 
 .threeContainer {
-  @apply px-0 lg:px-14 w-full flex justify-start items-center flex-col
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-8
+}
+
+.threeTitle {
+  @apply text-white
+  hidden
+  lg:block
+}
+
+.threeTitle h3 {
+  @apply font-applesd font-bold
+  text-[32px]
+}
+
+.threeBottom {
+  @apply w-full
+  flex justify-between items-start
+  flex-col
+  lg:flex-row-reverse
+
+  gap-x-4
+  3xl:gap-x-8
 }
 
 .threeImage {
-  @apply h-[540px] w-full flex justify-center items-center
+  @apply
+  w-full
+  flex
+  justify-start
+  sm:justify-center
+  items-center
+  lg:justify-end
+  overflow-visible
+  h-[640px]
+  lg:h-[750px]
+  2xl:h-[860px]
+  3xl:h-[970px]
+  /* 3xl:grow */
+  /* border */
+}
+
+.threeImage img {
+  @apply
+  h-[640px]
+  lg:h-[750px]
+  2xl:h-[860px]
+  3xl:h-[970px]
+  w-fit
+  object-cover
+  overflow-visible
 }
 
 
-.threeImage img {
-  @apply h-full min-w-fit w-fit
+.threeDetailsContainer {
+  @apply 3xl:min-w-fit
+  mt-14
+  lg:mt-28
 }
 
 .threeDetails {
-  @apply px-6 lg:px-0 w-full font-applesd mt-12 space-y-4 text-lg leading-10 opacity-60
+  @apply
+  -mt-4
+  text-white font-applesd
+  flex justify-start flex-col
+  gap-y-8
 }
 
-/* four */
-.fourSection {
- @apply mt-40 text-white;
+.threeDetails h4 {
+  @apply text-[28px] font-medium
 }
 
-.fourContainer {
-  @apply w-full flex justify-start items-center flex-col
+.threeDetails div {
+  @apply text-xl leading-loose
+  opacity-60
+  lg:opacity-100
+  lg:whitespace-nowrap
 }
 
-.fourTitle {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36
-}
-
-.fourtitle h3 {
-
-}
-
-.fourImage {
-  @apply w-full flex justify-center items-center flex-col
-}
-
-
-.fourImage img {
-  @apply w-fit scale-125 sm:scale-100
-}
-
-.fourDetails {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 mt-24 space-y-8 text-lg leading-10
-}
-
-.fourDetails h3 {
-  @apply font-applesd text-2xl
-}
-
-.fourDetails p {
-  @apply opacity-60
-}
-
-.fourDetails p span:nth-child(odd){
-
-}
-
-.fourDetails p span:nth-child(even){
-  @apply font-bold
-}
-
-
-/* five */
-.fiveSection {
- @apply mt-40 text-white
-}
-
-
-.fiveContainer {
-  @apply w-full flex justify-start items-center flex-col lg:flex-row lg:max-w-screen-4xl lg:mx-auto lg:w-screen  border lg:gap-x-16 lg:items-start sm:px-6 lg:px-14 3xl:px-64
-}
-
-.fiveTitle {
-  @apply max-w-screen-4xl mx-auto w-screen px-6 lg:px-14 font-applesd text-3xl font-bold mb-36
-}
-
-.fivetitle h3 {
-
-}
-
-.fiveImage {
-  @apply w-full lg:w-fit relative border border-red-500
-}
-
-.fiveImage .circleContainer {
-  @apply relative flex justify-end items-center
-            lg:hidden
-            lg:absolute
-            lg:left-[-25px] lg:bottom-[-50px]
-            xl:left-[-50px] xl:bottom-[-50px]
-            2xl:left-[-0px] 2xl:bottom-[-50px]
-            3xl:left-[-100px] 3xl:bottom-[-100px]
-            4xl:left-[-25px] 4xl:bottom-[-100px]
-}
-
-.fiveImage .circleContainer .circle {
-  @apply bg-purple-650 lg:bg-purple-550 h-48 w-48 lg:h-[280px] lg:w-[280px] 3xl:w-[430px] 3xl:h-[430px] rounded-full -mr-16 md:mr-0 lg:z-[1]
-}
-
-.fiveImage .imgContainerMobile {
-  @apply h-[280px] sm:h-[360px] md:h-[440px] lg:hidden flex justify-start items-center
-}
-
-.fiveImage .imgContainerMobile img {
-  @apply h-full min-w-fit w-fit
-}
-
-.fiveImage .imgContainerDesktop {
-  @apply hidden lg:flex
-}
-
-.fiveImage .imgContainerDesktop img {
-  @apply object-contain
-}
-
-.fiveDetails {
-  @apply mt-12 space-y-12 text-lg leading-10 opacity-60 font-applesd max-w-screen-4xl mx-auto w-screen px-6 sm:px-0 lg:w-fit border lg:mx-0
-}
-
-.fiveDetails p {
-  @apply opacity-60
+.threeDetails div p br {
+  @apply
+  hidden lg:block
 }
