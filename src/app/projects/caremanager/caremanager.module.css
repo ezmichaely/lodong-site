@@ -283,7 +283,7 @@
   3xl:h-[900px]
   lg:grow
 
-  /* border */
+  border
 }
 
 .fourImage img {
@@ -292,7 +292,9 @@
   2xl:h-[790px]
   3xl:h-[900px]
   w-fit
-  /* border */
+  object-cover
+  overflow-x-visible
+  border
 }
 
 .fourDetails {
