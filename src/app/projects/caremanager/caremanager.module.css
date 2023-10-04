@@ -176,7 +176,8 @@
   lg:flex-row-reverse
 
   gap-x-4
-  3xl:gap-x-8
+  lg:gap-x-24
+  /* 3xl:gap-x-8 */
 }
 
 .threeImage {
@@ -211,7 +212,9 @@
 .threeDetailsContainer {
   @apply 3xl:min-w-fit
   mt-14
-  lg:mt-28
+  lg:mt-24
+  2xl:mt-32
+  3xl:mt-36
 }
 
 .threeDetails {
@@ -237,3 +240,85 @@
   @apply
   hidden lg:block
 }
+
+
+
+
+/* four */
+.fourSection {
+  @apply
+  mt-40
+  lg:-mt-20
+  /* mt-52 */
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  /* lg:hidden */
+}
+
+.fourContainer {
+  @apply
+  font-applesd
+  w-full
+  flex justify-start items-start flex-col
+  lg:flex-row
+  lg:items-center
+  gap-y-14
+}
+
+.fourImage {
+  @apply w-full
+  flex justify-start
+  sm:justify-center
+  lg:justify-start
+
+  items-center
+  h-[580px]
+  lg:h-[680px]
+  2xl:h-[790px]
+  3xl:h-[900px]
+  lg:grow
+
+  /* border */
+}
+
+.fourImage img {
+  @apply h-[580px]
+  lg:h-[680px]
+  2xl:h-[790px]
+  3xl:h-[900px]
+  w-fit
+  /* border */
+}
+
+.fourDetails {
+  @apply
+  w-full font-applesd
+  opacity-60
+  lg:opacity-100
+  text-lg lg:text-xl
+  leading-10
+  lg:leading-loose
+  lg:w-fit
+  lg:px-16
+  /* mt-14 */
+
+  lg:whitespace-nowrap
+
+  /* border */
+}
+
+.fourDetails p {
+  @apply inline-block
+  lg:block
+}
+
+.fourDetails p br{
+  @apply hidden
+  lg:block
+}
+

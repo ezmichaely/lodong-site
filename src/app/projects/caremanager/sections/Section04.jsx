@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf04,
+  caremanager04,
 } from '@/assets/images'
 import styles from '../caremanager.module.css'
 
@@ -9,16 +9,16 @@ export default function Section04() {
       <section className={styles.fourSection}>
         <div className={styles.fourContainer}>
           <div className={styles.fourImage}>
-            <Image src={rugolf04} alt="rugolf04"/>
+            <Image src={caremanager04} alt="caremanager04"/>
           </div>
 
           <div className={styles.fourDetails}>
             <p>
-              <span className="font-bold">원하는 작업목록을 생성</span>
-              <span>
-                해 <br />
-                사진을 업로드할 항목을 선택합니다.
+              <span>사용자가 버튼을 눌러 전화를 하면 </span>  <br />
+              <span className="lg:font-bold">
+                받는 사람에게 회원정보
               </span>
+              <span>가 뜹니다.</span>
             </p>
           </div>
         </div>

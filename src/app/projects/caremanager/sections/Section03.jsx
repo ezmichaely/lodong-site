@@ -30,10 +30,6 @@ export default function Section03() {
               </div>
             </div>
           </div>
-
-
-
-
         </div>
       </div>
     </section>
