@@ -8,7 +8,6 @@
 
 .oneSection {
  @apply
- /* mt-24 */
  mt-40
  max-w-screen-4xl
  w-screen
@@ -18,9 +17,6 @@
  xl:px-36
  2xl:px-[280px]
  3xl:px-[400px]
- /* lg:mt-48 */
- /* bg-slate-500 */
- /* lg:mt-72 */
 }
 
 .oneContainer {
@@ -28,11 +24,7 @@
   flex justify-start items-start flex-col
   gap-y-20
   lg:gap-y-0
-  /* border border-red-700 */
 
-  /* px-6
-  lg:px-14 */
-  /* @apply container */
 }
 
 .oneImage {
@@ -148,9 +140,6 @@
   xl:px-36
   2xl:px-[280px]
   3xl:px-[400px]
-
-  /* hidden
-  lg:block */
 }
 
 .threeContainer {
