@@ -25,8 +25,8 @@ export const projectRoutes = [
     path: '/winlottery'
   },
   {
-    key: 'caremanagement',
-    title: 'Care Management',
-    path: '/caremanagement'
+    key: 'caremanager',
+    title: 'Care Manager',
+    path: '/caremanager'
   }
 ]

@@ -1,7 +1,6 @@
 import Image from "next/image"
 import {
-  keflavik06M,
-  keflavik06D,
+  caremanager06
 } from '@/assets/images'
 import styles from '../caremanager.module.css'
 
@@ -10,25 +9,15 @@ export default function Section06() {
     <section className={styles.sixSection}>
       <div className={styles.sixContainer}>
         <div className={styles.sixImage}>
-          <div className={styles.sixCircleContainer}>
-            <div className={styles.sixCircle}></div>
-          </div>
-
-          <div className={styles.sixImageMobile}>
-            <Image src={keflavik06M} alt="keflavik06M"/>
-          </div>
-
-          <div className={styles.sixImageDesktop}>
-            <Image src={keflavik06D} alt="keflavik06D"/>
-          </div>
+          <Image src={caremanager06} alt="caremanager06"/>
         </div>
 
         <div className={styles.sixDetails}>
           <p>
-            <span>구독 시작, 최근 결제일 등으로 </span> <br />
-            <span className="font-bold">구독자를 관리</span>
-            <span>하고 </span> <br />
-            <span>더 나은 서비스를 제안합니다.</span>
+            <span>배너, 상담, 회원정보를</span> <br className={styles.sixDetailsBr1} />
+            <span className="lg:font-bold">관리자앱에서 </span> <br className={styles.sixDetailsBr2}/>
+            <span>등록, 관리 가능</span>
+            <span>합니다.</span>
           </p>
         </div>
       </div>

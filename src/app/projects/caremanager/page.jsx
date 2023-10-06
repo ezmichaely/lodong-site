@@ -33,17 +33,10 @@ const page = () => {
       <Section02 />
       <Section03 />
       <Section04 />
-      {/* <Section05 />
+      <Section05 />
       <Section06 />
-      <Section07 /> */}
-
-
-
-
-
-
+      <Section07 />
       <ScrollTop />
-
     </main>
   )
 }

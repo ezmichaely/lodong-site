@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf05,
+  caremanager01,
 } from '@/assets/images'
 import styles from '../caremanager.module.css'
 
@@ -8,31 +8,17 @@ export default function Section05() {
   return (
     <section className={styles.fiveSection}>
         <div className={styles.fiveContainer}>
-          <div className={styles.fiveTitle}>
-            <h3> WEB </h3>
+          <div className={styles.fiveDetails}>
+            <p>
+              <span>회원에 대한 정보를 </span>
+              <span className="font-bold">리스트화</span>
+              <span>하여 </span> <br />
+              <span>정리하였습니다.</span>
+            </p>
           </div>
-
-          <div className={styles.fiveBottom}>
-            <div className={styles.fiveImage}>
-              <Image src={rugolf05} alt="rugolf05"/>
-            </div>
-
-            <div className={styles.fiveDetails}>
-              <h3> 설계 </h3>
-              <p>
-                <span>날짜별로 담당자를 체크해 </span> <br />
-                <span className="font-bold">일정을 한번에 확인</span>
-                <span>하고 </span> <br />
-                <span className="font-bold">미지정된 작업을 파악</span>
-                <span>합니다.</span>
-              </p>
-            </div>
+          <div className={styles.fiveImage}>
+            <Image src={caremanager01} alt="caremanager01"/>
           </div>
-
-          <div className="w-full flex justify-start items-center flex-col">
-
-          </div>
-
         </div>
       </section>
   )

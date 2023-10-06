@@ -54,9 +54,9 @@ export const projectRoutes = [
     path: '/winlottery'
   },
   {
-    key: 'caremanagement',
-    title: 'Care Management',
-    path: '/caremanagement'
+    key: 'caremanager',
+    title: 'Care Manager',
+    path: '/caremanager'
   }
 ]
 
@@ -74,7 +74,7 @@ export const darkPaths = [
 
 export const lightPaths = [
   '/projects/aicity',
-  '/projects/caremanagement',
+  '/projects/caremanager',
   '/projects/keflavik',
   '/projects/rugolf',
   '/projects/washcube',
@@ -90,7 +90,7 @@ export const allPaths = [
   '/contact',
   '/maps',
   '/projects/aicity',
-  '/projects/caremanagement',
+  '/projects/caremanager',
   '/projects/keflavik',
   '/projects/rugolf',
   '/projects/washcube',
