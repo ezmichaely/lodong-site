@@ -28,11 +28,6 @@ export default function Section05() {
               </p>
             </div>
           </div>
-
-          <div className="w-full flex justify-start items-center flex-col">
-
-          </div>
-
         </div>
       </section>
   )

@@ -440,7 +440,8 @@
 
 .sixTitle h3 {
   @apply font-applesd font-bold
-  text-[32px]
+  text-[30px]
+  lg:text-[32px]
 }
 
 .sixBottom {
@@ -504,7 +505,8 @@
 
 .sixDetails h4 {
   @apply
-  text-[28px] font-medium
+  text-[25px]
+  lg:text-[28px] font-medium
 }
 
 
@@ -718,7 +720,8 @@
 
 .sevenDetails h4 {
   @apply
-  text-[28px] font-medium
+  text-[25px]
+  lg:text-[28px] font-medium
 }
 
 

@@ -23,7 +23,7 @@
 .oneContainer {
   @apply w-full
   flex justify-start items-start flex-col
-  gap-y-20
+  gap-y-16
   lg:gap-y-0
 }
 
@@ -162,7 +162,7 @@
 
 /* three */
 .threeSection {
- @apply mt-40
+ @apply  mt-40
   lg:mt-72
   text-white
   max-w-screen-4xl
@@ -178,6 +178,8 @@
   @apply w-full
   flex justify-start items-center flex-col
   lg:justify-between lg:items-start lg:flex-row
+  gap-y-16
+  lg:gap-y-0
 }
 
 .threeImage {
@@ -199,7 +201,6 @@
   leading-10 opacity-60
   text-lg
   lg:text-xl lg:opacity-100
-  mt-20
   lg:mt-36
 }
 
@@ -217,7 +218,7 @@
 
 /* four */
 .fourSection {
- @apply text-white
+ @apply  text-white
   max-w-screen-4xl
   w-screen
   mx-auto
@@ -233,6 +234,8 @@
   @apply w-full
   flex justify-start items-center flex-col
   lg:justify-end lg:items-end lg:flex-row-reverse
+  gap-y-16
+  lg:gap-y-0
 }
 
 .fourImage {
@@ -254,7 +257,7 @@
   font-applesd leading-10
   text-lg lg:text-xl
   opacity-60 lg:opacity-100
-  mt-12 lg:mt-0 lg:mb-24
+  lg:mb-24
   flex justify-start
   lg:justify-end
   lg:leading-loose
@@ -290,6 +293,7 @@
   flex justify-start items-start flex-col
   gap-y-16
   lg:gap-y-0
+
 }
 
 .fiveTitle {
@@ -299,7 +303,10 @@
   xl:px-36
   2xl:px-[280px]
   3xl:px-[400px]
-  font-applesd text-[32px] font-bold
+  font-applesd
+  text-[30px]
+  lg:text-[32px]
+  font-bold
 }
 
 .fiveBottom {
@@ -360,10 +367,14 @@
   lg:mb-20
   flex justify-start items-start flex-col
   gap-y-8
+  /* border */
 }
 
 .fiveDetails h3 {
-  @apply font-applesd text-[28px] font-bold
+  @apply font-applesd
+  text-[25px]
+  lg:text-[28px]
+  font-bold
 }
 
 .fiveDetails p {

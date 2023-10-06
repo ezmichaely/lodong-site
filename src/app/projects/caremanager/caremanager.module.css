@@ -216,7 +216,9 @@
 }
 
 .threeDetails h4 {
-  @apply text-[28px] font-medium
+  @apply
+  text-[25px]
+  lg:text-[28px] font-medium
 }
 
 .threeDetails div {
@@ -473,7 +475,7 @@
 
 .sevenTitle h3 {
   @apply font-applesd font-bold
-  text-[25px]
+  text-[30px]
   lg:text-[32px]
 }
 
