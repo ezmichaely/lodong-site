@@ -2,7 +2,6 @@ import {
   Hero,
   Section01, Section02,
   Section03, Section04,
-  Section05, Section06
 } from './sections'
 
 import styles from "./washcube.module.css"
@@ -30,7 +29,11 @@ const page = () => {
     <main className={styles.main}>
       <Breadcrumb title={title} />
       <Hero details={details} />
+      <Section01 />
+      <Section02 />
+
       <ScrollTop />
+
     </main>
   )
 }

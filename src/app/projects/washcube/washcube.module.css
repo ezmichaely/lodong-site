@@ -1,6 +1,193 @@
 .main {
   @apply
+  text-white
   bg-black
   h-full w-full
   border-0 border-transparent
+}
+
+.oneSection {
+  @apply
+  mt-12
+  lg:mt-2
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0
+
+}
+
+.oneContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-14
+  lg:gap-y-24
+}
+
+.oneImage {
+  @apply
+  relative
+  flex justify-center items-center
+  w-full
+  pl-16
+  md:pl-0
+  h-[940px]
+  3xl:h-[1100px]
+  /* border */
+}
+
+.oneImage img {
+  @apply
+  h-[940px]
+  3xl:h-[1100px]
+  w-fit
+  lg:w-full
+  object-cover
+  overflow-x-visible
+}
+
+.oneImage p {
+  @apply absolute
+  bottom-[28px]
+  left-[24px]
+  lg:left-[56px]
+  lg:bottom-[450px]
+  3xl:bottom-[500px]
+  font-bold
+  font-applesd
+  text-xl
+}
+
+.oneDetails {
+  @apply
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  flex justify-start items-start flex-row
+  lg:gap-x-36
+  3xl:gap-x-44
+}
+
+.oneDetails h3 {
+  @apply text-2xl
+  hidden lg:flex
+}
+
+.oneDetails p {
+  @apply
+  text-left
+  text-white opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
+}
+
+
+/* two */
+.twoSection {
+  @apply
+  mt-40
+  lg:mt-72
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+
+  /* hidden
+  lg:block */
+}
+
+.twoContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-16
+}
+
+.twoTitle {
+  @apply
+  px-6 lg:px-0
+}
+
+.twoTitle h3 {
+  @apply font-applesd font-bold
+  text-[30px]
+  lg:text-[32px]
+}
+
+.twoBottom {
+  @apply w-full
+  flex justify-between items-start
+  flex-col
+  gap-y-8 lg:gap-y-0
+  lg:flex-row-reverse
+
+  lg:gap-x-4
+  3xl:gap-x-8
+  /* border */
+}
+
+.twoImage {
+  @apply
+  w-full
+  h-[760px]
+  lg:h-[820px]
+  ml-6
+  flex
+  justify-start
+  /* md:justify-center */
+  items-center
+  /* lg:justify-start */
+  /* 3xl:grow */
+  border
+}
+
+.twoImage img {
+  @apply
+  /* w-full */
+  h-[760px]
+  lg:h-[820px]
+  w-fit
+  object-cover
+  /* overflow-x-visible */
+  /* border */
+}
+
+
+.twoDetailsContainer {
+  @apply 3xl:min-w-fit
+  mt-14
+  lg:mt-28
+}
+
+
+.twoDetails {
+  @apply
+  px-6 lg:px-0
+  font-applesd
+  flex justify-start flex-col
+  gap-y-8
+  whitespace-nowrap
+}
+
+.twoDetails h4 {
+  @apply
+  text-[25px]
+  lg:text-[28px] font-medium
+}
+
+.twoDetails p {
+  @apply
+  opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
 }

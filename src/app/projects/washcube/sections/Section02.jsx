@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf02,
+  washcube02,
 } from '@/assets/images'
 import styles from '../washcube.module.css'
 
@@ -9,32 +9,25 @@ export default function Section02() {
     <section className={styles.twoSection}>
       <div className={styles.twoContainer}>
         <div className={styles.twoTitle}>
-          <h3>ANDROID</h3>
+          <h3>KIOSK</h3>
         </div>
 
         <div className={styles.twoBottom}>
-          <div className={styles.twoDetailsContainer}>
-            <div className={styles.twoDetails}>
-              <h4>설계</h4>
-              <div>
-                <p>
-                  대면으로 진행하는 계약과정과 각 시공사의 진행
-                </p>
-                <p>
-                  <span>과정을 </span>
-                  <span className="font-bold">어플</span>
-                  <span>을 통해 </span>
-                  <span className="font-bold">관리</span>
-                  <span>할 수 있도록 설계했습니다. </span>
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className={styles.twoImage}>
-            <Image src={rugolf02} alt="rugolf02" />
+            <Image src={washcube02} alt="washcube02" />
           </div>
 
+
+          <div className={styles.twoDetails}>
+            <h4>설계</h4>
+            <p>
+              <span>운전자의 연령층이 다양하다는 것을 감안하여 </span> <br />
+              <span className="lg:font-bold">간결한 UI</span>
+              <span>로 </span>
+              <span className="lg:font-bold">사용성</span>
+              <span>을 높였습니다.</span>
+            </p>
+          </div>
 
         </div>
       </div>
