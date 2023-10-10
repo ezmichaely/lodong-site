@@ -73,6 +73,7 @@
 .oneDetails h3 {
   @apply text-2xl
   hidden lg:flex
+  font-bold
 }
 
 .oneDetails p {

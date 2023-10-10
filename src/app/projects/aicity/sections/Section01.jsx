@@ -1,29 +1,20 @@
-import Image from "next/image"
-import {
-  rugolf01,
-} from '@/assets/images'
+
+
 import styles from '../aicity.module.css'
 
 export default function Section01() {
   return (
     <section className={styles.oneSection}>
       <div className={styles.oneContainer}>
-        <div className={styles.oneImage}>
-          <Image src={rugolf01} alt="rugolf01" />
-        </div>
-
-        <div className={styles.oneDetailsContainer}>
-          <div className={styles.oneDetails}>
-            <h3>케플라비크</h3>
-            <div>
-              <p>
-                오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
-                있습니다.
-              </p>
-              <p>
-                종이계약서보다 번거롭지 않고 바로 기록이 남는 전자계약서로 편리한 계약시스템을 이용할 수 있습니다.
-              </p>
-            </div>
+        <div className={styles.oneDetails}>
+          <h3>AI도시를 부탁해!</h3>
+          <div>
+            <p>
+              AI를 도입함으로써 일어나는 다양한 상황들을 제시하고 그에대해 찬성과 반대로 갈리는 설문조사입니다.
+            </p>
+            <p>
+              설문자가 AI에 대해 어떤 관점을 가지고 있는지 통계를 가져올 수 있습니다.
+            </p>
           </div>
         </div>
       </div>

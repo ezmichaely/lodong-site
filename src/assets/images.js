@@ -42,18 +42,17 @@ import aicitySub from '~/projects/aicity/aicitySub.png';
 import aicity00M from '~/projects/aicity/aicity00M.png'
 import aicity00D from '~/projects/aicity/aicity00D.png'
 import aicity02 from '~/projects/aicity/aicity02.png'
-import aicity03 from '~/projects/aicity/aicity03.png'
-import aicity04Da1 from '~/projects/aicity/aicity04Da1.png'
-import aicity04Da2 from '~/projects/aicity/aicity04Da2.png'
-import aicity04Db1 from '~/projects/aicity/aicity04Db1.png'
-import aicity04Db2 from '~/projects/aicity/aicity04Db2.png'
-import aicity04Dc1 from '~/projects/aicity/aicity04Dc1.png'
-import aicity04Dc2 from '~/projects/aicity/aicity04Dc2.png'
-import aicity04Dd1 from '~/projects/aicity/aicity04Dd1.png'
-import aicity04Dd2 from '~/projects/aicity/aicity04Dd2.png'
-import aicity04M from '~/projects/aicity/aicity04M.png'
-import aicity05D from '~/projects/aicity/aicity05D.png'
-import aicity05M from '~/projects/aicity/aicity05M.png'
+import aicity03Da1 from '~/projects/aicity/aicity03Da1.png'
+import aicity03Da2 from '~/projects/aicity/aicity03Da2.png'
+import aicity03Db1 from '~/projects/aicity/aicity03Db1.png'
+import aicity03Db2 from '~/projects/aicity/aicity03Db2.png'
+import aicity03Dc1 from '~/projects/aicity/aicity03Dc1.png'
+import aicity03Dc2 from '~/projects/aicity/aicity03Dc2.png'
+import aicity03Dd1 from '~/projects/aicity/aicity03Dd1.png'
+import aicity03Dd2 from '~/projects/aicity/aicity03Dd2.png'
+import aicity03M from '~/projects/aicity/aicity03M.png'
+import aicity04 from '~/projects/aicity/aicity04.png'
+import aicity05 from '~/projects/aicity/aicity05.png'
 import aicity06a from '~/projects/aicity/aicity06a.png'
 import aicity06b from '~/projects/aicity/aicity06b.png'
 import aicity06c from '~/projects/aicity/aicity06c.png'
@@ -66,8 +65,7 @@ import aicity06i from '~/projects/aicity/aicity06i.png'
 import aicity06j from '~/projects/aicity/aicity06j.png'
 import aicity06k from '~/projects/aicity/aicity06k.png'
 import aicity06l from '~/projects/aicity/aicity06l.png'
-import aicity07D from '~/projects/aicity/aicity07D.png'
-import aicity07M from '~/projects/aicity/aicity07M.png'
+import aicity07 from '~/projects/aicity/aicity07.png'
 
 /** CAREMANAGER */
 import caremanagerMain from '~/projects/caremanager/caremanagerMain.png'
@@ -164,20 +162,20 @@ export {
   // aicity
   aicityMain, aicitySub,
   aicity00M, aicity00D,
-  aicity02, aicity03,
-  aicity04Da1, aicity04Da2,
-  aicity04Db1, aicity04Db2,
-  aicity04Dc1, aicity04Dc2,
-  aicity04Dd1, aicity04Dd2,
-  aicity04M,
-  aicity05D, aicity05M,
+  aicity02,
+  aicity03Da1, aicity03Da2,
+  aicity03Db1, aicity03Db2,
+  aicity03Dc1, aicity03Dc2,
+  aicity03Dd1, aicity03Dd2,
+  aicity03M,
+  aicity04, aicity05,
   aicity06a, aicity06b,
   aicity06c, aicity06d,
   aicity06e, aicity06f,
   aicity06g, aicity06h,
   aicity06i, aicity06j,
   aicity06k, aicity06l,
-  aicity07D, aicity07M,
+  aicity07,
 
   // caremanager
   caremanagerMain, caremanagerSub,

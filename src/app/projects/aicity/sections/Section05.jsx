@@ -1,39 +1,33 @@
 import Image from "next/image"
 import {
-  rugolf05,
+  aicity05,
 } from '@/assets/images'
 import styles from '../aicity.module.css'
 
 export default function Section05() {
   return (
     <section className={styles.fiveSection}>
-        <div className={styles.fiveContainer}>
-          <div className={styles.fiveTitle}>
-            <h3> WEB </h3>
-          </div>
-
-          <div className={styles.fiveBottom}>
-            <div className={styles.fiveImage}>
-              <Image src={rugolf05} alt="rugolf05"/>
-            </div>
-
-            <div className={styles.fiveDetails}>
-              <h3> 설계 </h3>
-              <p>
-                <span>날짜별로 담당자를 체크해 </span> <br />
-                <span className="font-bold">일정을 한번에 확인</span>
-                <span>하고 </span> <br />
-                <span className="font-bold">미지정된 작업을 파악</span>
-                <span>합니다.</span>
-              </p>
-            </div>
-          </div>
-
-          <div className="w-full flex justify-start items-center flex-col">
-
-          </div>
-
+      <div className={styles.fiveContainer}>
+        <div className={styles.fiveImage}>
+          <Image src={aicity05} alt="aicity05"/>
         </div>
-      </section>
+        <div className={styles.fiveDetailsContainer}>
+          <div className={styles.fiveDetails}>
+            <p>
+              각 문항마다 생각나는 자신의 의견을 기입하여 AI에 대해 평소에 어떻게 생각하는지 공유할 수 있습니다.
+            </p>
+            <p>
+              각 문항 상황에 맞는 삽화를 추가하여 설문조사의 이해를 도왔습니다.
+            </p>
+            <p>
+              <span className="font-bold">각 문항마다 생각나는 자신의 의견을</span> <br />
+              <span className="font-bold">기입</span>
+              <span>하여 AI에 대해 평소에 </span> <br />
+              <span>어떻게 생각하는지 공유할 수 있습니다.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   )
 }
