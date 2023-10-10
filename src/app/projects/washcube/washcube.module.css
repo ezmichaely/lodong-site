@@ -31,14 +31,14 @@
   w-full
   pl-16
   md:pl-0
-  h-[940px]
+  h-[840px]
   3xl:h-[1100px]
   /* border */
 }
 
 .oneImage img {
   @apply
-  h-[940px]
+  h-[840px]
   3xl:h-[1100px]
   w-fit
   lg:w-full
@@ -124,6 +124,7 @@
 .twoBottom {
   @apply w-full
   flex justify-between items-start
+  lg:items-end
   flex-col
   gap-y-8 lg:gap-y-0
   lg:flex-row-reverse
@@ -138,14 +139,15 @@
   w-full
   h-[760px]
   lg:h-[820px]
-  ml-6
+  /* ml-6 */
   flex
   justify-start
-  /* md:justify-center */
+  md:justify-center
+  lg:justify-end
   items-center
   /* lg:justify-start */
   /* 3xl:grow */
-  border
+  /* border */
 }
 
 .twoImage img {
@@ -153,17 +155,11 @@
   /* w-full */
   h-[760px]
   lg:h-[820px]
+  min-w-fit
   w-fit
-  object-cover
-  /* overflow-x-visible */
+  /* object-cover */
+  overflow-x-visible
   /* border */
-}
-
-
-.twoDetailsContainer {
-  @apply 3xl:min-w-fit
-  mt-14
-  lg:mt-28
 }
 
 
@@ -174,6 +170,8 @@
   flex justify-start flex-col
   gap-y-8
   whitespace-nowrap
+  lg:mb-52
+
 }
 
 .twoDetails h4 {
@@ -190,4 +188,144 @@
   lg:leading-loose
   leading-10
   lg:opacity-100
+}
+
+
+/* three */
+.threeSection {
+  @apply
+  mt-40
+  lg:mt-72
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+}
+
+.threeContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:flex-row
+  lg:justify-between
+  lg:items-center
+  gap-y-16
+  lg:gap-y-0
+  lg:gap-x-16
+}
+
+.threeImage {
+  @apply
+  w-full
+  h-[740px]
+  lg:h-[840px]
+  flex
+  justify-center
+  lg:justify-start
+  items-center
+}
+
+.threeImage img {
+  @apply
+  h-[740px]
+  lg:h-[840px]
+  min-w-fit
+  w-fit
+  overflow-x-visible
+}
+
+
+.threeDetails {
+  @apply
+  font-applesd
+  flex justify-start flex-col
+  gap-y-8
+  whitespace-nowrap
+}
+
+.threeDetails p {
+  @apply
+  opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
+}
+
+.threeDetails p br {
+  @apply hidden
+  lg:block
+}
+
+
+
+/* four */
+.fourSection {
+  @apply
+  mt-40
+  lg:mt-72
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+}
+
+.fourContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  lg:flex-row-reverse
+  lg:justify-between
+  lg:items-center
+  gap-y-16
+  lg:gap-y-0
+  lg:gap-x-16
+}
+
+.fourImage {
+  @apply
+  w-full
+  h-[580px]
+  lg:h-[940px]
+  flex
+  justify-center
+  lg:justify-end
+  items-center
+}
+
+.fourImage img {
+  @apply
+  h-[580px]
+  lg:h-[840px]
+  min-w-fit
+  w-fit
+  overflow-x-visible
+}
+
+
+.fourDetails {
+  @apply
+  font-applesd
+  flex justify-start
+  lg:whitespace-nowrap
+}
+
+.fourDetails p {
+  @apply
+  opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
+}
+
+.fourDetails p br {
+  @apply hidden
+  lg:block
 }

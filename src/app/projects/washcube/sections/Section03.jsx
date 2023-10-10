@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf03,
+  washcube03,
 } from '@/assets/images'
 import styles from '../washcube.module.css'
 
@@ -9,13 +9,13 @@ export default function Section03() {
     <section className={styles.threeSection}>
         <div className={styles.threeContainer}>
           <div className={styles.threeImage}>
-            <Image src={rugolf03} alt="rugolf03" />
+            <Image src={washcube03} alt="washcube03" />
           </div>
 
           <div className={styles.threeDetails}>
             <p>
-              날짜, 작업 현황, 시간을 확인하고 <br />
-              작업 가능한 직원에게 <span className="font-bold">배정</span>할 수 있습니다.
+              <span>간결한 결제 시스템으로 누구나 헤메지 않고</span> <br />
+              <span>결제를 진행할 수 있습니다.</span>
             </p>
           </div>
         </div>
