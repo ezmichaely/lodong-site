@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {
-  rugolf01,
+  winlottery01,
 } from '@/assets/images'
 import styles from '../winlottery.module.css'
 
@@ -9,25 +9,20 @@ export default function Section01() {
     <section className={styles.oneSection}>
       <div className={styles.oneContainer}>
         <div className={styles.oneImage}>
-          <Image src={rugolf01} alt="rugolf01" />
+          <Image src={winlottery01} alt="winlottery01" />
         </div>
 
         <div className={styles.oneDetailsContainer}>
           <div className={styles.oneDetails}>
-            <h3>케플라비크</h3>
+            <h3>내 꿈은 로또 1등</h3>
             <div>
               <p>
-                오프라인 박람회와 함께 온라인박람회를 개최해 직접 박람회를 방문하지 않고 시공사 정보를 알아볼 수
-                있습니다.
-              </p>
-              <p>
-                종이계약서보다 번거롭지 않고 바로 기록이 남는 전자계약서로 편리한 계약시스템을 이용할 수 있습니다.
+                그 날 꿨던 꿈을 입력하면 그에 해당하는 로또번호를 추출하는 서비스입니다. 과연 오늘 당신의 꿈은 어떤 행운의 번호를 가지고 올까요?
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
   )
 }

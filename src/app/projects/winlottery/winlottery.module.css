@@ -1,6 +1,183 @@
 .main {
-  @apply
+  @apply text-white
   bg-black
   h-full w-full
   border-0 border-transparent
+}
+
+.oneSection {
+  @apply
+  mt-40
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-0
+  lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+}
+
+.oneContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-14
+  lg:gap-y-0
+}
+
+.oneImage {
+  @apply
+  relative
+  flex justify-center items-center
+  w-full
+  h-[645px]
+  lg:hidden
+}
+
+.oneImage img {
+  @apply
+  h-[645px]
+  w-full
+  object-cover
+  overflow-x-visible
+}
+
+.oneDetails {
+  @apply
+  px-6 lg:px-0
+  flex justify-start items-start flex-row
+  lg:gap-x-36
+  3xl:gap-x-44
+}
+
+.oneDetails h3 {
+  @apply text-2xl
+  hidden lg:flex
+  font-bold
+  whitespace-nowrap
+}
+
+.oneDetails p {
+  @apply
+  text-left
+  text-white opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
+}
+
+
+/* two */
+.twoSection {
+  @apply
+  mt-40
+  lg:mt-72
+  max-w-screen-4xl
+  w-screen
+  mx-auto
+  px-6 lg:px-14
+  xl:px-36
+  2xl:px-[280px]
+  3xl:px-[400px]
+  /* border */
+}
+
+.twoContainer {
+  @apply w-full
+  flex justify-start items-start flex-col
+  gap-y-16
+  lg:gap-y-0
+}
+
+.twoTitle {
+  @apply
+  hidden lg:block
+}
+
+.twoTitle h3 {
+  @apply font-applesd
+  font-bold
+  text-[30px]
+  lg:text-[32px]
+}
+
+.twoBottom {
+  @apply w-full
+  flex justify-between items-start
+  flex-col
+  gap-y-14 lg:gap-y-0
+  lg:flex-row-reverse
+  lg:items-center
+
+  lg:gap-x-4
+  3xl:gap-x-8
+  /* border */
+}
+
+.twoImage {
+  @apply
+  w-full
+  h-[570px]
+  lg:h-[720px]
+  flex
+  justify-center
+  lg:justify-end
+  items-center
+}
+
+.twoImage img:first-of-type {
+  @apply
+  /* w-full */
+  h-[570px]
+  min-w-fit
+  w-fit
+  /* object-cover */
+  overflow-x-visible
+  lg:hidden
+}
+
+.twoImage img:nth-of-type(2) {
+  @apply
+  /* w-full */
+  h-[720px]
+  min-w-fit
+  w-fit
+  /* object-cover */
+  overflow-x-visible
+  hidden
+  lg:flex
+}
+
+
+.twoDetails {
+  @apply
+  px-6 lg:px-0
+  font-applesd
+  flex justify-start flex-col
+  gap-y-8
+  lg:whitespace-nowrap
+}
+
+.twoDetails h4 {
+  @apply
+  text-[25px]
+  lg:text-[28px] font-medium
+}
+
+.twoDetails p {
+  @apply
+  opacity-60
+  text-lg
+  lg:text-xl
+  lg:leading-loose
+  leading-10
+  lg:opacity-100
+}
+
+.twoDetails p br {
+  @apply
+  hidden
+  lg:block
 }
