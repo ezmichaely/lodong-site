@@ -29,6 +29,7 @@ const page = () => {
       <Hero details={details} />
       <Section01 />
       <Section02 />
+      <Section03 />
 
 
 
