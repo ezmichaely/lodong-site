@@ -305,10 +305,10 @@
   max-w-screen-4xl
   w-screen
   mx-auto
-  px-6 lg:px-14
-  xl:px-36
-  2xl:px-[280px]
-  3xl:px-[400px]
+  pl-6 lg:pl-14
+  xl:pl-36
+  2xl:pl-[280px]
+  3xl:pl-[400px]
 }
 
 .threeImage {
