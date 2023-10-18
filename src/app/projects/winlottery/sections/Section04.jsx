@@ -1,27 +1,37 @@
 import Image from "next/image"
 import {
-  rugolf04,
+  winlottery04M,
+  winlottery04D
 } from '@/assets/images'
 import styles from '../winlottery.module.css'
 
 export default function Section04() {
   return (
-      <section className={styles.fourSection}>
-        <div className={styles.fourContainer}>
-          <div className={styles.fourImage}>
-            <Image src={rugolf04} alt="rugolf04"/>
-          </div>
-
-          <div className={styles.fourDetails}>
-            <p>
-              <span className="font-bold">원하는 작업목록을 생성</span>
-              <span>
-                해 <br />
-                사진을 업로드할 항목을 선택합니다.
-              </span>
-            </p>
-          </div>
+    <section className={styles.fourSection}>
+      <div className={styles.fourContainerMobile}>
+        <div className={styles.fourImageMobile}>
+          <Image src={winlottery04M} alt="winlottery04M" />
         </div>
-      </section>
+
+        <div className={styles.fourDetailsMobile}>
+          <p>
+            포인트를 쌓아 명예의 전당에 올라보세요.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.fourContainerDesktop}>
+        <div className={styles.fourImageDesktop}>
+          <Image src={winlottery04D} alt="winlottery04D" />
+        </div>
+
+        <div className={styles.fourDetailsDesktop}>
+          <p>
+            <span>포인트를 쌓아 명예의 전당에 </span> <br />
+            <span> 올라보세요. </span>
+          </p>
+        </div>
+      </div>
+    </section>
   )
 }

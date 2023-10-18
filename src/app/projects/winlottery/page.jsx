@@ -30,6 +30,7 @@ const page = () => {
       <Section01 />
       <Section02 />
       <Section03 />
+      <Section04 />
 
 
 
