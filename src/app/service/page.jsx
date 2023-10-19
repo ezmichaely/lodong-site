@@ -8,10 +8,6 @@ export const metadata = {
 }
 
 
-const bodyStyle = () => {
-
-}
-
 function Service() {
   return (
     <main className={`${styles.main}`}>

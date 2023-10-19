@@ -1,23 +1,4 @@
-import styles from './projects.module.css'
-import {
-  ScrollTop,
-  ProjectCard
-} from "@/components"
-import {
-  projectsData
-} from "@/constants/project/projectsData"
-
-export const metadata = {
-  title: 'Projects | Lodong',
-  description: 'A Software Company that provide solutions, based in Gyeonggi-do, South Korea',
-}
-
-
-export default function Projects() {
-
-  return (
-    <>
-      <main className={`${styles.main}`}>
+<main className={`${styles.main}`}>
         <div className={`${styles.content}`}>
           <div className={`${styles.cardContainer}`}>
 
@@ -67,6 +48,32 @@ export default function Projects() {
 
         <ScrollTop />
       </main>
-    </>
-  )
+
+
+
+
+
+
+
+
+
+      .main {
+  @apply bg-white lg:bg-black
+}
+
+.content {
+  @apply max-w-screen-4xl mx-auto w-full
+  px-6 lg:px-14
+}
+
+.cardContainer {
+  @apply w-full grid
+  grid-cols-1
+  md:grid-cols-2
+  xl:grid-cols-3
+  3xl:grid-cols-4
+  gap-y-10
+  md:gap-x-10
+
+  border border-red-600
 }

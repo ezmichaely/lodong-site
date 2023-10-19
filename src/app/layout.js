@@ -6,7 +6,10 @@ import {
   roboto_slab,
   jacques
 } from '@/assets/fonts';
-import Footer from '@/components/shared/Footer/Footer';
+import {
+  Header,
+  Footer
+} from '@/components';
 
 
 export default function RootLayout({ children }) {
@@ -19,7 +22,7 @@ export default function RootLayout({ children }) {
         `} >
 
       <body>
-
+        <Header />
         {children}
         <Footer />
       </body>

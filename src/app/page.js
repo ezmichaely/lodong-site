@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '@/styles/home.module.css';
+import styles from './home.module.css';
 
 export const metadata = {
   title: 'Lodong',

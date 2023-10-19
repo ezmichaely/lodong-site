@@ -7,9 +7,11 @@ export const metadata = {
 
 function About() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <main>
+
+      </main>
+    </>
   )
 }
 

@@ -41,6 +41,15 @@
 
 html, body {
   @apply font-inter text-base
-  overflow-x-hidden w-screen
+  overflow-x-hidden w-screen relative
   /* border-0 border-transparent */
+}
+
+main {
+  @apply
+    /* border-0  */
+  /* border-transparent */
+  border
+  border-red-600
+  pt-[130px]
 }

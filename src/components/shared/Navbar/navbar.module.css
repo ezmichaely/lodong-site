@@ -1,24 +1,54 @@
-._navbar {
-  @apply lg:hidden fixed top-0 left-0 py-8 min-h-screen h-screen max-h-fit w-screen z-50 bg-neutral-950 overflow-y-auto;
+.navDialog {
+  @apply lg:hidden
 }
 
-._inner {
+.overlay {
+  @apply
+  fixed
+  top-0
+  left-0
+  bg-neutral-950
+  py-8 min-h-screen
+  h-screen
+  w-screen z-30
+
+  /* border border-red-500 */
+}
+
+.navbar {
+  @apply
+  min-h-screen
+  h-screen
+  w-screen
+  flex justify-start items-center flex-col
+  bg-neutral-950
+  relative
+}
+
+.inner {
   @apply relative h-full w-full flex justify-center items-center flex-col gap-12;
 }
 
-._nav_link {
+.navLink {
   @apply w-full text-[24px] text-center text-white hover:font-bold;
 }
 
-._nav_link_btn {
+.navLinkBtn {
   @apply text-xl font-inter font-medium px-6 py-2 rounded-full border-2 border-transparent drop-shadow-lg bg-jungle-400 text-white
   hover:border-jungle-400 hover:bg-transparent hover:text-jungle-400;
 }
 
-._toggle {
-  @apply absolute top-[30px] right-[25px] p-[0.75rem] border-2 rounded-full border-transparent cursor-pointer hover:border-2 hover:border-carmine-dark;
+.toggle {
+  @apply absolute
+  top-[8px] right-[20px]
+  p-[0.75rem]
+  border-2 rounded-full
+  border-transparent
+  cursor-pointer
+   hover:border-carmine-dark
+  z-50
 }
 
-._toggle_icon {
+.toggleIcon {
   @apply text-carmine text-2xl font-bold;
 }

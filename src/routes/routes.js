@@ -7,7 +7,7 @@ export const headerRoutes = [
   {
     key: 'about',
     title: 'About Us',
-    path: '/about'
+    path: '/aboutus'
   },
   {
     key: 'service',
@@ -19,11 +19,11 @@ export const headerRoutes = [
     title: 'Projects',
     path: '/projects'
   },
-  {
-    key: 'contact',
-    title: 'Contact',
-    path: '/contact'
-  },
+  // {
+  //   key: 'contact',
+  //   title: 'Contact',
+  //   path: '/contact'
+  // },
 ]
 
 
