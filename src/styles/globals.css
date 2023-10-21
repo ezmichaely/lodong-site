@@ -24,17 +24,6 @@
   }
 }
 
-@layer components {
-  /* .content {
-    @apply max-w-screen-4xl mx-auto w-screen
-    border border-violet-900;
-  } */
-
-  .px-fluid {
-    @apply px-6 lg:px-14
-  }
-}
-
 *, *:before, *::after {
   @apply box-border
 }
@@ -42,14 +31,10 @@
 html, body {
   @apply font-inter text-base
   overflow-x-hidden w-screen relative
-  /* border-0 border-transparent */
 }
 
 main {
   @apply
-    /* border-0  */
-  /* border-transparent */
-  border
-  border-red-600
+  border border-red-600
   pt-[130px]
 }
