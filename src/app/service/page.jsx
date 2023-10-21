@@ -24,8 +24,7 @@ function Service() {
       </section>
 
       <div className={`${styles.dotsContainer}`}>
-        <div id="dotApp" onc
-          className={`${styles.dots}`}></div>
+        <div id="dotApp" className={`${styles.dots}`}></div>
         <div id="dotWeb" className={`${styles.dots}`}></div>
         <div id="dotAI" className={`${styles.dots}`}></div>
         <div id="dotPlatform" className={`${styles.dots}`}></div>

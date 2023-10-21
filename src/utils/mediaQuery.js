@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-export function useMediaQuery(query) {
-
+export function useMediaQuery(width) {
+  const query = `(min-width: ${width}px)`
   const [matches, setMatches] = useState(false);
   useEffect(() => {
     const media = window.matchMedia(query);
@@ -9,7 +9,6 @@ export function useMediaQuery(query) {
     const listener = () => { setMatches(media.matches); };
     media.addListener(listener);
     return () => media.removeListener(listener);
-  }, [matches, query]);
-
+  }, [matches]);
   return matches;
 }

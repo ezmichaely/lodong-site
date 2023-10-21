@@ -2,53 +2,102 @@
   @apply lg:hidden
 }
 
+.navOpen {
+  @apply
+  py-[6px] px-2 border-2 border-transparent rounded-lg
+  flex justify-center items-center
+}
+
+
 .overlay {
   @apply
   fixed
   top-0
   left-0
-  bg-neutral-950
-  py-8 min-h-screen
-  h-screen
-  w-screen z-30
-
-  /* border border-red-500 */
-}
-
-.navbar {
-  @apply
-  min-h-screen
+  bg-jungle-400
+  min-h-[500px]
   h-screen
   w-screen
-  flex justify-start items-center flex-col
-  bg-neutral-950
-  relative
+  z-30
+  border border-transparent
 }
 
 .inner {
-  @apply relative h-full w-full flex justify-center items-center flex-col gap-12;
+  @apply
+  h-screen
+  w-screen
+  flex
+  justify-start
+  items-center
+  flex-col
+  bg-jungle-400
 }
 
-.navLink {
-  @apply w-full text-[24px] text-center text-white hover:font-bold;
+
+
+.toggleDiv {
+  @apply
+  py-3
+  px-6
+  h-header w-screen
+  flex justify-end items-center flex-row
 }
 
-.navLinkBtn {
-  @apply text-xl font-inter font-medium px-6 py-2 rounded-full border-2 border-transparent drop-shadow-lg bg-jungle-400 text-white
-  hover:border-jungle-400 hover:bg-transparent hover:text-jungle-400;
-}
 
-.toggle {
-  @apply absolute
-  top-[8px] right-[20px]
-  p-[0.75rem]
-  border-2 rounded-full
-  border-transparent
-  cursor-pointer
-   hover:border-carmine-dark
-  z-50
+.toggleBtn {
+  @apply
+  p-3 border-2 border-carmine rounded-full
+  flex justify-end items-center
 }
 
 .toggleIcon {
   @apply text-carmine text-2xl font-bold;
 }
+
+.navbar {
+  @apply
+  min-h-[400px]
+  h-[calc(100vh_-_120px)]
+  w-full
+  flex justify-center items-center flex-col
+  gap-12
+}
+
+.navLink {
+  @apply
+  w-full
+  text-[24px]
+  text-center
+   text-white
+  hover:font-bold
+}
+
+.navLinkActive {
+  @apply
+  w-full
+  text-[24px]
+  text-center text-white
+  font-bold hover:font-bold;
+}
+
+.navLinkBtnActive {
+  @apply
+  text-xl font-inter font-bold
+  px-6 py-2 rounded-full
+  border-2 border-transparent
+  drop-shadow-lg
+  bg-white text-jungle-400
+  hover:border-white
+  hover:bg-transparent hover:text-white;
+}
+
+.navLinkBtn {
+  @apply
+  text-xl font-inter font-bold
+  px-6 py-2
+  rounded-full
+  border-2 border-white
+   drop-shadow-lg bg-jungle-400 text-white
+  hover:border-white hover:bg-white hover:text-jungle-400;
+}
+

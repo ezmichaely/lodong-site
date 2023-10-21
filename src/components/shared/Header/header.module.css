@@ -80,11 +80,3 @@
   @apply text-xl font-inter font-medium px-6 py-2 rounded-full border-2 border-transparent drop-shadow-lg bg-jungle-400 text-white
   hover:border-jungle-400 hover:bg-transparent hover:text-jungle-400;
 }
-
-.navbarToggle {
-  @apply absolute top-[30px] right-[25px] p-[0.75rem] border-2 rounded-full border-transparent cursor-pointer hover:border-2 hover:border-carmine-dark;
-}
-
-.navbarToggleIcon {
-  @apply text-carmine text-2xl font-bold;
-}
