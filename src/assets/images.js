@@ -76,7 +76,6 @@ import caremanager01 from '~/projects/caremanager/caremanager01.png'
 import caremanager02 from '~/projects/caremanager/caremanager02.png'
 import caremanager03 from '~/projects/caremanager/caremanager03.png'
 import caremanager04 from '~/projects/caremanager/caremanager04.png'
-// import caremanager05 from '~/projects/caremanager/caremanager01.png'
 import caremanager06 from '~/projects/caremanager/caremanager06.png'
 import caremanager07 from '~/projects/caremanager/caremanager07.png'
 
@@ -110,7 +109,6 @@ import rugolf03BG from '~/projects/rugolf/rugolf03BG.png'
 import rugolf04 from '~/projects/rugolf/rugolf04.png'
 import rugolf05 from '~/projects/rugolf/rugolf05.png'
 import rugolf06 from '~/projects/rugolf/rugolf06D.png'
-// import rugolf06M from '~/projects/rugolf/rugolf06M.png'
 import rugolf07D from '~/projects/rugolf/rugolf07D.png'
 import rugolf07M from '~/projects/rugolf/rugolf07M.png'
 import rugolf08 from '~/projects/rugolf/rugolf08.png'
@@ -138,6 +136,21 @@ import winlottery02M from '~/projects/winlottery/winlottery02M.png'
 import winlottery03 from '~/projects/winlottery/winlottery03.png'
 import winlottery04D from '~/projects/winlottery/winlottery04D.png'
 import winlottery04M from '~/projects/winlottery/winlottery04M.png'
+
+import care from '~/partners/care.png'
+import deepinsight from '~/partners/deepinsight.png'
+import icepco from '~/partners/icepco.png'
+import interpixel from '~/partners/interpixel.png'
+import kaist from '~/partners/kaist.png'
+import keflavik from '~/partners/keflavik.png'
+import maeheon from '~/partners/maeheon.png'
+import moe from '~/partners/moe.png'
+import mts from '~/partners/mts.png'
+import rce from '~/partners/rce.png'
+import rusports from '~/partners/rusports.png'
+import sharebusan from '~/partners/sharebusan.png'
+import weavingdesigners from '~/partners/weavingdesigners.png'
+import welcomekorea from '~/partners/welcomekorea.png'
 
 
 export {
@@ -217,4 +230,11 @@ export {
   winlottery03,
   winlottery04D, winlottery04M,
 
+
+  // partners
+  care, deepinsight, icepco,
+  interpixel, kaist, keflavik,
+  maeheon, moe, mts, rce,
+  rusports, sharebusan, weavingdesigners,
+  welcomekorea,
 }

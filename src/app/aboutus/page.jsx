@@ -1,18 +1,18 @@
-
+import { About, Organization, Partners} from './sections'
 
 export const metadata = {
   title: 'About us | Lodong',
   description: 'A Software Company that provide solutions, based in Gyeonggi-do, South Korea',
 }
 
-function About() {
+export default function AboutUs() {
   return (
     <>
-      <main>
+      <main className='bg-black'>
 
+
+        <Partners />
       </main>
     </>
   )
 }
-
-export default About
