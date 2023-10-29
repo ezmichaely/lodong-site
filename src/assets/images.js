@@ -153,6 +153,8 @@ import weavingdesigners from '~/aboutus/partners/weavingdesigners.png'
 import welcomekorea from '~/aboutus/partners/welcomekorea.png'
 
 import orgChart from '~/aboutus/orgChart.png'
+import auMobile from '~/aboutus/auMobile.png'
+import auDesktop from '~/aboutus/auDesktop.png'
 
 
 export {
@@ -240,5 +242,5 @@ export {
   rusports, sharebusan, weavingdesigners,
   welcomekorea,
 
-  orgChart,
+  orgChart, auMobile, auDesktop,
 }

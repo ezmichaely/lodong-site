@@ -1,0 +1,107 @@
+.about {
+  @apply
+  w-screen max-w-screen-4xl mx-auto
+  mb-32 lg:mb-60
+}
+
+.topDiv {
+  @apply bg-about bg-right-bottom bg-no-repeat bg-cover
+  lg:bg-none
+  h-[500px]
+  lg:h-auto
+  pt-[130px]
+  w-full
+  flex justify-between items-stretch
+  mb-16
+  lg:mb-0
+}
+
+.topRight {
+  @apply hidden lg:flex
+}
+.topRight {
+  @apply 2xl:w-fit 2xl:min-w-fit
+}
+
+.topLeft {
+  @apply w-full
+  px-6 lg:px-14
+  /* 3xl:pl-32 */
+}
+
+
+.title {
+  @apply
+  w-full
+  mt-7
+}
+
+.title h2 {
+  @apply tracking-tighter
+   font-inter text-7xl lg:text-[100px] font-bold
+   text-jungle
+   lg:text-white
+}
+
+.title h2 br {
+  @apply block sm:hidden
+}
+
+.title p {
+  @apply mt-[110px] sm:mt-[183px]
+  text-right
+  font-bold font-inter text-lg
+  lg:hidden
+}
+
+.title p span:first-of-type {
+  @apply text-white mr-4
+}
+
+.title p span:nth-of-type(2) {
+  @apply text-white opacity-60
+}
+
+.footnote p {
+  @apply mt-16
+  text-right
+  font-bold font-inter text-lg
+  hidden lg:block
+}
+
+.footnote p span:first-of-type {
+  @apply text-white mr-4
+}
+
+.footnote p span:nth-of-type(2) {
+  @apply text-white opacity-60
+}
+
+.details {
+  @apply hidden lg:block
+}
+.content {
+  @apply lg:mt-16
+}
+
+.contentTitle {
+  @apply
+  /* leading-10 */
+  font-bold font-applesd
+  space-y-2 text-xl
+  text-jungle lg:text-white
+}
+
+.contentDetails {
+  @apply text-lg text-jungle lg:text-white opacity-60
+  tracking-tighter mt-16 font-bold lg:font-normal font-applesd
+  space-y-8
+  2xl:space-y-6
+}
+
+.botDiv {
+  @apply
+  mt-16
+  px-6 lg:px-14
+  lg:hidden
+}

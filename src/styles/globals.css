@@ -36,5 +36,9 @@ html, body {
 main {
   @apply
   border border-red-600
-  pt-[130px]
+  /* pt-[130px] */
 }
+
+/* main section:first-child {
+  @apply pt-[130px] border border-green-500
+} */

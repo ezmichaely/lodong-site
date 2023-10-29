@@ -11,7 +11,10 @@ export const metadata = {
 function Service() {
   return (
     <main className={`${styles.main}`}>
-      <h1 className={`${styles.pageTitle}`}> Service </h1>
+      <section>
+        <h1 className={`${styles.pageTitle}`}> Service </h1>
+      </section>
+
       <section className={`${styles.section}`}>
         <div className={`${styles.circleContainer}`}>
           <CircleCard data={serviceData.app} />
@@ -23,14 +26,14 @@ function Service() {
         </div>
       </section>
 
-      <div className={`${styles.dotsContainer}`}>
+      <section className={`${styles.dotsContainer}`}>
         <div id="dotApp" className={`${styles.dots}`}></div>
         <div id="dotWeb" className={`${styles.dots}`}></div>
         <div id="dotAI" className={`${styles.dots}`}></div>
         <div id="dotPlatform" className={`${styles.dots}`}></div>
         <div id="dotSoftware" className={`${styles.dots}`}></div>
         <div id="dotETC" className={`${styles.dots}`}></div>
-      </div>
+      </section>
     </main>
   )
 }

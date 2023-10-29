@@ -11,7 +11,7 @@ export const metadata = {
 export default function AboutUs() {
   return (
     <main className='bg-white lg:bg-black'>
-
+      <About />
       <Organization />
       <Partners />
       <ScrollTop />
