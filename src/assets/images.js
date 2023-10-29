@@ -137,20 +137,22 @@ import winlottery03 from '~/projects/winlottery/winlottery03.png'
 import winlottery04D from '~/projects/winlottery/winlottery04D.png'
 import winlottery04M from '~/projects/winlottery/winlottery04M.png'
 
-import care from '~/partners/care.png'
-import deepinsight from '~/partners/deepinsight.png'
-import icepco from '~/partners/icepco.png'
-import interpixel from '~/partners/interpixel.png'
-import kaist from '~/partners/kaist.png'
-import keflavik from '~/partners/keflavik.png'
-import maeheon from '~/partners/maeheon.png'
-import moe from '~/partners/moe.png'
-import mts from '~/partners/mts.png'
-import rce from '~/partners/rce.png'
-import rusports from '~/partners/rusports.png'
-import sharebusan from '~/partners/sharebusan.png'
-import weavingdesigners from '~/partners/weavingdesigners.png'
-import welcomekorea from '~/partners/welcomekorea.png'
+import care from '~/aboutus/partners/care.png'
+import deepinsight from '~/aboutus/partners/deepinsight.png'
+import icepco from '~/aboutus/partners/icepco.png'
+import interpixel from '~/aboutus/partners/interpixel.png'
+import kaist from '~/aboutus/partners/kaist.png'
+import keflavik from '~/aboutus/partners/keflavik.png'
+import maeheon from '~/aboutus/partners/maeheon.png'
+import moe from '~/aboutus/partners/moe.png'
+import mts from '~/aboutus/partners/mts.png'
+import rce from '~/aboutus/partners/rce.png'
+import rusports from '~/aboutus/partners/rusports.png'
+import sharebusan from '~/aboutus/partners/sharebusan.png'
+import weavingdesigners from '~/aboutus/partners/weavingdesigners.png'
+import welcomekorea from '~/aboutus/partners/welcomekorea.png'
+
+import orgChart from '~/aboutus/orgChart.png'
 
 
 export {
@@ -237,4 +239,6 @@ export {
   maeheon, moe, mts, rce,
   rusports, sharebusan, weavingdesigners,
   welcomekorea,
+
+  orgChart,
 }

@@ -1,8 +1,8 @@
-"use client"
 import styles from './partners.module.css'
 import Image from 'next/image'
 import { partnersData } from '@/constants/pages/partnersData';
 import Marquee from "react-fast-marquee";
+
 
 export default function Partners() {
   return (

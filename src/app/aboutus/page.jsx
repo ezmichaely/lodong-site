@@ -10,13 +10,11 @@ export const metadata = {
 
 export default function AboutUs() {
   return (
-    <>
-      <main className='bg-white lg:bg-black'>
+    <main className='bg-white lg:bg-black'>
 
-
-        <Partners />
-        <ScrollTop />
-      </main>
-    </>
+      <Organization />
+      <Partners />
+      <ScrollTop />
+    </main>
   )
 }

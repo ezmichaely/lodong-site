@@ -2,6 +2,7 @@
   @apply w-screen max-w-screen-4xl mx-auto px-6 lg:px-14
   mb-20
 }
+
 .title {
   @apply w-full
   flex justify-start items-center

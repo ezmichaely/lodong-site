@@ -15,9 +15,11 @@ import { usePathname } from 'next/navigation';
 import { gsap } from "gsap";
 import { ScrollToPlugin } from "gsap/ScrollToPlugin.js";
 
-gsap.registerPlugin(ScrollToPlugin);
+
 
 export default function ScrollTop() {
+  gsap.registerPlugin(ScrollToPlugin);
+
   const handleScroll = () => {
     gsap.to(window, {
       duration: 1,
