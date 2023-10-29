@@ -12,10 +12,11 @@ export default function Partners() {
         <p>로동을 믿고 함께 해주셨습니다.</p>
       </div>
 
-      <Marquee speed={80} className='my-10'>
+      <Marquee speed={80}>
         {partnersData.map((i) => (
           <div key={i.title} className='mx-10 select-none'>
-            <Image src={i.src} alt={i.title} height={i.h} className='invert lg:filter-none' />
+            <Image src={i.src} alt={i.title} height={i.h}
+              className='invert lg:filter-none' />
           </div>
         ))}
       </Marquee>

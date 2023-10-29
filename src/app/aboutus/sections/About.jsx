@@ -11,10 +11,6 @@ export default function About() {
         <div className={styles.topLeft}>
           <div className={styles.title}>
             <h2>About <br /> Us</h2>
-            <p>
-              <span>대표</span>
-              <span>조이준</span>
-            </p>
           </div>
 
           <div className={styles.details}>
