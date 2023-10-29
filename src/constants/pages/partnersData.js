@@ -13,6 +13,11 @@ export const partnersData = [
     h: 50
   },
   {
+    title: 'interpixel',
+    src: interpixel,
+    h: 50
+  },
+  {
     title: 'deepinsight',
     src: deepinsight,
     h: 170
@@ -23,11 +28,6 @@ export const partnersData = [
     h: 50
   },
   {
-    title: 'interpixel',
-    src: interpixel,
-    h: 50
-  },
-  {
     title: 'kaist',
     src: kaist,
     h: 50
@@ -35,7 +35,7 @@ export const partnersData = [
   {
     title: 'moe',
     src: moe,
-    h: 70
+    h: 80
   },
   {
     title: 'rce',
@@ -45,7 +45,7 @@ export const partnersData = [
   {
     title: 'maeheon',
     src: maeheon,
-    h: 80,
+    h: 60,
   },
   {
     title: 'rusports',
@@ -60,7 +60,7 @@ export const partnersData = [
   {
     title: 'weavingdesigners',
     src: weavingdesigners,
-    h: 60,
+    h: 50,
   },
   {
     title: 'sharebusan',

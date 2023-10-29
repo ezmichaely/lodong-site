@@ -1,4 +1,7 @@
-import { About, Organization, Partners} from './sections'
+import { About, Organization, Partners } from './sections'
+import {
+  ScrollTop
+} from '@/components/index'
 
 export const metadata = {
   title: 'About us | Lodong',
@@ -8,10 +11,11 @@ export const metadata = {
 export default function AboutUs() {
   return (
     <>
-      <main className='bg-black'>
+      <main className='bg-white lg:bg-black'>
 
 
         <Partners />
+        <ScrollTop />
       </main>
     </>
   )

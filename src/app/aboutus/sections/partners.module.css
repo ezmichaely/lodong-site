@@ -1,0 +1,24 @@
+.partners {
+  @apply w-screen max-w-screen-4xl mx-auto px-6 lg:px-14
+  mb-20
+}
+.title {
+  @apply w-full
+  flex justify-start items-center
+  gap-y-4
+  gap-x-10
+  flex-row flex-wrap
+  text-jungle lg:text-white
+  text-left
+  mb-20
+}
+
+.title h2 {
+  @apply tracking-tighter
+   font-inter text-7xl lg:text-[100px] font-bold
+}
+
+.title p {
+  @apply whitespace-nowrap tracking-tighter
+  font-inter text-xl font-medium
+}
