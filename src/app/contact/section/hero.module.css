@@ -8,16 +8,21 @@
   px-6 lg:px-14
   lg:h-auto
   select-none
+  /* border-0 border-transparent */
   /* lg:h-screen
   lg:min-h-[calc(530px_-_160px_-_32px)] */
+
+  /* border border-red-500 */
 }
 
 .topDiv {
   @apply mt-[66px] lg:mt-[100px]
   w-full
   flex justify-between items-start flex-col
-  h-[calc(530px_-_160px_-_32px)]
+  h-[338px]
   lg:h-auto
+
+  border border-red-500
 }
 
 .top1 {
