@@ -18,7 +18,7 @@
 .title h2 {
   @apply tracking-tighter
    font-inter
-   text-2xl
+   text-[68px]
    sm:text-7xl
    lg:text-[100px] font-bold
 }
