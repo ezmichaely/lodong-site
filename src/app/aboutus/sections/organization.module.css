@@ -17,7 +17,10 @@
 
 .title h2 {
   @apply tracking-tighter
-   font-inter text-7xl lg:text-[100px] font-bold
+   font-inter
+   text-2xl
+   sm:text-7xl
+   lg:text-[100px] font-bold
 }
 
 .orgChart {
