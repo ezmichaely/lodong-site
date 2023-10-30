@@ -1,0 +1,179 @@
+.hero {
+  @apply
+  pt-[100px]
+  h-[530px]
+  bg-cMobile bg-center bg-no-repeat bg-cover
+  lg:bg-cDesktop lg:bg-bottom
+  max-w-screen-4xl mx-auto w-screen
+  px-6 lg:px-14
+  lg:h-auto
+  select-none
+  /* lg:h-screen
+  lg:min-h-[calc(530px_-_160px_-_32px)] */
+}
+
+.topDiv {
+  @apply mt-[66px] lg:mt-[100px]
+  w-full
+  flex justify-between items-start flex-col
+  h-[calc(530px_-_160px_-_32px)]
+  lg:h-auto
+}
+
+.top1 {
+  @apply w-full
+  flex justify-end items-end
+  flex-col
+  lg:hidden
+}
+
+.top1 h4 {
+  @apply
+  font-applesd font-medium
+  text-2xl
+  text-jungle
+  tracking-tighter
+}
+
+.top1 h5 {
+  @apply
+  font-applesd font-medium
+  text-2xl
+  text-jungle
+  tracking-tighter opacity-60
+}
+
+.topBot {
+  @apply w-full grow
+  flex justify-between items-start flex-col lg:flex-row
+  lg:gap-x-8
+  lg:items-end
+
+
+}
+
+.top2 {
+  @apply w-full grow
+  flex justify-center items-center flex-col
+  lg:justify-start lg:items-start
+  3xl:pl-16
+  /* border border-red-500 */
+}
+
+.title {
+  @apply w-full
+  flex justify-center items-end flex-row
+  lg:justify-start
+  gap-x-4
+}
+
+.title h2 {
+  @apply text-carmine font-applesd
+  font-extrabold text-6xl
+  lg:text-[85px]
+  3xl:text-[110px]
+}
+
+.title p {
+  @apply font-applesd leading-0
+  tracking-tighter text-jungle-400 font-semibold
+  opacity-80
+  text-xl
+  lg:text-2xl
+  mb-5
+}
+
+.subTitle {
+  @apply
+  hidden lg:flex
+  flex-col
+}
+
+.subTitle p {
+  @apply whitespace-nowrap
+  font-applesd text-2xl font-semibold
+  text-jungle-400
+}
+
+.top3 {
+  @apply
+  w-full
+  flex justify-start items-start flex-col
+}
+
+.top3A {
+  @apply w-full
+  flex justify-end items-end
+  lg:justify-start
+  lg:gap-x-4
+}
+
+.top3A p {
+  @apply hidden
+  lg:flex
+  justify-end
+  tracking-tighter
+  text-base
+  2xl:text-lg
+  3xl:text-xl
+  font-applesd
+ text-jungle-400
+  space-x-2
+}
+
+.top3A p span:first-of-type {
+  @apply whitespace-nowrap
+  font-black
+}
+
+.top3A p span:nth-of-type(2) {
+  @apply font-semibold
+}
+
+.top3AImg {
+  @apply flex justify-center items-center
+
+}
+
+.top3AImg img {
+  @apply
+  min-h-[60px] min-w-[60px]
+  h-[60px] w-[60px]
+  drop-shadow-[0_3px_3px_rgba(0,0,0,0.3)]
+}
+
+.top3B {
+  @apply
+  hidden
+  lg:flex
+  justify-start
+  items-start
+  flex-wrap
+  gap-x-4
+}
+
+.top3B p {
+  @apply whitespace-nowrap
+  space-x-2
+  text-jungle-400
+  tracking-tighter
+  text-base
+  2xl:text-lg
+  3xl:text-xl
+}
+
+.top3B p span:first-of-type {
+  @apply font-bold whitespace-nowrap
+}
+
+.top3B p span:nth-of-type(2) {
+  @apply whitespace-nowrap
+  font-medium
+}
+
+
+
+/* form */
+.form {
+  @apply pb-[500px]
+}

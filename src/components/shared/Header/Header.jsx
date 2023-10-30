@@ -21,12 +21,12 @@ export default function Header () {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.pageYOffset;
-      setIsVisible(prevScrollPos > currentScrollPos);
+      // setIsVisible(prevScrollPos > currentScrollPos);
       if (prevScrollPos > currentScrollPos) { setIsVisible(true); }
       else { setIsVisible(false);}
       prevScrollPos = currentScrollPos;
 
-      if (window.scrollY >= 80) { setHeaderChange(true); }
+      if (window.scrollY >= 60) { setHeaderChange(true); }
       else { setHeaderChange(false); }
     };
     let prevScrollPos = window.pageYOffset;
@@ -35,17 +35,12 @@ export default function Header () {
   }, []);
 
 
-  const defaultHeaderClass = `${styles.header} ${headerBg} opacity-100`;
-  const newHeaderClass = `${styles.header}
-    ${isVisible
-      ? (headerBg === 'bg-transparent'
-        ? 'bg-white opacity-100'
-        : `${headerBg} opacity-100`)
-      : 'opacity-0'}`;
+  const defaultHeaderClass = `${headerBg} opacity-100`;
+  const newHeaderClass = `${isVisible ? (headerBg === 'bg-transparent' ? 'bg-white opacity-100' : `${defaultHeaderClass}`) : 'opacity-0'}`;
 
   return (
     <>
-      <header className={headerChange ? newHeaderClass : defaultHeaderClass}>
+      <header className={`${styles.header} ${headerChange ? newHeaderClass : defaultHeaderClass}`}>
         <div className={styles.container}>
           <Link href="/" className={styles.brand}>
             <Image src={LodongLogo} alt="LodongLogo" className={styles.brandImg} />

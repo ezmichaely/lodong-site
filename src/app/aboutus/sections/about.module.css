@@ -21,6 +21,7 @@
   /* justify-end items-end */
   /* h-full border */
 }
+
 .topRight {
   @apply
   2xl:w-fit 2xl:min-w-fit
