@@ -26,7 +26,7 @@ export default function Header () {
       else { setIsVisible(false);}
       prevScrollPos = currentScrollPos;
 
-      if (window.scrollY >= 100) { setHeaderChange(true); }
+      if (window.scrollY >= 80) { setHeaderChange(true); }
       else { setHeaderChange(false); }
     };
     let prevScrollPos = window.pageYOffset;

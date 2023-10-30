@@ -38,6 +38,7 @@ export default function About() {
             </p>
           </div>
         </div>
+
         <div className={styles.topRight}>
           <Image src={auDesktop} alt="auDesktop" />
         </div>

@@ -4,7 +4,7 @@
 
 .navOpen {
   @apply
-  py-[6px] px-2 border-2 border-transparent rounded-lg
+  py-[1px] px-1 border-2 border-transparent rounded-lg
   flex justify-center items-center
 }
 
@@ -15,7 +15,7 @@
   top-0
   left-0
   bg-jungle-400
-  min-h-[500px]
+  min-h-[450px]
   h-screen
   w-screen
   z-30
@@ -56,8 +56,8 @@
 
 .navbar {
   @apply
-  min-h-[400px]
-  h-[calc(100vh_-_120px)]
+  min-h-[350px]
+  h-[calc(100vh_-_100px)]
   w-full
   flex justify-center items-center flex-col
   gap-12

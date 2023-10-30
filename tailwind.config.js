@@ -55,11 +55,11 @@ module.exports = {
         '02': '-0.2rem'
       },
       height: {
-        header: '120px',
+        header: '100px',
         '540': '540px',
       },
       width: {
-        header: '120px',
+        header: '100px',
         '540': '540px',
       },
       margin: {
