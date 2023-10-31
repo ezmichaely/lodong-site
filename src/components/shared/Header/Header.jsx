@@ -64,7 +64,7 @@ export default function Header () {
             </Link>
           </nav>
 
-          {!mediaQuery && (<Navbar />)}
+          <Navbar />
         </div>
       </header>
     </>

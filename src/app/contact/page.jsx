@@ -1,4 +1,5 @@
 import { Hero, ContactForm } from './section'
+import styles from './contact.module.css'
 
 export const metadata = {
   title: 'Contact Us | Lodong',
@@ -8,9 +9,11 @@ export const metadata = {
 
 function Contact() {
   return (
-    <main>
-      <Hero />
-      <ContactForm />
+    <main className={styles.main}>
+      <section className={styles.section}>
+        <Hero />
+        <ContactForm />
+      </section>
     </main>
   )
 }

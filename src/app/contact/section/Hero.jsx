@@ -1,10 +1,11 @@
 import styles from './hero.module.css'
 import { PinLocation } from '@/assets/images'
 import Image from 'next/image'
+import { ContactForm } from '.'
 
 export default function Hero() {
   return (
-    <section className={styles.hero}>
+    <article className={styles.hero}>
       <div className={styles.topDiv}>
 
         <div className={styles.top1}>
@@ -25,37 +26,34 @@ export default function Hero() {
           </div>
 
           <div className={styles.top3}>
-            <div className={styles.top3A}>
-              <p>
-                <span>오시는 길 :</span>
-                <span>경기도 안양시 만안구 덕천로 152번길 25 아이에스비즈타워 B동 1506호</span>
-              </p>
-              <div className={styles.top3AImg}>
-                <Image src={PinLocation} alt="PinLocation"/>
+            <div className={styles.top3Content}>
+              <div className={styles.top3A}>
+                <p>
+                  <span>오시는 길 :</span>
+                  <span>경기도 안양시 만안구 덕천로 152번길 25 아이에스비즈타워 B동 1506호</span>
+                </p>
+                <div className={styles.top3AImg}>
+                  <Image src={PinLocation} alt="PinLocation"/>
+                </div>
               </div>
-            </div>
-            <div className={styles.top3B}>
-              <p>
-                <span>TEL :</span>
-                <span>010-6575-1161 / 031-444-1161</span>
-              </p>
-              <p>
-                <span>FAX :</span>
-                <span>031-460-8553</span>
-              </p>
-              <p>
-                <span>Email :</span>
-                <span>cyj@lodong.co.kr</span>
-              </p>
+              <div className={styles.top3B}>
+                <p>
+                  <span>TEL :</span>
+                  <span>010-6575-1161 / 031-444-1161</span>
+                </p>
+                <p>
+                  <span>FAX :</span>
+                  <span>031-460-8553</span>
+                </p>
+                <p>
+                  <span>Email :</span>
+                  <span>cyj@lodong.co.kr</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-
-      <div className={styles.form}>
-
-      </div>
-    </section>
+    </article>
   )
 }

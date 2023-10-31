@@ -3,14 +3,33 @@ import styles from './contactForm.module.css'
 
 export default function ContactForm() {
   return (
-    <section className={styles.contactForm}>
-      <form action="">
-        <input type="text" className='' placeholder='이름 (소속) 입력하기' />
-        <input type="text" className='' placeholder='연락처 입력하기' />
-        <div>
-
+    <article className={styles.contactForm}>
+      <div className={`${styles.form}`}>
+        <div className={styles.formControl}>
+          <input type="text" placeholder='이름 (소속) 입력하기' className={`form-input ${styles.inputText}`} />
         </div>
-      </form>
-    </section>
+
+        <div className={styles.formControl}>
+          <input type="text" placeholder='연락처 입력하기' className={`form-input ${styles.inputText}`} />
+        </div>
+
+        <div className={styles.formCheck}>
+          <label htmlFor="iAgree">
+            <input id="iAgree" type="checkbox" className={`form-checkbox ${styles.checkBox}`} />
+            <span> 개인정보 수집 및 이용에 동의합니다. </span>
+          </label>
+        </div>
+
+        <div className={styles.formButton}>
+          <button>
+            상담 예약
+          </button>
+        </div>
+      </div>
+
+      <div className={`${styles.messageForm}`}>
+
+      </div>
+    </article>
   )
 }

@@ -1,22 +1,108 @@
 .contactForm {
   @apply
+  px-6 lg:px-0
+  w-full
   h-[470px]
   bg-white
-  px-6
-  lg:hidden
+
+  lg:h-auto
+  lg:bg-transparent
+  lg:mt-[150px]
+  lg:flex lg:justify-end lg:items-start
+  lg:pb-[450px]
+  3xl:pb-[550px]
+  4xl:pb-[650px]
 }
 
-.contactForm form {
+.form {
   @apply w-full
-  py-10
+  pt-10
   space-y-4
+  lg:space-y-0
+  lg:flex lg:justify-end
+  lg:items-center lg:flex-row
+  lg:gap-x-4
+  2xl:gap-x-8
+  lg:pt-0
 }
 
-.contactForm input {
+.inputText {
   @apply
   h-16 w-full
-  border border-jungle rounded-2xl
+  border-2 border-jungle-200 rounded-2xl
   px-4
-  text-lg font-inter
+  text-lg
+  font-inter
   text-center
+  focus:outline-none
+  focus:outline-transparent
+  focus:ring-0 focus:ring-transparent
+  focus:border-2 focus:border-jungle
+  text-jungle
+
+  lg:bg-transparent
+  /* lg:w-auto */
+  3xl:w-[400px]
+}
+
+.inputText::placeholder {
+  @apply text-jungle-300
+}
+
+.formCheck {
+  @apply
+  w-full h-16
+  flex justify-center items-center flex-row
+
+  lg:w-auto
+}
+
+.formCheck label {
+  @apply
+  w-full
+  flex justify-center items-center flex-row
+  gap-x-3
+  cursor-pointer
+  select-none
+  whitespace-nowrap
+}
+
+.formCheck label span {
+  @apply font-extrabold font-inter
+}
+
+.checkBox {
+  @apply
+  h-8 w-8 rounded-xl
+  border-0 border-transparent
+  cursor-pointer
+  bg-jungle-100
+  shadow-none
+  focus:outline-0
+  focus:outline-transparent
+  focus:ring-0 focus:ring-transparent
+  checked:ring-0 checked:ring-transparent
+}
+
+.formButton {
+  @apply mt-8
+  w-full
+  lg:w-auto
+}
+
+.formButton button {
+  @apply w-full bg-jungle py-5 text-center
+  border-2 border-jungle
+  font-inter text-lg  text-[#D9D9D9]
+  font-bold
+  rounded-2xl
+  hover:bg-transparent hover:text-jungle
+  hover:border-jungle
+  whitespace-nowrap
+
+
+  lg:w-auto
+  lg:px-8
+  2xl:px-16
+  lg:py-4
 }

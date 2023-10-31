@@ -1,0 +1,13 @@
+.main {
+  @apply
+  lg:bg-cDesktop lg:bg-cover
+  lg:bg-no-repeat lg:bg-bottom
+}
+
+.section {
+  @apply
+  max-w-screen-4xl mx-auto w-screen
+  px-0 lg:px-14
+  xl:px-36
+  2xl:px-48
+}

@@ -1,11 +1,11 @@
 .hero {
   @apply
+  px-6 lg:px-0
   pt-[100px]
   h-[530px]
   bg-cMobile bg-center bg-no-repeat bg-cover
-  lg:bg-cDesktop lg:bg-bottom
-  max-w-screen-4xl mx-auto w-screen
-  px-6 lg:px-14
+  lg:bg-none
+
   lg:h-auto
   select-none
   /* border-0 border-transparent */
@@ -15,14 +15,17 @@
   /* border border-red-500 */
 }
 
+.heroContent {
+  /* @apply */
+
+}
+
 .topDiv {
   @apply mt-[66px] lg:mt-[100px]
   w-full
   flex justify-between items-start flex-col
   h-[338px]
   lg:h-auto
-
-  border border-red-500
 }
 
 .top1 {
@@ -61,7 +64,8 @@
   @apply w-full grow
   flex justify-center items-center flex-col
   lg:justify-start lg:items-start
-  3xl:pl-16
+  lg:gap-y-4
+  /* 3xl:pl-16 */
   /* border border-red-500 */
 }
 
@@ -103,7 +107,16 @@
 .top3 {
   @apply
   w-full
+  flex justify-end items-end flex-row
+  /* border border-black */
+}
+
+.top3Content {
+  @apply
+  /* w-full */
   flex justify-start items-start flex-col
+
+  /* border border-red-400 */
 }
 
 .top3A {
@@ -180,5 +193,7 @@
 
 /* form */
 .form {
-  @apply pb-[500px]
+  @apply
+  hidden lg:block
+
 }
