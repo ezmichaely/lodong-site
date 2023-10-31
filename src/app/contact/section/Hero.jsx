@@ -1,7 +1,7 @@
 import styles from './hero.module.css'
 import { PinLocation } from '@/assets/images'
 import Image from 'next/image'
-import { ContactForm } from '.'
+import { companyInfo } from '@/constants/info'
 
 export default function Hero() {
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
               <div className={styles.top3A}>
                 <p>
                   <span>오시는 길 :</span>
-                  <span>경기도 안양시 만안구 덕천로 152번길 25 아이에스비즈타워 B동 1506호</span>
+                  <span>{companyInfo.loc}</span>
                 </p>
                 <div className={styles.top3AImg}>
                   <Image src={PinLocation} alt="PinLocation"/>
@@ -39,15 +39,15 @@ export default function Hero() {
               <div className={styles.top3B}>
                 <p>
                   <span>TEL :</span>
-                  <span>010-6575-1161 / 031-444-1161</span>
+                  <span>{companyInfo.tel}</span>
                 </p>
                 <p>
                   <span>FAX :</span>
-                  <span>031-460-8553</span>
+                  <span>{companyInfo.fax}</span>
                 </p>
                 <p>
                   <span>Email :</span>
-                  <span>cyj@lodong.co.kr</span>
+                  <span>{companyInfo.email}</span>
                 </p>
               </div>
             </div>

@@ -12,7 +12,7 @@
 .footerContainer {
   @apply max-w-screen-4xl mx-auto px-6 pt-8 pb-4 space-y-8
   lg:pt-12 lg:pb-12 lg:px-14 lg:space-y-0
-  border border-lime-400
+  /* border border-lime-400 */
 }
 
 .footerContent {

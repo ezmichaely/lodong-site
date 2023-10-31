@@ -1,7 +1,7 @@
 "use client"
 
+import { companyInfo } from '@/constants/info'
 import {
-  footerDetails,
   footerLightIcon,
   footerDarkIcon,
 } from '@/routes/footerRoutes';
@@ -44,24 +44,24 @@ export default function FooterContent() {
                   <div className={`${styles.top1}`}>
                     <p>
                       <span className={`${styles.textLegend} font-bold`}>상호 : </span>
-                      <span className={`${styles.textDetails}`}>{footerDetails.name}</span>
+                      <span className={`${styles.textDetails}`}>{companyInfo.name}</span>
                     </p>
 
                     <p>
                       <span className={`${styles.textLegend} font-bold`}>대표 : </span>
-                      <span className={`${styles.textDetails}`}>{footerDetails.rep}</span>
+                      <span className={`${styles.textDetails}`}>{companyInfo.rep}</span>
                     </p>
 
                     <p>
                       <span className={`${styles.textLegend} font-bold`}>사업자등록번호 : </span>
-                      <span className={`${styles.textDetails}`}>{footerDetails.brn}</span>
+                      <span className={`${styles.textDetails}`}>{companyInfo.brn}</span>
                     </p>
                   </div>
 
                   <div>
                     <p>
                       <span className={`${styles.textLegend} font-bold`}>소재지 : </span>
-                      <span className={`${styles.textDetails}`}>{footerDetails.loc}</span>
+                      <span className={`${styles.textDetails}`}>{companyInfo.loc}</span>
                     </p>
                   </div>
                 </div>
@@ -69,17 +69,17 @@ export default function FooterContent() {
                 <div className={`${styles.bottom}`}>
                   <p>
                     <span className={`${styles.textLegend} font-medium`}>TEL : </span>
-                    <span className={`${styles.textDetails}`}>{footerDetails.tel}</span>
+                    <span className={`${styles.textDetails}`}>{companyInfo.tel}</span>
                   </p>
 
                   <p>
                     <span className={`${styles.textLegend} font-medium`}>FAX : </span>
-                    <span className={`${styles.textDetails}`}>{footerDetails.fax}</span>
+                    <span className={`${styles.textDetails}`}>{companyInfo.fax}</span>
                   </p>
 
                   <p>
                     <span className={`${styles.textLegend} font-medium`}>Email : </span>
-                    <span className={`${styles.textDetails}`}>{footerDetails.email}</span>
+                    <span className={`${styles.textDetails}`}>{companyInfo.email}</span>
                   </p>
                 </div>
               </div>
@@ -90,10 +90,10 @@ export default function FooterContent() {
             {darkPaths.includes(pathname) && (
               <div className={`${styles.iconsMobileDiv}`}>
                 {footerLightIcon.map((data) => (
-                  <Link href="#" key={data.name}>
+                  <div key={data.name}>
                     {/* {data.icon} */}
                     <Image src={data.icon} alt={data.name} />
-                  </Link>
+                  </div>
                 ))}
               </div>
             )}
@@ -101,9 +101,9 @@ export default function FooterContent() {
             {lightPaths.includes(pathname) && (
               <div className={`${styles.iconsMobileDiv}`}>
                 {footerDarkIcon.map((data) => (
-                  <Link href="#" key={data.name}>
+                  <div key={data.name}>
                     <Image src={data.icon} alt={data.name} />
-                  </Link>
+                  </div>
                 ))}
               </div>
             )}

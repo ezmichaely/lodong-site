@@ -29,8 +29,8 @@
 }
 
 html, body {
-  @apply font-inter text-base
-  overflow-x-hidden w-screen relative
+  @apply font-inter text-base relative
+  overflow-x-hidden w-screen
   border-0 border-transparent
 }
 

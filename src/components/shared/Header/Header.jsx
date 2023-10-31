@@ -36,7 +36,7 @@ export default function Header () {
 
 
   const defaultHeaderClass = `${headerBg} opacity-100`;
-  const newHeaderClass = `${isVisible ? (headerBg === 'bg-transparent' ? 'bg-white opacity-100' : `${defaultHeaderClass}`) : 'opacity-0'}`;
+  const newHeaderClass = `${isVisible ? (headerBg === 'bg-transparent' ? 'bg-white shadow opacity-100' : `${defaultHeaderClass} shadow`) : 'opacity-0'}`;
 
   return (
     <>
