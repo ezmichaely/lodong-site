@@ -2,6 +2,7 @@
 .breadcrumbSection {
   @apply lg:px-14 w-full lg:hidden
   p-6
+  pt-[110px]
 }
 
 .breadcrumbContainer {

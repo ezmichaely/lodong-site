@@ -1,6 +1,7 @@
 .heroSection {
   @apply w-screen
   /* border */
+  lg:pt-[110px]
 }
 
 .heroContainer {
