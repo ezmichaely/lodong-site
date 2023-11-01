@@ -12,7 +12,7 @@
   @apply
   lg:min-h-screen
   3xl:h-full
-  lg:backdrop-contrast-[110%]
+  lg:backdrop-contrast-100
   lg:bg-homeGradient
   w-screen
   flex justify-end items-start flex-col
@@ -36,7 +36,7 @@
   @apply
   w-full
   bg-homeGradient
-  backdrop-contrast-[110%]
+  backdrop-contrast-100
   lg:backdrop-filter-none
   lg:bg-none
   h-full
