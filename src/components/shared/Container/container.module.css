@@ -6,6 +6,7 @@
   lg:flex-row-reverse
   lg:pb-80
   3xl:pb-520
+  3xl:pt-[110px]
 }
 
 .firstImgContainer {
@@ -20,7 +21,7 @@
 .firstDetailsContainer {
   @apply w-screen px-6
   3xl:mt-28
-  lg:px-14 lg:w-2/4 lg:text-left 
+  lg:px-14 lg:w-2/4 lg:text-left
 
   /* border border-red-600 */
 }
@@ -28,7 +29,7 @@
 .firstTopDetailsContainer {
   @apply hidden 3xl:block
   /* border border-red-600 */
-  
+
 }
 
 .firstTopName {
@@ -36,20 +37,20 @@
 }
 
 .firstTopDetails {
-  @apply text-jungle font-medium opacity-60 
+  @apply text-jungle font-medium opacity-60
   text-3xl
   lg:text-white lg:opacity-100
 }
 
 .firstTopTitle {
   @apply font-extrabold tracking-tighter leading-none
-  text-white 
-  text-7xl 
+  text-white
+  text-7xl
   3xl:text-8xl 3xl:mt-14 3xl:font-bold
 }
 
 .firstBottomDetailsContainer {
-  @apply 
+  @apply
   mt-14
   lg:mt-16
   3xl:mt-18 3xl:gap-x-7
@@ -57,7 +58,7 @@
 
 .firstBottomNumTitle {
   @apply
-  flex justify-start items-end gap-x-5 
+  flex justify-start items-end gap-x-5
 
   /* border border-red-600 */
 }
@@ -125,11 +126,11 @@
 
 .detailsContainer {
   @apply w-screen px-6
-  lg:px-14 lg:w-2/4 lg:text-left 
+  lg:px-14 lg:w-2/4 lg:text-left
 }
 
 .numTitle {
-  @apply flex justify-start items-end gap-x-5 
+  @apply flex justify-start items-end gap-x-5
   mt-14
   lg:mt-16
   3xl:mt-28 3xl:gap-x-7
@@ -138,16 +139,16 @@
 
 .number {
   @apply
-  font-applesd font-light text-carmine-dark 
+  font-applesd font-light text-carmine-dark
   text-7xl leading-10
   3xl:text-7.5xl 3xl:leading-10
   4xl:text-8xl 4xl:leading-10
 }
 
 .title {
-  @apply 
+  @apply
   tracking-tighter whitespace-nowrap
-  font-applesd font-light text-jungle 
+  font-applesd font-light text-jungle
   text-2xl leading-none
   lg:text-white
   3xl:text-3xl 3xl:-mb-1 3xl:leading-none
@@ -155,11 +156,11 @@
 }
 
 .details {
-  @apply mt-10 
+  @apply mt-10
   text-lg leading-10
-  font-applesd  text-jungle opacity-60 tracking-tighter 
+  font-applesd  text-jungle opacity-60 tracking-tighter
   lg:mt-14
-  lg:text-white lg:opacity-100 
+  lg:text-white lg:opacity-100
   3xl:text-xl 3xl:leading-10 3xl:tracking-wider
   4xl:mt-18 4xl:text-2xl 4xl:leading-10 4xl:tracking-wider
 }
