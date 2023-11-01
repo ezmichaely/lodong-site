@@ -1,0 +1,76 @@
+<main className={styles._main}>
+      <section className={styles._inner}>
+        <article className={styles._hero}>
+          <p className={styles._hero_info}>
+            <span className={styles._hero_info1}>
+              실패 경험
+            </span>
+            <span className={styles._hero_info2}>
+              ZERO
+            </span> <br />
+            <span className={styles._hero_info3}>
+              세상에 없던 디지털 솔루션 개발 전문
+            </span>
+          </p>
+          <p className={styles._hero_lodong}>
+            LODONG
+          </p>
+        </article>
+      </section>
+    </main>
+
+
+
+
+    .title {
+  @apply font-nanum text-white text-2xl;
+}
+
+.test {
+  @apply font-applesd text-white text-2xl;
+}
+
+
+._main {
+  @apply relative block w-screen z-10;
+}
+
+._inner {
+  background-position: center right;
+  @apply transition ease-in duration-300
+  pt-[120px]
+  bg-main bg-cover bg-no-repeat
+  h-[550px] lg:h-screen w-screen;
+}
+
+._hero {
+  /* background-image: linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%); */
+
+  @apply bg-hero w-screen px-4 pb-[30px] lg:pb-0
+    /* h-[430px] */
+    h-[430px] lg:h-[calc(100vh_-_120px)]
+    flex justify-end items-end flex-col
+    select-none;
+}
+
+._hero_info {
+  @apply text-white text-end mr-2;
+}
+
+._hero_info1 {
+  @apply font-nanum text-[40px];
+}
+
+._hero_info2 {
+  @apply font-kumbh text-[23px] font-medium ml-4;
+}
+
+._hero_info3 {
+  @apply text-[18px] font-bold opacity-60;
+}
+
+._hero_lodong {
+  text-shadow: 12px -8px 0px rgba(255, 255, 255, 0.08);
+  @apply font-inter text-carmine-dark text-[80px] lg:text-[100px] xl:text-[128px] mr-2
+  font-bold leading-none tracking-tighter text-end ease-in duration-300
+}

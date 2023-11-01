@@ -1,52 +1,212 @@
-.title {
-  @apply font-nanum text-white text-2xl;
+.main {
+  @apply
+  min-h-[700px]
+  lg:bg-home lg:bg-right-bottom lg:bg-cover
+  lg:bg-no-repeat
+  3xl:h-screen
+  lg:min-h-screen
+  w-full
 }
 
-.test {
-  @apply font-applesd text-white text-2xl;
+.section {
+  @apply
+  lg:min-h-screen
+  3xl:h-full
+  lg:backdrop-contrast-[110%]
+  lg:bg-homeGradient
+  w-screen
+  flex justify-end items-start flex-col
+  select-none
+}
+
+.article1 {
+  @apply
+  w-full
+  pt-[110px]
+  h-[550px]
+  bg-home bg-right-bottom bg-cover
+  bg-no-repeat
+  lg:bg-none
+  lg:min-h-[650px]
+  lg:grow
+  3xl:min-h-[auto]
+}
+
+.article1Content {
+  @apply
+  w-full
+  bg-homeGradient
+  backdrop-contrast-[110%]
+  lg:backdrop-filter-none
+  lg:bg-none
+  h-full
+}
+
+.details1 {
+  @apply
+  max-w-screen-4xl mx-auto
+  px-6 lg:px-14
+  h-full w-full
+  flex justify-end items-end flex-col
+  lg:bg-none
+  gap-y-1
+}
+
+.details1 p {
+  @apply text-white space-x-4
+}
+
+.details1 p span:first-of-type {
+  @apply
+  font-nanum text-5xl
+  tracking-tighter
+  lg:font-kumbh
+  lg:text-4xl
+}
+
+.details1 p span:nth-of-type(2) {
+  @apply
+  font-applesd text-2xl
+  font-extrabold
+  tracking-normal
+  lg:font-inter
+  lg:text-[42px]
 }
 
 
-._main {
-  @apply relative block w-screen z-10;
+.details1 h4 {
+  @apply text-white opacity-60
+  font-bold font-applesd
+  text-xl
+  lg:font-kumbh
+  lg:font-normal
+  lg:text-[34px]
+  lg:opacity-100
+  lg:py-2
 }
 
-._inner {
-  background-position: center right;
-  @apply transition ease-in duration-300
-  pt-[120px] 
-  bg-main bg-cover bg-no-repeat 
-  h-[550px] lg:h-screen w-screen;
+.details1 h1 {
+  @apply text-carmine-dark
+  font-inter font-bold
+  text-7xl
+  lg:text-[130px]
+  mb-6
 }
 
-._hero {
-  /* background-image: linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%); */
 
-  @apply bg-hero w-screen px-4 pb-[30px] lg:pb-0 
-    /* h-[430px] */
-    h-[430px] lg:h-[calc(100vh_-_120px)]
-    flex justify-end items-end flex-col
-    select-none;
+.article2 {
+  @apply w-full
+  lg:bg-homeGradient2
+  lg:bg-black/50
+  pt-10
+  pb-32
+  lg:pb-10
 }
 
-._hero_info {
-  @apply text-white text-end mr-2;
+
+.article2Content {
+  @apply
+  max-w-screen-4xl mx-auto
+  px-6 lg:px-14
+  w-full
+
+  flex justify-start items-start flex-col
+  lg:justify-between
+  lg:items-center
+  lg:flex-row
 }
 
-._hero_info1 {
-  @apply font-nanum text-[40px];
+.details2 {
+  @apply
+  tracking-tighter
+  space-y-4
+  font-applesd font-extrabold
+  text-4xl
+  sm:text-5xl
+  md:text-6xl
+  /* lg:text-6xl */
+  xl:text-7xl
+  ease-in duration-150
+  lg:font-inter
+  lg:font-bold
+  lg:tracking-tight
 }
 
-._hero_info2 {
-  @apply font-kumbh text-[23px] font-medium ml-4;
+.details2 h3:first-of-type {
+  @apply
+  text-jungle opacity-60
+  lg:text-white lg:opacity-100
 }
 
-._hero_info3 {
-  @apply text-[18px] font-bold opacity-60;
+.details2 h3:nth-of-type(2) {
+  @apply
+  flex justify-start items-center
+  gap-x-4
+  sm:gap-x-6
 }
 
-._hero_lodong {
-  text-shadow: 12px -8px 0px rgba(255, 255, 255, 0.08);
-  @apply font-inter text-carmine-dark text-[80px] lg:text-[100px] xl:text-[128px] mr-2
-  font-bold leading-none tracking-tighter text-end ease-in duration-300
+.details2 h3:nth-of-type(2) span:first-of-type {
+  @apply
+  text-jungle opacity-80
+  lg:text-jungle-200 lg:opacity-100
+}
+
+.details2 h3:nth-of-type(2) span:nth-of-type(2) {
+  @apply
+  bg-jungle opacity-80
+  lg:hidden
+  h-[2px]
+  w-20
+  md:w-28
+  ease-linear duration-200
+}
+
+.details2 h3:nth-of-type(3) {
+  @apply
+  flex justify-start items-center
+  gap-x-4
+  sm:gap-x-6
+}
+
+.details2 h3:nth-of-type(3) span:first-of-type {
+  @apply
+  text-jungle
+  lg:text-white
+  lg:whitespace-nowrap
+}
+
+.details2 h3:nth-of-type(3) span:nth-of-type(2) {
+  @apply
+  hidden lg:flex
+  bg-jungle lg:bg-white
+  h-[1px] w-20
+  xl:w-32
+  /* sm:h-1 sm:w-20
+  md:w-40 */
+  ease-linear duration-200
+}
+
+.carets {
+  @apply
+  w-full
+  flex justify-center items-center
+  lg:w-fit
+}
+
+.carets a:first-of-type {
+  @apply
+  lg:hidden mt-24
+}
+
+.carets a:first-of-type img {
+  @apply h-14 w-auto
+}
+
+.carets a:nth-of-type(2) {
+  @apply
+  hidden lg:flex
+}
+
+.carets a:nth-of-type(2) img {
+  @apply h-20 w-auto
 }

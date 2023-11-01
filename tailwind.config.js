@@ -20,8 +20,9 @@ module.exports = {
         '4xl': '2560px',
       },
       backgroundImage: {
-        hero: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
-        main: 'url("/bg/bgHome.png")',
+        homeGradient: 'linear-gradient(to top, rgba(0,0,0,0.90) 30%, transparent 60%)',
+        homeGradient2: 'linear-gradient(301deg, #000 11.48%, rgba(0, 0, 0, 0.00) 35.58%, rgba(0, 0, 0, 0.00) 45.62%);',
+        home: 'url("/bg/bgHome.png")',
         imgWinlottery: 'url("/projects/winlottery/winlottery00MBG.png")',
         imgRugolf: 'url("/projects/rugolf/rugolf03BG.png")',
         about: 'url("/aboutus/auMobile.png")',
