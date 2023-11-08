@@ -19,8 +19,12 @@ export default function Projects() {
     <>
       <main className={`${styles.main}`}>
         <div className={`${styles.content}`}>
-          <div className={`${styles.cardContainer}`}>
+          <section className={`${styles.title}`}>
+            <h2> Projects </h2>
+          </section>
 
+
+          <div className={`${styles.cardContainer}`}>
             <ProjectCard data={projectsData.keflavik}
               bg={`bg-keflavik-light hover:bg-keflavik`}
               pos={`absolute bottom-[45%] left-[50%]`}

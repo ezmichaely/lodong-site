@@ -1,0 +1,7 @@
+.desktopView {
+  @apply
+  hidden
+  lg:block
+  pt-[110px]
+  px-6 lg:px-14
+}

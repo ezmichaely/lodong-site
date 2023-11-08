@@ -1,6 +1,9 @@
-import CircleCard from "@/components/ui/CircleCard"
+import CircleCard from "@/components/ui/CircleMobile"
 import styles from './service.module.css'
-import { serviceData } from "@/constants/pages/serviceData"
+import {
+  MobileView, DesktopView
+} from './sections'
+
 
 export const metadata = {
   title: 'Services | Lodong',
@@ -11,29 +14,11 @@ export const metadata = {
 function Service() {
   return (
     <main className={`${styles.main}`}>
-      <section>
-        <h1 className={`${styles.pageTitle}`}> Service </h1>
+      <section className={`${styles.title}`}>
+        <h2> Service </h2>
       </section>
-
-      <section className={`${styles.section}`}>
-        <div className={`${styles.circleContainer}`}>
-          <CircleCard data={serviceData.app} />
-          <CircleCard data={serviceData.web} />
-          <CircleCard data={serviceData.ai} />
-          <CircleCard data={serviceData.platform} />
-          <CircleCard data={serviceData.software} />
-          <CircleCard data={serviceData.etc} />
-        </div>
-      </section>
-
-      <section className={`${styles.dotsContainer}`}>
-        <div id="dotApp" className={`${styles.dots}`}></div>
-        <div id="dotWeb" className={`${styles.dots}`}></div>
-        <div id="dotAI" className={`${styles.dots}`}></div>
-        <div id="dotPlatform" className={`${styles.dots}`}></div>
-        <div id="dotSoftware" className={`${styles.dots}`}></div>
-        <div id="dotETC" className={`${styles.dots}`}></div>
-      </section>
+      <MobileView />
+      <DesktopView />
     </main>
   )
 }

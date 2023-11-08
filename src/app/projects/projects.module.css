@@ -5,7 +5,29 @@
 .content {
   @apply max-w-screen-4xl mx-auto w-full
   px-6 lg:px-14
+  /* pt-[110px] */
 }
+
+/* .main {
+  @apply bg-white lg:bg-black h-full
+  max-w-screen-4xl mx-auto w-screen
+  px-6 lg:px-14
+} */
+
+.title {
+  @apply text-center
+  w-full pt-[110px]
+  pb-16
+  lg:hidden
+
+}
+
+.title h2 {
+  @apply tracking-tight
+   font-inter text-7xl lg:text-[100px] font-extrabold
+   text-jungle
+}
+
 
 .cardContainer {
   @apply w-full grid
@@ -16,5 +38,7 @@
   gap-y-10
   md:gap-x-10
 
-  border border-red-600
+  /* border border-red-600 */
+
+  lg:pt-[110px]
 }

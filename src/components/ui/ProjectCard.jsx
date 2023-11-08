@@ -7,9 +7,9 @@ export default function Card({ data, bg, pos }) {
   return (
     <>
       <Link href={data.url}
-        className={`${bg} rounded-2.5xl shadow h-[330px] w-full
+        className={`${bg} rounded-3xl shadow h-[330px] w-full
         flex justify-end flex-col overflow-hidden`}>
-        <div className="relative h-[154px] bg-black rounded-t-2.5xl p-5 text-white ">
+        <div className="relative h-[154px] bg-black rounded-t-3xl p-5 text-white w-full">
 
           {data.img &&
             <Image src={data.img} alt={data.name} priority

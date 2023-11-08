@@ -1,8 +1,6 @@
+import React from 'react'
 
-
-export default function CircleCard({data}) {
-  const details = ''
-
+export default function CircleDesktop() {
   return (
     <div className="group">
       <div className="group-hover:bg-jungle h-[380px] w-[380px] rounded-full text-white border border-jungle bg-white px-9">
