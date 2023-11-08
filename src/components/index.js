@@ -9,7 +9,7 @@ import Navbar from "./shared/Navbar/Navbar";
 import ScrollTop from "./shared/ScrollTop/ScrollTop";
 import Breadcrumb from "./shared/Breadcrumb/Breadcrumb";
 
-import CircleMobile from "./ui/CircleMobile";
+import ServiceCircle from "./ui/ServiceCircle";
 import ProjectCard from './ui/ProjectCard'
 
 export {
@@ -18,5 +18,5 @@ export {
   ScrollTop,
   Breadcrumb,
 
-  CircleMobile, ProjectCard,
+  ServiceCircle, ProjectCard,
 }

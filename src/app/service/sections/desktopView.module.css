@@ -1,7 +1,157 @@
-.desktopView {
-  @apply
+.section {
+  @apply ease-linear duration-300
+  max-w-screen-4xl mx-auto
+  w-full
   hidden
   lg:block
-  pt-[110px]
+  pt-[150px]
   px-6 lg:px-14
 }
+
+.sectionContent {
+  @apply w-full
+  flex justify-start items-start flex-col
+}
+
+.top {
+  @apply w-full
+  flex justify-start items-start flex-row
+}
+
+.topContent{
+  @apply w-full
+  flex items-start flex-row
+  justify-around
+
+  /* lg:px-4 */
+  2xl:px-24
+  3xl:px-32
+}
+
+.topA{
+  @apply ease-linear duration-300
+  flex justify-start items-start
+  lg:flex-col
+}
+
+.topCircle1{
+  @apply ease-linear duration-300
+  relative
+}
+
+.topCircle1Mini {
+  @apply ease-linear duration-300
+  rounded-full
+  bg-white opacity-20
+  absolute
+
+  -top-4 right-10
+  xl:-top-6
+  2xl:right-14
+
+  w-20 h-20
+  xl:w-24 xl:h-24
+}
+
+.topCircle2{
+  @apply ease-linear duration-300
+  lg:-mt-[78px] lg:ml-[130px]
+  xl:-mt-[103px] xl:ml-[130px]
+  3xl:-mt-[167px] 3xl:ml-[298px]
+}
+
+.topB{
+  @apply flex justify-start items-start
+  lg:flex-col
+  lg:-ml-4
+  xl:-ml-6
+  2xl:-ml-8
+  3xl:-ml-4
+}
+
+.topCircle3{
+  @apply relative
+}
+
+.topCircle4{
+  @apply ease-linear duration-300
+  relative
+  lg:-mt-[130px] lg:ml-[220px]
+  xl:-mt-[214px] xl:ml-[274px]
+  2xl:-mt-[298px] 2xl:ml-[328px]
+  3xl:-mt-[380px] 3xl:ml-[380px]
+}
+
+.topCircle4Mini {
+  @apply ease-linear duration-300
+  rounded-full
+  bg-carmine-light opacity-50
+  absolute
+  top-8 right-4
+  xl:top-6 xl:right-8
+  2xl:top-8 2xl:right-10
+  3xl:top-10 3xl:right-12
+  w-12 h-12
+  xl:w-14 xl:h-14
+  2xl:w-16 2xl:h-16
+  3xl:w-14 3xl:h-14
+}
+
+
+.bottom {
+  @apply ease-linear duration-300
+  w-full
+  mb-20
+}
+
+.bottomContent {
+  @apply ease-linear duration-300
+  w-full
+  flex justify-end items-center flex-row
+  xl:-mt-12
+  2xl:-mt-32
+  3xl:-mt-40
+}
+
+.bottomCircle {
+  @apply ease-linear duration-300
+  bg-jungle-700
+  rounded-full
+
+  lg:-mr-24
+  3xl:-mr-[154px]
+  min-h-[220px] min-w-[220px]
+  h-[220px] w-[220px]
+  xl:h-[247px] xl:w-[247px]
+  2xl:h-[274px] 2xl:w-[274px]
+  3xl:min-h-[300px] 3xl:min-w-[300px]
+  3xl:h-[300px] 3xl:w-[300px]
+}
+
+.bottomDetails {
+  @apply ease-linear duration-300
+  flex justify-end items-end flex-col
+  lg:gap-y-12
+  3xl:gap-y-16
+}
+
+.bottomDetails h3:first-of-type{
+  @apply ease-linear duration-300
+  font-inter font-bold
+  text-jungle-600 tracking-tight
+  lg:text-[80px]
+  xl:text-[87px]
+  2xl:text-[94px]
+  3xl:text-[100px]
+}
+
+.bottomDetails h3:nth-of-type(2){
+  @apply ease-linear duration-300
+  font-inter font-thin
+  text-jungle-600 tracking-tighter
+  lg:text-[64px]
+  xl:text-[69px]
+  2xl:text-[75px]
+  3xl:text-[80px]
+}
+

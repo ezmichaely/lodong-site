@@ -1,7 +1,5 @@
 "use client"
-import {
-  CircleMobile
-} from '@/components'
+import { ServiceCircle } from '@/components'
 import { serviceData } from "@/constants/pages/serviceData"
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
@@ -21,7 +19,7 @@ export default function MobileView() {
         }}>
           {serviceData.map((data) => (
             <SplideSlide key={data.title}>
-              <CircleMobile details={data} />
+              <ServiceCircle data={data} />
             </SplideSlide>
           ))}
       </Splide>

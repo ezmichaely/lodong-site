@@ -12,7 +12,8 @@ export default function Card({ data, bg, pos }) {
         <div className="relative h-[154px] bg-black rounded-t-3xl p-5 text-white w-full">
 
           {data.img &&
-            <Image src={data.img} alt={data.name} priority
+            <Image src={data.img}
+              alt={data.name} priority
               className={pos} />
           }
 

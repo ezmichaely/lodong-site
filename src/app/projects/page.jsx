@@ -37,7 +37,7 @@ export default function Projects() {
 
             <ProjectCard data={projectsData.caremanager}
               bg={`bg-caremanager-light hover:bg-caremanager`}
-              pos={`absolute bottom-[-5%] right-[-5%]`}
+              pos={`absolute bottom-[50%] right-[5%]`}
             />
 
             <ProjectCard data={projectsData.washcube}

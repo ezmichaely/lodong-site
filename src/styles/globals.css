@@ -48,13 +48,8 @@ html, body {
   border-0 border-transparent
 }
 
-/* main {
+.topB4 .group > div {
   @apply
-  border border-red-600
-  pt-[130px]
-} */
-
-/* main section:first-child {
-  @apply pt-[130px] border border-green-500
-} */
-
+  2xl:h-[460px] 2xl:w-[460px]
+  3xl:h-[500px] 3xl:w-[500px]
+}

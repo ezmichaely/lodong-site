@@ -1,0 +1,74 @@
+.group {
+  @apply ease-linear duration-300
+  cursor-pointer
+}
+
+.groupHover {
+  @apply ease-linear duration-300
+  px-9
+  rounded-full
+  border
+
+  group-hover:bg-jungle
+  text-white
+  border-jungle
+  bg-white
+
+  lg:group-hover:bg-jungle-800
+  lg:text-white
+  lg:border-jungle-800
+  lg:bg-transparent
+
+  h-[380px] w-[380px]
+  lg:h-[320px] lg:w-[320px]
+  xl:h-[380px] xl:w-[380px]
+  2xl:h-[420px] 2xl:w-[420px]
+  3xl:h-[440px] 3xl:w-[440px]
+}
+
+.groupContent {
+  @apply
+  w-full h-full
+  flex justify-center items-center
+  flex-col
+  /* gap-y-7 */
+  /* xl:gap-y-10 */
+}
+
+.groupContent h2 {
+  @apply
+  group-hover:text-white
+   font-bold
+  text-jungle text-[50px]
+  leading-normal
+  lg:group-hover:text-jungle
+  lg:text-white
+  lg:text-[45px]
+  xl:text-[50px]
+  2xl:text-[55px]
+  3xl:text-[60px]
+
+  /* border border-red-500 */
+}
+
+.groupContent p:first-of-type {
+  @apply group-hover:hidden
+   text-jungle-200
+  lg:text-white lg:opacity-60
+  text-xl
+  lg:text-lg
+  /* xl:text-xl */
+}
+
+.groupContent p:nth-of-type(2) {
+  @apply
+  text-center
+  group-hover:block hidden
+  tracking-tighter
+  text-base text-jungle-100
+
+  lg:group-hover:text-jungle
+  lg:text-white
+  xl:text-lg
+
+}

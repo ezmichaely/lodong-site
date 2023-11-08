@@ -1,6 +1,5 @@
 .main {
-  @apply bg-white lg:bg-black h-full
-  max-w-screen-4xl mx-auto w-screen
+  @apply bg-white lg:bg-black
 }
 
 .title {

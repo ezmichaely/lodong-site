@@ -1,4 +1,3 @@
-import CircleCard from "@/components/ui/CircleMobile"
 import styles from './service.module.css'
 import {
   MobileView, DesktopView
