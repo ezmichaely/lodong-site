@@ -25,7 +25,7 @@ export default function Card({ data, bg, pos }) {
             {data.title}
           </h1>
 
-          <div className="w-4/5 md:w-full lg:w-4/5 flex justify-start items-center flex-row flex-wrap gap-x-3">
+          <div className="w-full flex justify-start items-center flex-row flex-wrap gap-x-3">
             {tags.map((index, i) => (
               <span key={i++}
                 className="whitespace-nowrap text-sm opacity-50">
