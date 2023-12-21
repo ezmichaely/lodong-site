@@ -10,7 +10,7 @@ import { Header, Footer } from '@/components';
 
 
 export default function RootLayout({ children }) {
-  const htmlClass = ` ${applesd.variable} ${inter.variable}
+  const htmlClass = `${applesd.variable} ${inter.variable}
           ${nanum.variable} ${kumbh.variable}
           ${roboto_slab.variable} ${jacques.variable}`
 
