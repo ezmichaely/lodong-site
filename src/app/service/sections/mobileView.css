@@ -2,13 +2,13 @@
   @apply ease-linear duration-200
   my-20
   lg:hidden
-  max-w-screen-4xl mx-auto
+  max-w-screen-4xl mx-auto;
 }
 
 .splide__slide {
   @apply mb-20
   flex justify-center items-center
-  cursor-pointer
+  cursor-pointer;
 }
 
 .splide__pagination__page {
@@ -29,20 +29,20 @@
   transition: background-color 0.2s linear, transform 0.2s linear;
 }
 .splide__pagination__page.is-active {
-  background: #FA2B2B !important;
+  background: #fa2b2b !important;
   opacity: 1;
   transform: scale(1.4);
   z-index: 1;
 }
 .splide__pagination__page:hover {
-  background: #FA2B2B;
+  background: #fa2b2b;
   cursor: pointer;
   opacity: 0.9;
 }
 .splide__pagination__page:focus-visible {
   outline: 3px solid #242424;
   outline-offset: 3px;
-  border:1px solid red;
+  border: 1px solid red;
 }
 .splide.is-focus-in .splide__pagination__page:focus {
   outline: 3px solid #242424;
